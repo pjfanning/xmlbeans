@@ -48,9 +48,9 @@ public class AssortedTests extends TestCase
         cur.setTextValue("<something or other:\u03C0\uD7FF>");
         Assert.assertEquals("<test>&lt;something or other:\u03C0\uD7FF></test>", xdoc.toString());
         
-        // invalid chars - control chars, unicode surrogates, FFFF/FFFE, etc
-        cur.setTextValue("<something\0or\1other:\u0045\uFFFE\uD800\uDFFF\uDB80\uDC00\u03C0\uD7FF\u001F>");
-        Assert.assertEquals("<test>&lt;something?or?other:\u0045?????\u03C0\uD7FF?></test>", xdoc.toString());
+        // invalid chars - control chars, FFFF/FFFE, etc
+        cur.setTextValue("<something\0or\1other:\u0045\u001F>");
+        Assert.assertEquals("<test>&lt;something?or?other:\u0045?></test>", xdoc.toString());
     }
     
     // bug 26140/26104
