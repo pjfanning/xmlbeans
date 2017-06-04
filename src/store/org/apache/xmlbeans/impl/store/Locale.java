@@ -103,9 +103,6 @@ import org.apache.xmlbeans.impl.values.TypeStore;
 import org.apache.xmlbeans.impl.values.TypeStoreUser;
 import org.apache.xmlbeans.impl.values.TypeStoreUserFactory;
 
-import org.apache.xmlbeans.impl.piccolo.xml.Piccolo;
-import org.apache.xmlbeans.impl.piccolo.io.FileFormatException;
-
 public final class Locale
     implements DOMImplementation, SaajCallback, XmlLocale
 {
@@ -3032,17 +3029,6 @@ public final class Locale
         }
     }
 
-    private static SaxLoader getPiccoloSaxLoader()
-    {
-        SaxLoader piccoloLoader = (SaxLoader) SystemCache.get().getSaxLoader();
-        if (piccoloLoader == null)
-        {
-            piccoloLoader = PiccoloSaxLoader.newInstance();
-            SystemCache.get().setSaxLoader(piccoloLoader);
-        }
-        return piccoloLoader;
-    }
-
     private static SaxLoader getSaxLoader(XmlOptions options)
     {
         options = XmlOptions.maskNull(options);
@@ -3060,31 +3046,18 @@ public final class Locale
                 er = new DefaultEntityResolver();
         }
 
-        SaxLoader sl;
+        XMLReader xr = (XMLReader) options.get(
+            XmlOptions.LOAD_USE_XMLREADER);
 
-        if (options.hasOption(XmlOptions.LOAD_USE_XMLREADER))
-        {
-            XMLReader xr = (XMLReader) options.get(
-                XmlOptions.LOAD_USE_XMLREADER);
+        if (xr == null)
+            throw new IllegalArgumentException("XMLReader is null");
 
-            if (xr == null)
-                throw new IllegalArgumentException("XMLReader is null");
+        SaxLoader sl = new XmlReaderSaxLoader(xr);
 
-            sl = new XmlReaderSaxLoader(xr);
+        // I've noticed that most XMLReaders don't like a null EntityResolver...
 
-            // I've noticed that most XMLReaders don't like a null EntityResolver...
-
-            if (er != null)
-                xr.setEntityResolver(er);
-        }
-        else
-        {
-            sl = getPiccoloSaxLoader();
-
-            // Piccolo doesnot mind a null entity resolver ...
-
-            sl.setEntityResolver(er);
-        }
+        if (er != null)
+            xr.setEntityResolver(er);
 
         return sl;
     }
@@ -3096,34 +3069,6 @@ public final class Locale
         {
             super(xr, null);
         }
-    }
-
-    private static class PiccoloSaxLoader
-        extends SaxLoader
-    {
-        private PiccoloSaxLoader(Piccolo p)
-        {
-            super(p, p.getStartLocator());
-
-            _piccolo = p;
-        }
-
-        static PiccoloSaxLoader newInstance()
-        {
-            return new PiccoloSaxLoader(new Piccolo());
-        }
-
-        void postLoad(Cur c)
-        {
-            XmlDocumentProperties props = getDocProps(c, true);
-
-            props.setEncoding(_piccolo.getEncoding());
-            props.setVersion(_piccolo.getVersion());
-
-            super.postLoad(c);
-        }
-
-        private Piccolo _piccolo;
     }
 
     private static abstract class SaxHandler
@@ -3180,7 +3125,7 @@ public final class Locale
             if (local.length() == 0)
                 local = qName;
 
-            // Out current parser (Piccolo) does not error when a
+            // Out current parser does not error when a
             // namespace is used and not defined.  Check for these here
 
             if (qName.indexOf(':') >= 0 && uri.length() == 0)
@@ -3469,12 +3414,6 @@ public final class Locale
                 postLoad(c);
 
                 return c;
-            }
-            catch (FileFormatException e)
-            {
-                _context.abort();
-
-                throw new XmlException(e.getMessage(), e);
             }
             catch (XmlRuntimeException e)
             {
