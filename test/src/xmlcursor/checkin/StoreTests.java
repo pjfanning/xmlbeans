@@ -49,21 +49,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
-import org.apache.xmlbeans.xml.stream.Attribute;
-import org.apache.xmlbeans.xml.stream.AttributeIterator;
-import org.apache.xmlbeans.xml.stream.ChangePrefixMapping;
-import org.apache.xmlbeans.xml.stream.CharacterData;
-import org.apache.xmlbeans.xml.stream.Comment;
-import org.apache.xmlbeans.xml.stream.EndDocument;
-import org.apache.xmlbeans.xml.stream.EndElement;
-import org.apache.xmlbeans.xml.stream.EndPrefixMapping;
-import org.apache.xmlbeans.xml.stream.StartDocument;
-import org.apache.xmlbeans.xml.stream.StartElement;
-import org.apache.xmlbeans.xml.stream.StartPrefixMapping;
-import org.apache.xmlbeans.xml.stream.XMLEvent;
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-import org.apache.xmlbeans.xml.stream.XMLName;
-
 
 import xmlcursor.common.Common;
    
@@ -1060,52 +1045,6 @@ public class StoreTests extends TestCase
 
         c.toNextToken();
         Assert.assertTrue( c.getChars().length() == 0 );       // End doc
-    }
-
-    //
-    // Text XMLInputStream support
-    //
-
-    private void assertName (
-        XMLName name, String uri, String local, String prefix )
-    {
-        Assert.assertTrue( local != null );
-        
-        String nameUri = name.getNamespaceUri();
-        String nameLocal = name.getLocalName();
-        String namePrefix = name.getPrefix();
-
-        if (uri == null)
-            Assert.assertTrue( nameUri == null );
-        else
-            Assert.assertTrue( nameUri.equals( uri ) );
-        
-        if (local == null)
-            Assert.assertTrue( nameLocal == null );
-        else
-            Assert.assertTrue( nameLocal.equals( local ) );
-        
-        if (prefix == null)
-            Assert.assertTrue( namePrefix == null );
-        else
-            Assert.assertTrue( namePrefix.equals( prefix ) );
-
-        if (prefix != null)
-        {
-            String qName = prefix + ":" + local;
-            Assert.assertTrue( name.getQualifiedName().equals( qName ) );
-        }
-        else
-            Assert.assertTrue( name.getQualifiedName().equals( local ) );
-    }
-
-    private void doXmlStreamTest ( String xml )
-        throws Exception
-    {
-        XmlCursor c = XmlObject.Factory.parse( xml ).newCursor();
-        XMLInputStream xmlStream = c.newXMLInputStream();
-        XmlObject o = XmlObject.Factory.parse( xmlStream );
-        Assert.assertTrue( o.xmlText().equals( xml ) );
     }
 
     private void doSaverTest ( String xml )

@@ -31,8 +31,6 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import javax.xml.namespace.QName;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-
 import com.easypo.XmlPurchaseOrderDocumentBean.PurchaseOrder;
 import com.easypo.XmlCustomerBean;
 import com.easypo.XmlLineItemBean;
@@ -337,7 +335,7 @@ public class Random implements Runnable {
                 execQuery();
                 break;
             case 10:
-                xmlInputStream();
+                //used to be used for XmlInputStream
                 break;
             case 11:
                 docBytes();
@@ -455,23 +453,6 @@ public class Random implements Runnable {
         }
         catch (IllegalStateException e) {
         }
-    }
-
-    private void xmlInputStream() throws Exception {
-        if (rnd(5) != 0)
-            return;
-
-        XMLInputStream xis;
-
-        try {
-            xis = getCursor().newXMLInputStream();
-        }
-        catch (IllegalStateException e) {
-            return;
-        }
-
-        while (xis.next() != null)
-            ;
     }
 
     private void objectSet() {

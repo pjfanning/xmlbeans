@@ -25,7 +25,7 @@ import java.util.Map;
 import java.lang.reflect.Proxy;
 import java.lang.ref.SoftReference;
 
-import org.apache.xmlbeans.xml.stream.StartElement;
+import javax.xml.stream.events.StartElement;
 
 public class NamespaceContext implements PrefixResolver
 {
@@ -154,7 +154,7 @@ public class NamespaceContext implements PrefixResolver
                 return ((TypeStore)_obj).getNamespaceForPrefix(prefix);
                 
             case START_ELEMENT:
-                return ((StartElement)_obj).getNamespaceUri(prefix);
+                return ((StartElement)_obj).getNamespaceContext().getNamespaceURI(prefix);
                 
             case RESOLVER:
                 return ((PrefixResolver)_obj).getNamespaceForPrefix(prefix);

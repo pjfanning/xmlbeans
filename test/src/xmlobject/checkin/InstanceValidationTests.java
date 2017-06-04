@@ -20,7 +20,6 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
 import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 import javax.xml.namespace.QName;
