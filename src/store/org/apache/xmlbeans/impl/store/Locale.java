@@ -3054,7 +3054,7 @@ public final class Locale
 
         if (xr == null) {
             try {
-                xr = ParserHelper.newXMLReader();
+                xr = SAXHelper.newXMLReader();
             } catch(Exception e) {
                 throw new XmlException("Problem creating XMLReader", e);
             } 
