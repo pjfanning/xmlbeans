@@ -15,8 +15,6 @@
 
 package org.apache.xmlbeans;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.Reader;
@@ -71,23 +69,6 @@ public interface XmlTokenSource
      * document into memory.
      */
     XmlCursor newCursor();
-
-    /**
-     * Returns a new XmlInputStream.
-     *
-     * The stream starts at the current begin-tag or begin-document
-     * position and ends at the matching end-tag or end-document.
-     *
-     * This is a fail-fast stream, so if the underlying data is changed
-     * while the stream is being read, the stream throws a
-     * ConcurrentModificationException.
-     *
-     * Throws an IllegalStateException if the XmlTokenSource is not
-     * positioned at begin-tag or begin-document (e.g., if it is at
-     * an attribute).
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    XMLInputStream newXMLInputStream();
     
     /**
      * Returns a new XMLStreamReader.
@@ -206,96 +187,7 @@ public interface XmlTokenSource
     void save ( Writer w ) throws IOException;
 
     /**
-     * <p>Just like newXMLInputStream() but with any of a number of options. Use the 
-     * <em>options</em> parameter to specify the following:</p>
-     * 
-     * <table>
-     * <tr><th>To specify this</th><th>Use this method</th></tr>
-     * <tr>
-     *  <td>The character encoding to use when converting the character
-     *  data in the XML to bytess.</td>
-     *  <td>{@link XmlOptions#setCharacterEncoding}</td>
-     * </tr>
-     * <tr>
-     *  <td>Prefix-to-namespace mappings that should be assumed
-     *  when saving this XML. This is useful when the resulting
-     *  XML will be part of a larger XML document, ensuring that this 
-     *  inner document will take advantage of namespaces defined in 
-     *  the outer document.</td>
-     *  <td>{@link XmlOptions#setSaveImplicitNamespaces}</td>
-     * </tr>
-     * <tr>
-     *  <td>Suggested namespace prefixes to use when saving. Used only
-     *  when a namespace attribute needs to be synthesized.</td>
-     *  <td>{@link XmlOptions#setSaveSuggestedPrefixes}</td>
-     * </tr>
-     * <tr>
-     *  <td>That namespace attributes should occur first in elements when
-     * the XML is saved. By default, they occur last.</td>
-     *  <td>{@link XmlOptions#setSaveNamespacesFirst}</td>
-     * </tr>
-     * <tr>
-     *  <td>The XML should be pretty printed when saved. Note that this 
-     *  should only be used for debugging.</td>
-     *  <td>{@link XmlOptions#setSavePrettyPrint}</td>
-     * </tr>
-     * <tr>
-     *  <td>The number of spaces to use when indenting for pretty printing. 
-     *  The default is 2.</td>
-     *  <td>{@link XmlOptions#setSavePrettyPrintIndent}</td>
-     * </tr>
-     * <tr>
-     *  <td>The additional number of spaces indented from the left
-     *  for pretty printed XML.</td>
-     *  <td>{@link XmlOptions#setSavePrettyPrintOffset}</td>
-     * </tr>
-     * <tr>
-     *  <td>To minimize the number of namespace attributes generated for the 
-     *  saved XML. Note that this can reduce performance significantly.</td>
-     *  <td>{@link XmlOptions#setSaveAggresiveNamespaces}</td>
-     * </tr>
-     * <tr>
-     *  <td>To reduce the size of the saved document
-     *  by allowing the use of the default namespace. Note that this can 
-     *  potentially change the semantic meaning of the XML if unprefixed QNames are 
-     *  present as the value of an attribute or element.</td>
-     *  <td>{@link XmlOptions#setUseDefaultNamespace}</td>
-     * </tr>
-     * <tr>
-     *  <td>To filter out processing instructions with the specified target name.</td>
-     *  <td>{@link XmlOptions#setSaveFilterProcinst}</td>
-     * </tr>
-     * <tr>
-     *  <td>Change the QName of the synthesized root element when saving. This 
-     *  replaces "xml-fragment" with "fragment" in the namespace 
-     *  http://www.openuri.org/fragment</td>
-     *  <td>{@link XmlOptions#setSaveUseOpenFrag}</td>
-     * </tr>
-     * <tr>
-     *  <td>Saving should begin on the element's contents.</td>
-     *  <td>{@link XmlOptions#setSaveInner}</td>
-     * </tr>
-     * <tr>
-     *  <td>Saving should begin on the element, rather than its contents.</td>
-     *  <td>{@link XmlOptions#setSaveOuter}</td>
-     * </tr>
-     * <tr>
-     *  <td>To rename the document element, or to specify the document element
-     *  for this XML.</td>
-     *  <td>{@link XmlOptions#setSaveSyntheticDocumentElement}</td>
-     * </tr>
-     * </table>
-     * 
-     * @see XmlOptions
-     * 
-     * @param options Any of the described options.
-     * @return A new validating XMLInputStream.
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    XMLInputStream newXMLInputStream(XmlOptions options);
-
-    /**
-     * Just like newXMLInputStream() but with options.
+     * Just like newXMLStreamReader() but with options.
      * Options map may be null.
      * @see XmlOptions
      */

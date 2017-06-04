@@ -127,11 +127,6 @@ public interface XMLEvent {
   public boolean hasName();
 
   /**
-   * Return the location of this Element
-   */
-  public Location getLocation();
-
-  /**
    * Method access to the elements type
    */
   public boolean isStartElement();

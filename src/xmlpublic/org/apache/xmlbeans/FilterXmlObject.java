@@ -15,8 +15,6 @@
 
 package org.apache.xmlbeans;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-
 import java.io.InputStream;
 import java.io.Reader;
 import java.io.File;
@@ -157,14 +155,6 @@ public abstract class FilterXmlObject implements XmlObject, SimpleValue, Delegat
         return underlyingXmlObject().newCursor();
     }
 
-    /**
-     * @deprecated Deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream newXMLInputStream()
-    {
-        return underlyingXmlObject().newXMLInputStream();
-    }
-
     public XMLStreamReader newXMLStreamReader()
     {
         return underlyingXmlObject().newXMLStreamReader();
@@ -213,14 +203,6 @@ public abstract class FilterXmlObject implements XmlObject, SimpleValue, Delegat
     public void save(Writer w) throws IOException
     {
         underlyingXmlObject().save(w);
-    }
-
-    /**
-     * @deprecated Deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream newXMLInputStream(XmlOptions options)
-    {
-        return underlyingXmlObject().newXMLInputStream(options);
     }
 
     public XMLStreamReader newXMLStreamReader(XmlOptions options)

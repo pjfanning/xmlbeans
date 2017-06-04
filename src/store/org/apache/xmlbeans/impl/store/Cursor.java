@@ -23,8 +23,6 @@ import javax.xml.namespace.QName;
 
 import javax.xml.stream.XMLStreamReader;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-
 import org.apache.xmlbeans.SchemaTypeLoader;
 import org.apache.xmlbeans.SchemaType;
 import org.apache.xmlbeans.XmlCursor;
@@ -478,13 +476,6 @@ public final class Cursor implements XmlCursor, ChangeListener {
     // These simply delegate to the version of the method which takes XmlOptions
     //
 
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream _newXMLInputStream() {
-        return _newXMLInputStream(null);
-    }
-
     public XMLStreamReader _newXMLStreamReader() {
         return _newXMLStreamReader(null);
     }
@@ -531,13 +522,6 @@ public final class Cursor implements XmlCursor, ChangeListener {
 
     public XMLStreamReader _newXMLStreamReader(XmlOptions options) {
         return Jsr173.newXmlStreamReader(_cur, options);
-    }
-
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream _newXMLInputStream(XmlOptions options) {
-        return new Saver.XmlInputStreamImpl(_cur, options);
     }
 
     public String _xmlText(XmlOptions options) {
@@ -2218,27 +2202,6 @@ public final class Cursor implements XmlCursor, ChangeListener {
         }
     }
 
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream newXMLInputStream() {
-        if (preCheck()) {
-            _cur._locale.enter();
-            try {
-                return _newXMLInputStream();
-            } finally {
-                _cur._locale.exit();
-            }
-        } else synchronized (_cur._locale) {
-            _cur._locale.enter();
-            try {
-                return _newXMLInputStream();
-            } finally {
-                _cur._locale.exit();
-            }
-        }
-    }
-
     public String xmlText() {
         if (preCheck()) {
             _cur._locale.enter();
@@ -2395,27 +2358,6 @@ public final class Cursor implements XmlCursor, ChangeListener {
             _cur._locale.enter();
             try {
                 _save(w);
-            } finally {
-                _cur._locale.exit();
-            }
-        }
-    }
-
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream newXMLInputStream(XmlOptions options) {
-        if (preCheck()) {
-            _cur._locale.enter();
-            try {
-                return _newXMLInputStream(options);
-            } finally {
-                _cur._locale.exit();
-            }
-        } else synchronized (_cur._locale) {
-            _cur._locale.enter();
-            try {
-                return _newXMLInputStream(options);
             } finally {
                 _cur._locale.exit();
             }

@@ -15,9 +15,6 @@
 
 package org.apache.xmlbeans;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-import org.apache.xmlbeans.xml.stream.XMLStreamException;
-
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.namespace.QName;
 
@@ -775,20 +772,6 @@ public interface XmlObject extends XmlTokenSource
          */ 
         public static XmlObject parse ( Node node, XmlOptions options ) throws XmlException {
           return XmlBeans.getContextTypeLoader().parse( node, null, options ); }
-        
-        /**
-         * Loads the given {@link XMLInputStream} into an XmlObject.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static XmlObject parse ( XMLInputStream xis ) throws XmlException, XMLStreamException {
-          return XmlBeans.getContextTypeLoader().parse( xis, null, null ); }
-        
-        /**
-         * Loads the given {@link XMLInputStream} into an XmlObject.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static XmlObject parse ( XMLInputStream xis, XmlOptions options ) throws XmlException, XMLStreamException {
-          return XmlBeans.getContextTypeLoader().parse( xis, null, options ); }
 
         /**
          * Returns an {@link XmlSaxHandler} that can load an XmlObject from SAX events.
@@ -813,37 +796,7 @@ public interface XmlObject extends XmlTokenSource
          */ 
         public static DOMImplementation newDomImplementation ( XmlOptions options ) {
           return XmlBeans.getContextTypeLoader().newDomImplementation( options ); }
-        
-        /**
-         * Returns a new validating {@link XMLInputStream} that throws exceptions when the input is not valid.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static XMLInputStream newValidatingXMLInputStream ( XMLInputStream xis ) throws XmlException, XMLStreamException {
-          return XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, null, null ); }
-        
-        /**
-         * Returns a new validating {@link XMLInputStream} that throws exceptions 
-         * when the input is not valid, specifying options
-         * for the root element's document type and/or the collection object to use
-         * as an error listener while validating.</p>
-         * 
-         * <p>Use the <em>options</em> parameter to specify the following:</p>
-         * 
-         * <ul>
-         * <li>A collection instance that should be used as an error listener during
-         * compilation, as described in {@link XmlOptions#setErrorListener}.</li>
-         * <li>The document type for the root element, as described in 
-         * {@link XmlOptions#setDocumentType(SchemaType)}.</li>
-         * </ul>
-         * 
-         * @param xis The basis for the new XMLInputStream.
-         * @param options Options specifying root document type and/or an error listener.
-         * @return A new validating XMLInputStream.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static XMLInputStream newValidatingXMLInputStream ( XMLInputStream xis, XmlOptions options ) throws XmlException, XMLStreamException {
-          return XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, null, options ); }
-        
+                
         /**
          * Instances cannot be created.
          */ 

@@ -18,8 +18,6 @@ package org.apache.xmlbeans.impl.values;
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLStreamReader;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-
 import java.math.BigInteger;
 import java.math.BigDecimal;
 import java.io.Serializable;
@@ -173,18 +171,6 @@ public abstract class XmlObjectBase implements TypeStoreUser, Serializable, XmlO
 
     public XmlDocumentProperties documentProperties()
         { XmlCursor cur = newCursorForce(); try { return cur.documentProperties(); } finally { cur.dispose(); } }
-
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream newXMLInputStream()
-        { return newXMLInputStream(null); }
-
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream newXMLInputStream(XmlOptions options)
-        { XmlCursor cur = newCursorForce(); try { return cur.newXMLInputStream(makeInnerOptions(options)); } finally { cur.dispose(); } }
 
     public XMLStreamReader newXMLStreamReader()
         { return newXMLStreamReader(null); }

@@ -16,7 +16,6 @@
 package org.apache.xmlbeans.impl.schema;
 
 import org.apache.xmlbeans.impl.common.QNameHelper;
-import org.apache.xmlbeans.impl.validator.ValidatingXMLInputStream;
 
 import org.apache.xmlbeans.impl.store.Locale;
 
@@ -55,9 +54,6 @@ import javax.xml.stream.XMLStreamReader;
 
 import org.w3c.dom.Node;
 import org.w3c.dom.DOMImplementation;
-
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-import org.apache.xmlbeans.xml.stream.XMLStreamException;
 
 public abstract class SchemaTypeLoaderBase implements SchemaTypeLoader
 {
@@ -206,19 +202,6 @@ public abstract class SchemaTypeLoaderBase implements SchemaTypeLoader
             return hook.parse( this, xmlText, type, options );
 
         return Locale.parseToXmlObject( this, xmlText, type, options );
-    }
-
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XmlObject parse ( XMLInputStream xis, SchemaType type, XmlOptions options ) throws XmlException, XMLStreamException
-    {
-        XmlFactoryHook hook = XmlFactoryHook.ThreadContext.getHook();
-        
-        if (hook != null)
-            return hook.parse( this, xis, type, options );
-        
-        return Locale.parseToXmlObject( this, xis, type, options );
     }
 
     public XmlObject parse ( XMLStreamReader xsr, SchemaType type, XmlOptions options ) throws XmlException
@@ -385,13 +368,6 @@ public abstract class SchemaTypeLoaderBase implements SchemaTypeLoader
         return Locale.newDomImplementation( this, options );
     }
 
-    /**
-     * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-     */
-    public XMLInputStream newValidatingXMLInputStream ( XMLInputStream xis, SchemaType type, XmlOptions options ) throws XmlException, XMLStreamException
-    {
-        return new ValidatingXMLInputStream( xis, this, type, options );
-    }
 
     //
     //

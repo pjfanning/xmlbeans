@@ -95,18 +95,6 @@ public interface XmlAnyURI extends XmlAnySimpleType
         public static XmlAnyURI parse(org.w3c.dom.Node node, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
           return (XmlAnyURI) XmlBeans.getContextTypeLoader().parse( node, type, options ); }
         
-        /** Parses a {@link XmlAnyURI} fragment from an XMLInputStream.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static XmlAnyURI parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return (XmlAnyURI) XmlBeans.getContextTypeLoader().parse( xis, type, null ); }
-        
-        /** Parses a {@link XmlAnyURI} fragment from an XMLInputStream.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static XmlAnyURI parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return (XmlAnyURI) XmlBeans.getContextTypeLoader().parse( xis, type, options ); }
-        
         /** Parses a {@link XmlAnyURI} fragment from an XMLStreamReader. */
         public static XmlAnyURI parse(javax.xml.stream.XMLStreamReader xsr) throws org.apache.xmlbeans.XmlException {
           return (XmlAnyURI) XmlBeans.getContextTypeLoader().parse( xsr, type, null ); }
@@ -114,18 +102,6 @@ public interface XmlAnyURI extends XmlAnySimpleType
         /** Parses a {@link XmlAnyURI} fragment from an XMLStreamReader. */
         public static XmlAnyURI parse(javax.xml.stream.XMLStreamReader xsr, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException{
           return (XmlAnyURI) XmlBeans.getContextTypeLoader().parse( xsr, type, options ); }
-        
-        /** Returns a validating XMLInputStream.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, null ); }
-        
-        /** Returns a validating XMLInputStream.
-         * @deprecated XMLInputStream was deprecated by XMLStreamReader from STaX - jsr173 API.
-         */
-        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, options ); }
         
         private Factory() { } // No instance of this class allowed
     }
