@@ -1,4 +1,4 @@
-/*   Copyright 2004 The Apache Software Foundation
+/*   Copyright 2004-2017 The Apache Software Foundation
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
  *   you may not use this file except in compliance with the License.
@@ -3029,7 +3029,7 @@ public final class Locale
         }
     }
 
-    private static SaxLoader getSaxLoader(XmlOptions options)
+    private static SaxLoader getSaxLoader(XmlOptions options) throws XmlException
     {
         options = XmlOptions.maskNull(options);
 
@@ -3049,8 +3049,13 @@ public final class Locale
         XMLReader xr = (XMLReader) options.get(
             XmlOptions.LOAD_USE_XMLREADER);
 
-        if (xr == null)
-            throw new IllegalArgumentException("XMLReader is null");
+        if (xr == null) {
+            try {
+                xr = ParserHelper.newXMLReader();
+            } catch(Exception e) {
+                throw new XmlException("Problem creating XMLReader", e);
+            } 
+        }
 
         SaxLoader sl = new XmlReaderSaxLoader(xr);
 
