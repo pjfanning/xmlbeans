@@ -1180,4 +1180,10 @@
         </javac>
     </target>
 
+    <!-- jitpack publish -->
+    <target name="jitpack.publish">
+        <delete includeEmptyDirs="true">
+            <fileset dir="build/lib" includes="**/*" excludes="**/xbean.jar"/>
+        </delete>
+    </target>
 </project>
