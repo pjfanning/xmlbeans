@@ -138,7 +138,7 @@
             depends="jsr173-bundle.downloaded, dirs"
             unless="jsr173-bundle.exists">
         <get dest="external/lib/jsr173_1.0_api_bundle.jar"
-            src="http://www.apache.org/dist/java-repository/xmlbeans/jars/jsr173_1.0_api_bundle.jar"
+            src="http://source.sakaiproject.org/maven/xmlbeans/jars/jsr173_1.0_api_bundle.jar"
             verbose="true" usetimestamp="true" ignoreerrors="true"/>
     </target>
 
@@ -691,6 +691,7 @@
                 <pathelement location="build/classes/configschema"/>
                 <pathelement location="build/classes/toolschema"/>
                 <pathelement location="build/classes/xsdschema"/>
+                <pathelement location="build/classes/typestore"/>
             </classpath>
         </javac>
     </target>
