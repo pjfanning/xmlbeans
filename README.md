@@ -7,6 +7,10 @@ Latest source from ```http://svn.apache.org/repos/asf/xmlbeans/trunk/```. Some c
 
 Release 2.6.1 includes a fix for https://bz.apache.org/bugzilla/show_bug.cgi?id=54084
 
+## Sample
+
+https://github.com/pjfanning/poi-xmlbeans-patch-test
+
 ## Build
 ```
 ./xbeanenv.sh
