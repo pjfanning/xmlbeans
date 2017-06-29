@@ -1,3 +1,7 @@
+Changes in V2.6.1 since V2.6.0
+
+* Fix for Unicode Surrogate chars being lost when writing XML (https://bz.apache.org/bugzilla/show_bug.cgi?id=54084)
+
 Changes in V2.6.0 since V2.5.0
 
 * Add new xml option CopyUseNewSynchronizationDomain used for copy.  
