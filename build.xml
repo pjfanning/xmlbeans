@@ -19,7 +19,7 @@
     <property name="javac.source" value="1.4"/>
     <property name="javac.target" value="1.4"/>
 
-    <property name="version.base" value="2.6.0"/>
+    <property name="version.base" value="2.6.2"/>
     <property name="version.rc" value=""/>
 
     <!-- manifest entries -->
@@ -489,7 +489,7 @@
                  marshal.classes, xpath.classes, oldxbean.jar, xsdschema.classes,
                  xmlinputstream.classes, resolver.jar, xbean_xpath.jar,
                  piccolo.classes, tools.classes, jamsupport.classes">
-        <jar jarfile="build/lib/xbean.jar" index="true">
+        <jar jarfile="build/lib/xbean.jar" index="true" duplicate="preserve">
             <fileset dir="build/classes/xmlpublic"
                 excludes="javax/**"/>
             <fileset dir="build/classes/typeholder"/>
@@ -523,7 +523,7 @@
                 </section>
             </manifest>
         </jar>
-        <jar jarfile="build/lib/xmlbeans-qname.jar">
+        <jar jarfile="build/lib/xmlbeans-qname.jar" duplicate="preserve">
             <fileset dir="build/classes/xmlpublic"
                 includes="javax/xml/namespace/QName.class,javax/xml/namespace/NamespaceContext.class"/>
         </jar>
