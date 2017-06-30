@@ -40,7 +40,6 @@ public class AssortedTests extends TestCase
     // bug 27489
     public static void testSaverCharEscaping() throws XmlException
     {
-        String newLine = System.getProperty( "line.separator" );
         XmlObject xdoc = XmlObject.Factory.parse("<test>something</test>");
         XmlCursor cur = xdoc.newCursor();
         cur.toFirstChild();
@@ -51,6 +50,11 @@ public class AssortedTests extends TestCase
         // invalid chars - control chars, FFFF/FFFE, etc
         cur.setTextValue("<something\0or\1other:\u0045\u001F>");
         Assert.assertEquals("<test>&lt;something?or?other:\u0045?></test>", xdoc.toString());
+        
+        String greekChars = "\uD835\uDF4A\uD835\uDF4B\uD835\uDF4C\uD835\uDF4D\uD835\uDF4E\uD835\uDF4F\uD835\uDF50\uD835"
+        	+ "\uDF51\uD835\uDF52\uD835\uDF53\uD835\uDF54\uD835\uDF55";
+        cur.setTextValue(greekChars);
+        Assert.assertEquals("<test>" + greekChars + "</test>", xdoc.toString());
     }
     
     // bug 26140/26104
