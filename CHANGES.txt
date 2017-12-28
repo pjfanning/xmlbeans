@@ -1,3 +1,7 @@
+Changes in V2.6.3 since V2.6.2
+
+* ArrayIndexOutOfBoundsException when writing CDATA (https://issues.apache.org/jira/browse/XMLBEANS-404)
+
 Changes in V2.6.2 since V2.6.1
 
 * Duplicate classes in jar (https://issues.apache.org/jira/browse/XMLBEANS-499)
