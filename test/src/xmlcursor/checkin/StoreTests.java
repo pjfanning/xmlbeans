@@ -1129,6 +1129,8 @@ public class StoreTests extends TestCase
         doSaveTest( "<foo>a<bar>b</bar>c<bar>d</bar>e</foo>" );
         doSaveTest( "<foo xmlns:x=\"y\"><bar xmlns:x=\"z\"/></foo>" );
         doSaveTest( "<foo x=\"y\" p=\"r\"/>" );
+        // https://issues.apache.org/jira/browse/XMLBEANS-404
+        doSaveTest( "<foo><Unable to render embedded object: File ([CDATA[]]]]>><) not found.[CDATA[ - that's a small fish <<<<<< foo bar baz and another fish: ]]]]>><![CDATA[]]></foo>" );
 
         String s = "<foo>aaa</foo>bbb";
         s = s + s + s + s + s + s + s + s + s + s + s + s + s + s + s;
