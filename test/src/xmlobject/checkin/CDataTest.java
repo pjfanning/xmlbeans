@@ -38,11 +38,11 @@ import xmlcursor.common.Common;
  * Test for finer CData control feature.
  */
 public class CDataTest
-    extends TestCase
+        extends TestCase
 {
     static final String NL = SystemProperties.getProperty("line.separator")!=null ?
-        SystemProperties.getProperty("line.separator") :
-        (System.getProperty("line.separator") != null ? System.getProperty("line.separator") : "\n");
+            SystemProperties.getProperty("line.separator") :
+            (System.getProperty("line.separator") != null ? System.getProperty("line.separator") : "\n");
 
     public CDataTest(String name)
     {
@@ -53,8 +53,8 @@ public class CDataTest
             throws Exception
     {
         String xmlText = "<a><![CDATA[cdata text]]></a>";
-
-        checkCData(xmlText, xmlText, xmlText);
+        String resultText = "<a>cdata text</a>";
+        checkCData(xmlText, resultText, resultText);
     }
 
     public void testCData2()
@@ -64,11 +64,11 @@ public class CDataTest
                 "<b><![CDATA[cdata text]]> regular text</b>" + NL +
                 "</a>";
         String expected1 = "<a>\n" +
-                           "<b><![CDATA[cdata text regular text]]></b>\n" +
-                           "</a>";
+                "<b>cdata text regular text</b>\n" +
+                "</a>";
         String expected2 = "<a>" + NL +
-                           "  <b><![CDATA[cdata text regular text]]></b>" + NL +
-                           "</a>";
+                "  <b>cdata text regular text</b>" + NL +
+                "</a>";
 
         checkCData(xmlText, expected1, expected2);
     }
@@ -80,11 +80,11 @@ public class CDataTest
                 "<c>text <![CDATA[cdata text]]></c>\n" +
                 "</a>";
         String expected1 = "<a>\n" +
-                           "<c>text cdata text</c>\n" +
-                           "</a>";
+                "<c>text cdata text</c>\n" +
+                "</a>";
         String expected2 = "<a>" + NL +
-                           "  <c>text cdata text</c>" + NL +
-                           "</a>";
+                "  <c>text cdata text</c>" + NL +
+                "</a>";
 
         checkCData(xmlText, expected1, expected2);
     }
