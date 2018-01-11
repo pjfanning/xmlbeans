@@ -25,7 +25,6 @@ import org.xml.sax.InputSource;
 import org.xml.sax.ext.LexicalHandler;
 import org.xml.sax.ext.DeclHandler;
 import org.xml.sax.SAXParseException;
-import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.SAXException;
 import org.xml.sax.DTDHandler;
@@ -37,8 +36,6 @@ import java.lang.ref.ReferenceQueue;
 import java.lang.ref.Reference;
 import java.lang.ref.PhantomReference;
 import java.lang.ref.SoftReference;
-
-import java.lang.reflect.Method;
 
 import java.io.InputStream;
 import java.io.Reader;

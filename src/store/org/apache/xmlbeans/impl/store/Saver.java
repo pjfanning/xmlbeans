@@ -1403,7 +1403,7 @@ abstract class Saver
                 if (++i == _buf.length)
                     i = 0;
 
-                for ( int cch = _lastEmitCch ; cch > 0 ; cch-- )
+                for ( int cch = _lastEmitCch - 2 ; cch > 0 ; cch-- )
                 {
                     char ch = _buf[ i ];
 
