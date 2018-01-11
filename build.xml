@@ -320,7 +320,6 @@
             <fileset dir="build/lib">
                 <include name="xbean.jar"/>
                 <include name="xmlpublic.jar"/>
-                <include name="xmlbeans-qname.jar"/>
                 <include name="xbean_xpath.jar"/>
                 <include name="resolver.jar"/>
             </fileset>
@@ -485,10 +484,6 @@
                     <attribute name="Implementation-URL" value="${manifest.url}"/>
                 </section>
             </manifest>
-        </jar>
-        <jar jarfile="build/lib/xmlbeans-qname.jar" duplicate="preserve">
-            <fileset dir="build/classes/xmlpublic"
-                includes="javax/xml/namespace/QName.class,javax/xml/namespace/NamespaceContext.class"/>
         </jar>
     </target>
 
