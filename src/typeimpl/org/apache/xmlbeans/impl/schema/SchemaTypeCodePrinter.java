@@ -541,36 +541,6 @@ public final class SchemaTypeCodePrinter implements SchemaCodePrinter
             emit("public static " + fullName + " parse(org.w3c.dom.Node node, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {");
             emit("  return (" + fullName + ") org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, options ); }");
             emit("");
-
-            emit("/** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */");
-            if (_useJava15)
-                emit("@Deprecated");
-            emit("public static " + fullName + " parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {");
-            emit("  return (" + fullName + ") org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, null ); }");
-            emit("");
-
-            emit("/** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */");
-            if (_useJava15)
-                emit("@Deprecated");
-            emit("public static " + fullName + " parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {");
-            emit("  return (" + fullName + ") org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, options ); }");
-            emit("");
-
-            // Don't have XMLInputStream anymore
-            emit("/** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */");
-            if (_useJava15)
-                emit("@Deprecated");
-            emit("public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {");
-            emit("  return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, null ); }");
-            emit("");
-
-            // Don't have XMLInputStream anymore
-            emit("/** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */");
-            if (_useJava15)
-                emit("@Deprecated");
-            emit("public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {");
-            emit("  return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, options ); }");
-            emit("");
         }
 
         emit("private Factory() { } // No instance of this class allowed");
