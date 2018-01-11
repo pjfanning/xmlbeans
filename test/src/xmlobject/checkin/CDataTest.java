@@ -35,7 +35,7 @@ import xmlcursor.common.Common;
 
 
 /**
- * Test for finner CData control feature.
+ * Test for finer CData control feature.
  */
 public class CDataTest
     extends TestCase
@@ -85,6 +85,23 @@ public class CDataTest
         String expected2 = "<a>" + NL +
                            "  <c>text cdata text</c>" + NL +
                            "</a>";
+
+        checkCData(xmlText, expected1, expected2);
+    }
+
+    // https://issues.apache.org/jira/browse/XMLBEANS-404
+    public void testXmlBeans404()
+            throws Exception
+    {
+        String xmlText = "<a>\n" +
+                "<c>text <![CDATA[cdata text]]]]></c>\n" +
+                "</a>";
+        String expected1 = "<a>\n" +
+                "<c>text cdata text]]</c>\n" +
+                "</a>";
+        String expected2 = "<a>" + NL +
+                "  <c>text cdata text]]</c>" + NL +
+                "</a>";
 
         checkCData(xmlText, expected1, expected2);
     }
