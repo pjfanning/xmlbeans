@@ -13,15 +13,15 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.cursor;
+package org.apache.poi.xmlbeans.samples.cursor;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Comparator;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import javax.xml.namespace.QName;
 
@@ -96,7 +96,7 @@ public final class XmlSort
      * attributes are not touched. When elements are reordered, all the text, comments and PIs
      * follow the element that they come immediately after.
      * @param comp a comparator that is to be used when comparing the <code>QName</code>s of two
-     * elements. See {@link org.apache.xmlbeans.samples.cursor.XmlSort.QNameComparator} for a simple
+     * elements. See {@link org.apache.poi.xmlbeans.samples.cursor.XmlSort.QNameComparator} for a simple
      * implementation that compares two elements based on the value of their QName, but more
      * complicated implementations are possible, for instance, ones that compare two elements based
      * on the value of a specifc attribute etc.

@@ -13,7 +13,7 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.xmltree;
+package org.apache.poi.xmlbeans.samples.xmltree;
 
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;

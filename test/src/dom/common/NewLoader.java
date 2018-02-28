@@ -15,9 +15,9 @@
 
 package dom.common;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlRuntimeException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlRuntimeException;
 
 
 public class NewLoader extends Loader{
@@ -39,7 +39,7 @@ public class NewLoader extends Loader{
     {
         org.w3c.dom.Document doc = load( sXml );
         
-        org.apache.xmlbeans.impl.store.Public2.setSync( doc,true );
+        org.apache.poi.xmlbeans.impl.store.Public2.setSync( doc,true );
         
         return doc;
     }

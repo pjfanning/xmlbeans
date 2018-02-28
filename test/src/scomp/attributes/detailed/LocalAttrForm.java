@@ -19,7 +19,7 @@ import xbean.scomp.namespace.attributeFormDefault.AttributeUnqualifiedDocument;
 
 import javax.xml.namespace.QName;
 
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

@@ -19,8 +19,8 @@ import junit.framework.TestCase;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.Assert;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
 
 
 

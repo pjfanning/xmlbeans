@@ -19,10 +19,10 @@ package misc.detailed;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.SchemaType;
-import org.apache.xmlbeans.SchemaTypeLoader;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.impl.common.SystemCache;
+import org.apache.poi.xmlbeans.SchemaType;
+import org.apache.poi.xmlbeans.SchemaTypeLoader;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.impl.common.SystemCache;
 
 import javax.xml.namespace.QName;
 import java.io.File;

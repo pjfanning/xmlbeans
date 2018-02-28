@@ -13,11 +13,11 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.validation;
+package org.apache.poi.xmlbeans.samples.validation;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.samples.validation.todolist.*;
-import org.apache.xmlbeans.samples.validation.todolist.TodolistDocument.Todolist;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.samples.validation.todolist.*;
+import org.apache.poi.xmlbeans.samples.validation.todolist.TodolistDocument.Todolist;
 
 import java.io.File;
 import java.io.IOException;

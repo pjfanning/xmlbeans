@@ -17,7 +17,7 @@ package scomp.derivation.restriction.detailed;
 import xbean.scomp.derivation.simpleExtension.SimpleRestrictionEltDocument;
 import xbean.scomp.derivation.simpleExtension.SimpleRestrictionT;
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

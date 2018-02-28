@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.xmlbeans.samples.vxsdb;
+package org.apache.poi.xmlbeans.samples.vxsdb;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -29,11 +29,11 @@ import org.apache.tools.ant.Task;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
-import org.apache.xmlbeans.SchemaGlobalElement;
-import org.apache.xmlbeans.SchemaProperty;
-import org.apache.xmlbeans.SchemaTypeSystem;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.SchemaGlobalElement;
+import org.apache.poi.xmlbeans.SchemaProperty;
+import org.apache.poi.xmlbeans.SchemaTypeSystem;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlObject;
 
 /**
  * @author Philip Mark Donaghy
@@ -177,7 +177,7 @@ public class VelocityXmlBeansDB extends Task {
         // Verify arguments
         if (args.length < 3) {
             log
-                    .error("Usage : java org.apache.xmlbeans.samples.vxsdb.VelocityXmlBeansDB TEMPLATE OUTPUT SCHEMA1 [SCHEMA2] [...]");
+                    .error("Usage : java org.apache.poi.xmlbeans.samples.vxsdb.VelocityXmlBeansDB TEMPLATE OUTPUT SCHEMA1 [SCHEMA2] [...]");
             System.exit(1);
         }
         beans.setTemplate(args[0]);

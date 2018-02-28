@@ -15,13 +15,13 @@
 
 package xmlobject.schematypes.checkin;
 
-import org.apache.xmlbeans.XmlQName;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.SchemaTypeLoader;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlAnySimpleType;
+import org.apache.poi.xmlbeans.XmlQName;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.SchemaTypeLoader;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlAnySimpleType;
 import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;

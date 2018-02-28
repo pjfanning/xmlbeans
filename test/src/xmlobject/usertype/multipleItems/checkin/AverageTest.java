@@ -20,8 +20,8 @@ import java.math.BigInteger;
 
 import junit.framework.TestCase;
 
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 import usertype.xbean.multipleItems.company.CompanyDocument;
 import usertype.xbean.multipleItems.company.CompanyType;

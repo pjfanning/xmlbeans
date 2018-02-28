@@ -21,7 +21,7 @@ import interfaceFeature.xbean.multInterfaces.purchaseOrder.Items.Item;
 
 import java.math.BigDecimal;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 public class ReportHandler {
     public static int getTotal(XmlObject xo) {

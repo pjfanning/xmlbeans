@@ -18,9 +18,9 @@ package xmlcursor.checkin;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlObject;
 import xmlcursor.common.BasicCursorTestCase;
 import xmlcursor.common.Common;
 

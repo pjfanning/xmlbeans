@@ -2,20 +2,20 @@
  * An XML document type.
  * Localname: stringelement
  * Namespace: http://xmlbeans.apache.org/samples/any
- * Java type: org.apache.xmlbeans.samples.any.StringelementDocument
+ * Java type: org.apache.poi.xmlbeans.samples.any.StringelementDocument
  *
  * Automatically generated - do not modify.
  */
-package org.apache.xmlbeans.samples.any.impl;
+package org.apache.poi.xmlbeans.samples.any.impl;
 /**
  * A document containing one stringelement(@http://xmlbeans.apache.org/samples/any) element.
  *
  * This is a complex type.
  */
-public class StringelementDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.xmlbeans.samples.any.StringelementDocument
+public class StringelementDocumentImpl extends org.apache.poi.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.poi.xmlbeans.samples.any.StringelementDocument
 {
     
-    public StringelementDocumentImpl(org.apache.xmlbeans.SchemaType sType)
+    public StringelementDocumentImpl(org.apache.poi.xmlbeans.SchemaType sType)
     {
         super(sType);
     }
@@ -32,8 +32,8 @@ public class StringelementDocumentImpl extends org.apache.xmlbeans.impl.values.X
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
             if (target == null)
             {
                 return null;
@@ -45,13 +45,13 @@ public class StringelementDocumentImpl extends org.apache.xmlbeans.impl.values.X
     /**
      * Gets (as xml) the "stringelement" element
      */
-    public org.apache.xmlbeans.XmlString xgetStringelement()
+    public org.apache.poi.xmlbeans.XmlString xgetStringelement()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
             return target;
         }
     }
@@ -64,11 +64,11 @@ public class StringelementDocumentImpl extends org.apache.xmlbeans.impl.values.X
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STRINGELEMENT$0);
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_element_user(STRINGELEMENT$0);
             }
             target.setStringValue(stringelement);
         }
@@ -77,16 +77,16 @@ public class StringelementDocumentImpl extends org.apache.xmlbeans.impl.values.X
     /**
      * Sets (as xml) the "stringelement" element
      */
-    public void xsetStringelement(org.apache.xmlbeans.XmlString stringelement)
+    public void xsetStringelement(org.apache.poi.xmlbeans.XmlString stringelement)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(STRINGELEMENT$0);
+                target = (org.apache.poi.xmlbeans.XmlString)get_store().add_element_user(STRINGELEMENT$0);
             }
             target.set(stringelement);
         }

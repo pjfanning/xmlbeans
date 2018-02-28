@@ -13,22 +13,22 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.xsdconfig;
+package org.apache.poi.xmlbeans.samples.xsdconfig;
 
 /*
  *This class uses the auto generated package names and class names. It doesn't consider XsdConfig file.
  *Note the difference between the imports in two files (CatalogXsdConfig.java and CatalogXsd.java)
  */
 
-import org.apache.xmlbeans.samples.catalog.CatalogDocument;
-import org.apache.xmlbeans.samples.catalog.JournalDocument;
-import org.apache.xmlbeans.samples.catalog.ArticleDocument;
-import org.apache.xmlbeans.samples.catalog.AVeryLongDescriptionElementDocument;
+import org.apache.poi.xmlbeans.samples.catalog.CatalogDocument;
+import org.apache.poi.xmlbeans.samples.catalog.JournalDocument;
+import org.apache.poi.xmlbeans.samples.catalog.ArticleDocument;
+import org.apache.poi.xmlbeans.samples.catalog.AVeryLongDescriptionElementDocument;
 
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import java.util.ArrayList;
 import java.io.IOException;

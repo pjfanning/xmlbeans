@@ -13,19 +13,19 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.substitutiongroup;
+package org.apache.poi.xmlbeans.samples.substitutiongroup;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlException;
 
-import org.apache.xmlbeans.samples.substitutiongroup.easypo.PurchaseOrderDocument;
-import org.apache.xmlbeans.samples.substitutiongroup.easypo.InvoiceHeaderDocument;
-import org.apache.xmlbeans.samples.substitutiongroup.easypo.NameAddress;
-import org.apache.xmlbeans.samples.substitutiongroup.easypo.BookType;
-import org.apache.xmlbeans.samples.substitutiongroup.easypo.ClothingType;
+import org.apache.poi.xmlbeans.samples.substitutiongroup.easypo.PurchaseOrderDocument;
+import org.apache.poi.xmlbeans.samples.substitutiongroup.easypo.InvoiceHeaderDocument;
+import org.apache.poi.xmlbeans.samples.substitutiongroup.easypo.NameAddress;
+import org.apache.poi.xmlbeans.samples.substitutiongroup.easypo.BookType;
+import org.apache.poi.xmlbeans.samples.substitutiongroup.easypo.ClothingType;
 
 import javax.xml.namespace.QName;
 import java.io.File;

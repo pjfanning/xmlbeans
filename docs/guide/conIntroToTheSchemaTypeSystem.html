@@ -57,7 +57,7 @@
     methods of the API generated when you compiled the schema. However, for the
     cases when you want to get information about the schema itself, you use the
     schema type system API.</p>
-  <p>In the XMLBeans API, you have access to the system itself through <a href="../reference/org/apache/xmlbeans/SchemaTypeSystem.html"><span class="langinline">SchemaTypeSystem</span></a>
+  <p>In the XMLBeans API, you have access to the system itself through <a href="../reference/org/apache/poi/xmlbeans/SchemaTypeSystem.html"><span class="langinline">SchemaTypeSystem</span></a>
     and related classes. These make up a kind of &quot;meta-API,&quot; or a view
     on the schema. You can use the schema type system API to discover the type
     system at run time. See the reference topic on that interface for an overview
@@ -65,11 +65,11 @@
   <h2>Schema Type &quot;Signatures&quot;</h2>
   <p>A schema is made up of schema components. Schema components are the pieces
     of a schema, such as a type definition, an element declaration, attribute
-    declaration, and so on. To mirror these in the schema type system, a <a href="../reference/org/apache/xmlbeans/SchemaComponent.html"><span class="langinline">SchemaComponent</span></a>
+    declaration, and so on. To mirror these in the schema type system, a <a href="../reference/org/apache/poi/xmlbeans/SchemaComponent.html"><span class="langinline">SchemaComponent</span></a>
     instance represents a component in the underlying schema; separate components
-    have corresponding types. For example you would have a <span class="langinline"><a href="../reference/org/apache/xmlbeans/SchemaType.html">SchemaType</a></span>
+    have corresponding types. For example you would have a <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/SchemaType.html">SchemaType</a></span>
     object for a <span class="langinline">CustomerType</span> your schema defined,
-    or a <a href="../reference/org/apache/xmlbeans/SchemaGlobalElement.html"><span class="langinline">SchemaGlobalElement</span></a>
+    or a <a href="../reference/org/apache/poi/xmlbeans/SchemaGlobalElement.html"><span class="langinline">SchemaGlobalElement</span></a>
     object for a global <span class="langinline">PurchaseOrder</span> element.
     You would also have a <span class="langinline">SchemaType</span> for built-in
     schema types, such as <span class="langinline">xs:string</span> or <span class="langinline">xs:datetime</span>.

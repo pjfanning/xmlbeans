@@ -25,11 +25,11 @@ import java.io.PrintWriter;
 import tools.util.ResourceUtil;
 import tools.util.JarUtil;
 
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
 import xmlcursor.common.Common;
 import xmlobject.common.StringXmlReader;
 

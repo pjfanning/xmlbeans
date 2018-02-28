@@ -13,9 +13,9 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.xsdconfig;
+package org.apache.poi.xmlbeans.samples.xsdconfig;
 
-import org.apache.xmlbeans.samples.catalog.CatalogDocument;
+import org.apache.poi.xmlbeans.samples.catalog.CatalogDocument;
 
 public class XsdTest
 {

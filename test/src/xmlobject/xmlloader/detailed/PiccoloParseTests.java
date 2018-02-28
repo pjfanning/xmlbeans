@@ -19,7 +19,7 @@ import tools.util.JarUtil;
 
 import java.io.InputStream;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 public class PiccoloParseTests extends TestCase{
     String filename="xbean/xmlobject/japanese/core_generated_wsdl_src.xml";

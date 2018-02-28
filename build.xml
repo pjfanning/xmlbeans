@@ -15,16 +15,16 @@
 -->
 <project name="Xbean" default="default" basedir=".">
 
-    <property name="build.compiler" value="javac1.6"/>
-    <property name="javac.source" value="1.6"/>
-    <property name="javac.target" value="1.6"/>
+    <property name="build.compiler" value="javac1.8"/>
+    <property name="javac.source" value="1.8"/>
+    <property name="javac.target" value="1.8"/>
 
-    <property name="version.base" value="2.6.4"/>
-    <property name="version.rc" value=""/>
+    <property name="version.base" value="2.7.0"/>
+    <property name="version.rc" value="-rc1"/>
 
     <!-- manifest entries -->
-    <property name="manifest.name" value="org/apache/xmlbeans/"/>
-    <property name="manifest.title" value="org.apache.xmlbeans"/>
+    <property name="manifest.name" value="org/apache/poi/xmlbeans/"/>
+    <property name="manifest.title" value="org.apache.poi.xmlbeans"/>
     <property name="manifest.vendor" value="Apache Software Foundation"/>
     <property name="manifest.url" value="http://xmlbeans.apache.org/"/>
 
@@ -432,12 +432,12 @@
         depends="dirs, xmlpublic.classes, typeimpl.classes">
         <jar jarfile="build/lib/enum-support.jar" index="false">
             <fileset dir="build/classes/typeimpl/">
-                <include name="org/apache/xmlbeans/impl/values/XmlListImpl.class"/>
-                <include name="org/apache/xmlbeans/impl/values/XmlObjectBase.class"/>
-                <include name="org/apache/xmlbeans/impl/util/XsTypeConverter.class"/>
+                <include name="org/apache/poi/xmlbeans/impl/values/XmlListImpl.class"/>
+                <include name="org/apache/poi/xmlbeans/impl/values/XmlObjectBase.class"/>
+                <include name="org/apache/poi/xmlbeans/impl/util/XsTypeConverter.class"/>
             </fileset>
             <fileset dir="build/classes/xmlpublic/">
-                <include name="org/apache/xmlbeans/XmlCalendar.class"/>
+                <include name="org/apache/poi/xmlbeans/XmlCalendar.class"/>
             </fileset>
         </jar>
     </target>
@@ -565,7 +565,7 @@
 
     <!-- typeholder target ================================================ -->
 
-    <property name="typeholder.name" value="org/apache/xmlbeans/impl/schema/TypeSystemHolder"/>
+    <property name="typeholder.name" value="org/apache/poi/xmlbeans/impl/schema/TypeSystemHolder"/>
 
     <target name="typeholder.check">
         <condition property="typeholder.notRequired">
@@ -595,6 +595,10 @@
         repackage.classes, xmlpublic.classes, typeholder.template, typestore.classes, xsdschema.classes,
         configschema.classes, toolschema.classes, jam.classes">
         <mkdir dir="build/classes/typeimpl"/>
+        <replace dir="build/src" value="org.apache.poi.xmlbeans">
+            <include name="**/*.java"/>
+            <replacetoken>org.apache.xmlbeans</replacetoken>
+        </replace>
         <javac destdir="build/classes/typeimpl" source="${javac.source}" target="${javac.target}" debug="on">
             <classpath>
                 <pathelement location="build/classes/store"/>
@@ -863,9 +867,9 @@
     </target>
 
     <property name="repackage_arg" value=""/>
-    <property name="schema_compiler" value="org.apache.xmlbeans.impl.tool.SchemaCompiler"/>
+    <property name="schema_compiler" value="org.apache.poi.xmlbeans.impl.tool.SchemaCompiler"/>
     <property name="bootstrap_schema_compiler" value="org.apache.xmlbeans.impl.tool.SchemaCompiler"/>
-    <property name="jam_package_name" value="org.apache.xmlbeans.impl.jam"/>
+    <property name="jam_package_name" value="org.apache.poi.xmlbeans.impl.jam"/>
 
     <!--
         Params to repackage are:
@@ -874,7 +878,7 @@
 
                 Of the form from_pkg_1:to_pkg_1;from_pkg_2:to_pkg_2 which specifies which packages
                 are to be converted which which which other packages.  Right now, there are two.
-                org.apache.xmlbeans and apache.xmlbeans.impl, the public and implementation
+                org.apache.poi.xmlbeans and apache.xmlbeans.impl, the public and implementation
                 packages.
 
             rp_source_dir
@@ -928,10 +932,10 @@
         <mkdir dir="build/classes/xpath_xquery/META-INF/services"/>
         <copy
             file="src/xpath_xquery/SelectPathInterface.g"
-            tofile="build/classes/xpath_xquery/META-INF/services/org.apache.xmlbeans.impl.store.PathDelegate.SelectPathInterface"/>
+            tofile="build/classes/xpath_xquery/META-INF/services/org.apache.poi.xmlbeans.impl.store.PathDelegate.SelectPathInterface"/>
         <copy
             file="src/xpath_xquery/QueryInterface.g"
-            tofile="build/classes/xpath_xquery/META-INF/services/org.apache.xmlbeans.impl.store.QueryDelegate.QueryInterface"/>
+            tofile="build/classes/xpath_xquery/META-INF/services/org.apache.poi.xmlbeans.impl.store.QueryDelegate.QueryInterface"/>
         <javac
             destdir="build/classes/xpath_xquery"
             classpathref="xpath.compile.path"

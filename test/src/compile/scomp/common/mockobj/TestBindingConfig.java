@@ -14,17 +14,17 @@
  */
 package compile.scomp.common.mockobj;
 
-import org.apache.xmlbeans.BindingConfig;
-import org.apache.xmlbeans.InterfaceExtension;
-import org.apache.xmlbeans.PrePostExtension;
-import org.apache.xmlbeans.impl.config.BindingConfigImpl;
+import org.apache.poi.xmlbeans.BindingConfig;
+import org.apache.poi.xmlbeans.InterfaceExtension;
+import org.apache.poi.xmlbeans.PrePostExtension;
+import org.apache.poi.xmlbeans.impl.config.BindingConfigImpl;
 
-import org.apache.xmlbeans.impl.xb.xmlconfig.ConfigDocument.Config;
-import org.apache.xmlbeans.impl.xb.xmlconfig.Extensionconfig;
-import org.apache.xmlbeans.impl.xb.xmlconfig.Nsconfig;
-import org.apache.xmlbeans.impl.xb.xmlconfig.Qnameconfig;
-import org.apache.xmlbeans.impl.xb.xmlconfig.ConfigDocument;
-import org.apache.xmlbeans.BindingConfig;
+import org.apache.poi.xmlbeans.impl.xb.xmlconfig.ConfigDocument.Config;
+import org.apache.poi.xmlbeans.impl.xb.xmlconfig.Extensionconfig;
+import org.apache.poi.xmlbeans.impl.xb.xmlconfig.Nsconfig;
+import org.apache.poi.xmlbeans.impl.xb.xmlconfig.Qnameconfig;
+import org.apache.poi.xmlbeans.impl.xb.xmlconfig.ConfigDocument;
+import org.apache.poi.xmlbeans.BindingConfig;
 
 import javax.xml.namespace.QName;
 import java.io.File;

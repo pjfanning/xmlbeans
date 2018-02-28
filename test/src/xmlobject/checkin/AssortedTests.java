@@ -19,17 +19,17 @@ import junit.framework.TestCase;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.Assert;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlTime;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlTime;
 import com.easypo.XmlPurchaseOrderDocumentBean;
 import com.easypo.XmlCustomerBean;
 import com.easypo.XmlLineItemBean;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 import xint.test.PositionDocument;
 
 public class AssortedTests extends TestCase

@@ -20,7 +20,7 @@ import xbean.scomp.derivation.facets.list.*;
 import java.util.List;
 import java.util.ArrayList;
 
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  */

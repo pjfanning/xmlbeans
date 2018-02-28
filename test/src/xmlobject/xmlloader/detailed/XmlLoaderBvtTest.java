@@ -17,7 +17,7 @@ package xmlobject.xmlloader.detailed;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 import org.tranxml.tranXML.version40.CarLocationMessageDocument;
 import tools.util.JarUtil;
 import xmlcursor.common.BasicCursorTestCase;

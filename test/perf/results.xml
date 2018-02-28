@@ -76,7 +76,7 @@
 	</path>
 
 
-	<taskdef name="perf-result" classname="org.apache.xmlbeans.test.tools.PerfResultTask" classpathref="result.classpath"/>
+	<taskdef name="perf-result" classname="org.apache.poi.xmlbeans.test.tools.PerfResultTask" classpathref="result.classpath"/>
 	<target name="generate.results">
 		<perf-result srcdir="${srcdir}" 
 					 includes="${includes}"

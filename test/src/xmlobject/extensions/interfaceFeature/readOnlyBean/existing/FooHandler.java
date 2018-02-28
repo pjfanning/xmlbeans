@@ -20,7 +20,7 @@ import interfaceFeature.xbean.readOnlyBean.purchaseOrder.PurchaseOrderDocument;
 import interfaceFeature.xbean.readOnlyBean.purchaseOrder.Items.Item;
 import java.math.BigDecimal;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 public class FooHandler
 {

@@ -19,9 +19,9 @@ import misc.common.JiraTestBase;
 import java.io.*;
 import java.util.*;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.tool.SchemaCompiler;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCompiler;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import junit.framework.Assert;

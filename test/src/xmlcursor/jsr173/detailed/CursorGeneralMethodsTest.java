@@ -20,9 +20,9 @@ import xmlcursor.jsr173.common.GeneralMethodsTest;
 
 import javax.xml.stream.XMLStreamReader;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlDocumentProperties;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlDocumentProperties;
 /**
  *
  *

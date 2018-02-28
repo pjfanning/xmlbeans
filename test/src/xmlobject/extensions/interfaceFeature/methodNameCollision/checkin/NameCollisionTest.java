@@ -21,7 +21,7 @@ import interfaceFeature.xbean.methodNameCollision.company.DepartmentType;
 import interfaceFeature.xbean.methodNameCollision.company.ConsultantType;
 import xmlobject.extensions.interfaceFeature.methodNameCollision.existing.IFoo;
 
-import org.apache.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlString;
 
 public class NameCollisionTest extends TestCase{
 

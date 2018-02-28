@@ -48,7 +48,7 @@ limitations under the License.
         </path>
 
         <taskdef name="xmlbean"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.path"/>
     </target>
 
@@ -98,7 +98,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running DateTime"/>
         <java
-            classname="org.apache.xmlbeans.samples.datetime.DateTime"
+            classname="org.apache.poi.xmlbeans.samples.datetime.DateTime"
             classpathref="DateTime.path"
             fork="true">
             <arg line="xml/datetimesample.xml xml/newdatetimesample.xml"/>
@@ -110,7 +110,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing DateTime"/>
         <java
-            classname="org.apache.xmlbeans.samples.datetime.DateTimeTest"
+            classname="org.apache.poi.xmlbeans.samples.datetime.DateTimeTest"
            classpathref="DateTime.path"
             fork="true">
             <arg line="xml/datetimesample.xml xml/newdatetimesample.xml"/>

@@ -24,11 +24,11 @@ import com.easypo.XmlPurchaseOrderDocumentBean.PurchaseOrder;
 import com.easypo.XmlLineItemBean;
 import com.easypo.XmlShipperBean;
 import com.easypo.XmlPurchaseOrderDocumentBean;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.SchemaTypeLoader;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.SchemaTypeLoader;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 import org.xml.sax.InputSource;
 
 import java.math.BigDecimal;

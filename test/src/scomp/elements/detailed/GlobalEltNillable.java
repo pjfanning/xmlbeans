@@ -17,9 +17,9 @@ package scomp.elements.detailed;
 
 import scomp.common.BaseCase;
 import xbean.scomp.element.globalEltNillable.*;
-import org.apache.xmlbeans.impl.values.XmlValueNotNillableException;
-import org.apache.xmlbeans.XmlErrorCodes;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.impl.values.XmlValueNotNillableException;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 /**
  *

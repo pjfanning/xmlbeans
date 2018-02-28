@@ -15,9 +15,9 @@
 package scomp.common;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 import java.util.ArrayList;
 import java.util.Collection;

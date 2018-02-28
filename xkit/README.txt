@@ -57,7 +57,7 @@ Kit contents:
     useful main() functions in the JAR.
     ./bin
 
-(9) A copy of the plain javadoc tree for org.apache.xmlbeans.*
+(9) A copy of the plain javadoc tree for org.apache.poi.xmlbeans.*
     ./docs/reference
 
 (10) A preliminary collection of nicely formatted user-level
@@ -140,7 +140,7 @@ Where to start?
        during your build process:
 
        <taskdef name="xmlbean"
-           classname="org.apache.xmlbeans.impl.tool.XMLBean"
+           classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
            classpath="path/to/xbean.jar:path/to/jsr173_1.0_api.jar" />
 
        <xmlbean schemas="easypo.xsd" destfile="myeasypo.jar"
@@ -155,7 +155,7 @@ Where to start?
     Armed with the XMLBeans source code and the basic
     docs, you're ready to program.  Things you need to know:
 
-    * The org.apache.xmlbeans package has all the public classes
+    * The org.apache.poi.xmlbeans package has all the public classes
       for XMLBeans.  Programs should not need to call anything
       else in xbean.jar directly.
 
@@ -188,7 +188,7 @@ Where to start?
       (Analogous to "obj.getClass()" and "Object.class".)
 
     * A number of utility methods are available on
-      org.apache.xmlbeans.XmlBeans, including a function that can be
+      org.apache.poi.xmlbeans.XmlBeans, including a function that can be
       used to determine whether a Java class is an XmlBean and
       functions to manage runtime-loading of schema type
       systems or programmatically compiling Schema files.
@@ -206,7 +206,7 @@ Where to start?
        document.
 
        The code is in (available via source SVN access)
-       org.apache.xmlbeans.impl.tool.PrettyPrinter and is
+       org.apache.poi.xmlbeans.impl.tool.PrettyPrinter and is
        a reasonable example of how to load and save out an
        arbitrary XML document.  XmlOptions are used to produce
        the pretty-printing.
@@ -216,7 +216,7 @@ Where to start?
        be a very accurate XML schema validator.
 
        The code is in (available via source SVN access)
-       org.apache.xmlbeans.impl.tool.InstanceValidator.
+       org.apache.poi.xmlbeans.impl.tool.InstanceValidator.
        It is an excellent example of how to load a schema
        type system dynamically at runtime, load and validate
        an instance within that type system, and how to obtain
@@ -246,7 +246,7 @@ Where to start?
        schema definitions from the provided file.
 
        The code is in (available via source SVN access)
-       org.apache.xmlbeans.impl.xsd2inst.SampleXmlUtil and is
+       org.apache.poi.xmlbeans.impl.xsd2inst.SampleXmlUtil and is
        a great example of how to combine the XmlCursor and
        SchemaType APIs to create a full [sub]document
        that includes required children, default values, etc.

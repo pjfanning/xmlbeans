@@ -21,8 +21,8 @@ import xbean.scomp.substGroup.deep.*;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlErrorCodes;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 import javax.xml.namespace.QName;
 

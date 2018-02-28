@@ -16,17 +16,17 @@
 
 package xmlcursor.detailed;
 
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlOptions;
 import junit.framework.*;
 import junit.framework.Assert.*;
 
 import java.io.*;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -39,7 +39,7 @@ import tools.util.JarUtil;
 
 import java.net.URL;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
+import org.apache.poi.xmlbeans.xml.stream.XMLInputStream;
 
 
 /**

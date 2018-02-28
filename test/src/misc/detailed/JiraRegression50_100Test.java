@@ -16,9 +16,9 @@
 package misc.detailed;
 
 import junit.framework.Assert;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.tool.SchemaCompiler;
-import org.apache.xmlbeans.impl.xb.xmlconfig.ConfigDocument;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCompiler;
+import org.apache.poi.xmlbeans.impl.xb.xmlconfig.ConfigDocument;
 import org.apache.beehive.netui.tools.testrecorder.x2004.session.RecorderSessionDocument;
 import org.w3c.dom.Document;
 import org.w3c.dom.DocumentType;
@@ -396,7 +396,7 @@ public class JiraRegression50_100Test extends JiraTestBase
 
         //create instance and set doc properties
         PurchaseOrderDocument po = PurchaseOrderDocument.Factory.newInstance();
-        org.apache.xmlbeans.XmlDocumentProperties docProps = po.documentProperties();
+        org.apache.poi.xmlbeans.XmlDocumentProperties docProps = po.documentProperties();
         docProps.setDoctypeName(docTypeName);
         docProps.setDoctypePublicId(docTypePublicID);
         docProps.setDoctypeSystemId(docTypeSystemID);
@@ -407,7 +407,7 @@ public class JiraRegression50_100Test extends JiraTestBase
         PurchaseOrderDocument po2 = PurchaseOrderDocument.Factory.parse(new File(fileName));
         //XmlObject po2 = XmlObject.Factory.parse(new File(fileName));
 
-        org.apache.xmlbeans.XmlDocumentProperties doc2Props = po2.documentProperties();
+        org.apache.poi.xmlbeans.XmlDocumentProperties doc2Props = po2.documentProperties();
 
         //verify information using DOM
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

@@ -30,7 +30,7 @@ Each sample MUST consist of the following:
     - xml directory: contains any xml files used for validation by the sample.
 
     - src directory: contains any java source files.  The package of the
-      sample should be 'org.apache.xmlbeans.samples.category' and the main
+      sample should be 'org.apache.poi.xmlbeans.samples.category' and the main
       class should be given the sample name.
 
 At the end of the README's description, the desired output of running the sample

@@ -1,6 +1,6 @@
 
 import javax.xml.namespace.QName;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 import dumbNS.RootDocument;
 
@@ -49,7 +49,7 @@ public class SimpleXmlObject
         return _under;
     }
 
-    public XmlObject substitute(javax.xml.namespace.QName qName,org.apache.xmlbeans.SchemaType schemaType){
+    public XmlObject substitute(javax.xml.namespace.QName qName,org.apache.poi.xmlbeans.SchemaType schemaType){
         return underlyingXmlObject().substitute(qName, schemaType);
     }
 

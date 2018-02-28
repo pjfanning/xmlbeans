@@ -17,10 +17,10 @@
 import xbean.scomp.contentType.complexTypeTest.EmptyTypeDocument;
 import xbean.scomp.contentType.complexTypeTest.EmptyT;
 import xbean.scomp.contentType.complexTypeTest.EmptyMixedTypeDocument;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 import scomp.common.BaseCase;
 
 /**

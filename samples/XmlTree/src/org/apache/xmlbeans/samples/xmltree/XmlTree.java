@@ -13,10 +13,10 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.xmltree;
+package org.apache.poi.xmlbeans.samples.xmltree;
 
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import javax.swing.ImageIcon;
 import javax.swing.JTree;

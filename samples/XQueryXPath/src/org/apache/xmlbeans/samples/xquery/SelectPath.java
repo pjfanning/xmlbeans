@@ -13,12 +13,12 @@
 *  limitations under the License.
 */
 
-package org.apache.xmlbeans.samples.xquery;
+package org.apache.poi.xmlbeans.samples.xquery;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.samples.xquery.employees.PhoneType;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.samples.xquery.employees.PhoneType;
 
 /**
  * This class demonstrates how to use the selectPath method to execute XPath

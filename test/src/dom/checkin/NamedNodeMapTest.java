@@ -24,7 +24,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.w3c.dom.*;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 /**
  *

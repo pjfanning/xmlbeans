@@ -52,7 +52,7 @@
   <p class=Title>Understanding XML Tokens</p>
 </div>
 <div id=topictext>
-  <p>An XML cursor (an instance of the <a href="../reference/org/apache/xmlbeans/XmlCursor.html"><span class="langinline">XmlCursor</span></a>
+  <p>An XML cursor (an instance of the <a href="../reference/org/apache/poi/xmlbeans/XmlCursor.html"><span class="langinline">XmlCursor</span></a>
     interface) moves from token to token as your code moves the cursor. When you
     move a cursor using a method such as <span class="langinline">toParent</span>,
     <span class="langinline">toFirstAttribute</span>, <span class="langinline">toPrevSibling</span>,
@@ -71,7 +71,7 @@
     <span class="langinline">isAttr</span>, <span class="langinline">isText</span>,
     and so on, return a <span class="langinline">boolean</span> value that indicates
     whether the cursor is at the token type in question.</p>
-  <P>Tokens are represented by constants in the <span class="langinline"><a href="../reference/org/apache/xmlbeans/XmlCursor.TokenType.html">TokenType</a></span>
+  <P>Tokens are represented by constants in the <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/XmlCursor.TokenType.html">TokenType</a></span>
     class, an inner class of the <span class="langinline">XmlCursor</span> interface.
     Each has a constant you can use in switch statements to perform by-token actions.
     The following table lists the token types:</P>
@@ -177,7 +177,7 @@ documentCursor.dispose();
     tag. In other words, the cursor's scope is not limited to the element at which
     it was created.</p>
   <p class=relatedtopics>Related Topics</p>
-  <p><a href="../reference/org/apache/xmlbeans/XmlCursor.TokenType.html">XmlCursor.TokenType
+  <p><a href="../reference/org/apache/poi/xmlbeans/XmlCursor.TokenType.html">XmlCursor.TokenType
     Class</a></p>
   <p><a href="conNavigatingXMLwithCursors.html">Navigating XML with Cursors</a></p>
 </div>

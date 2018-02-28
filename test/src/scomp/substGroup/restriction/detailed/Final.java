@@ -14,7 +14,7 @@
  */
 package scomp.substGroup.restriction.detailed;
 
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 import scomp.common.BaseCase;
 
 import java.util.List;

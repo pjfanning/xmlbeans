@@ -15,8 +15,8 @@
  */
 package ValidatingXSRTests.detailed;
 
-import org.apache.xmlbeans.impl.validator.ValidatingXMLStreamReader;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.validator.ValidatingXMLStreamReader;
+import org.apache.poi.xmlbeans.*;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 import tools.util.JarUtil;

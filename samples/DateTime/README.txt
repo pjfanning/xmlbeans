@@ -12,10 +12,10 @@ This sample demonstrates how you can work with XML Schema primitive types date,
 dateTime, time, duration, gDay.
 
 This sample illustrates how you can
-(1) Convert org.apache.xmlbeans.XmlDate to java.util.Calendar,org.apache.xmlbeans.GDate, java.util.Date
-(2) Convert org.apache.xmlbeans.XmlTime to java.util.Calendar,org.apache.xmlbeans.GDate, java.util.Date
-(3) Convert org.apache.xmlbeans.XmlDuration to org.apache.xmlbeans.GDuration
-(4) Convert org.apache.xmlbeans.XmlGday to java.util.Calendar,org.apache.xmlbeans.GDate, Day - primitive java int
+(1) Convert org.apache.poi.xmlbeans.XmlDate to java.util.Calendar,org.apache.poi.xmlbeans.GDate, java.util.Date
+(2) Convert org.apache.poi.xmlbeans.XmlTime to java.util.Calendar,org.apache.poi.xmlbeans.GDate, java.util.Date
+(3) Convert org.apache.poi.xmlbeans.XmlDuration to org.apache.poi.xmlbeans.GDuration
+(4) Convert org.apache.poi.xmlbeans.XmlGday to java.util.Calendar,org.apache.poi.xmlbeans.GDate, Day - primitive java int
 (5) Get/Set XML Schema primitive types date, dateTime, time, duration, and gDay.
 
 
@@ -24,7 +24,7 @@ For eg:
 
 Schema Type             Formal Class            Natural Java Class
 xs:date                 XmlDate                 java.util.Calendar (XmlCalendar)
-xs:duration             XmlDuration             org.apache.xmlbeans.GDuration
+xs:duration             XmlDuration             org.apache.poi.xmlbeans.GDuration
 xs:dateTime             XmlDateTime             java.util.Calendar (XmlCalendar)
 xs:time                 XmlTime                 java.util.Calendar (XmlCalendar)
 

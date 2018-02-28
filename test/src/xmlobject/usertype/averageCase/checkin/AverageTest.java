@@ -21,8 +21,8 @@ import javax.xml.stream.XMLOutputFactory;
 
 import junit.framework.TestCase;
 
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 import usertype.xbean.averageCase.purchaseOrder.Items;
 import usertype.xbean.averageCase.purchaseOrder.PurchaseOrderDocument;

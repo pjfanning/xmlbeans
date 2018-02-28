@@ -13,13 +13,13 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.anytype;
+package org.apache.poi.xmlbeans.samples.anytype;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.samples.any.ListOfStrings;
-import org.apache.xmlbeans.samples.any.RootDocument;
-import org.apache.xmlbeans.samples.any.StringelementDocument;
-import org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.samples.any.ListOfStrings;
+import org.apache.poi.xmlbeans.samples.any.RootDocument;
+import org.apache.poi.xmlbeans.samples.any.StringelementDocument;
+import org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

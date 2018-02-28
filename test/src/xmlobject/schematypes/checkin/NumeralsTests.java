@@ -22,8 +22,8 @@ import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.Assert;
 import org.openuri.testNumerals.DocDocument;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

@@ -229,7 +229,7 @@
 package docs.xmlbeans;
 
 import java.io.File;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 import org.openuri.easypo.PurchaseOrderDocument;
 import org.openuri.easypo.PurchaseOrder;
 import org.openuri.easypo.LineItem;
@@ -364,7 +364,7 @@ public PurchaseOrderDocument createPO()
     <span class="langinline">XmlObject</span>, and so provide a <span class="langinline">Factory</span>
     class. For an overview of the type system in which <span class="langinline">XmlObject</span>
     fits, see <a href="conXMLBeansSupportBuiltInSchemaTypes.html">XMLBeans Support
-    for Built-In Schema Types</a>. For reference information, see <a href="../reference/org/apache/xmlbeans/XmlObject.html">XmlObject
+    for Built-In Schema Types</a>. For reference information, see <a href="../reference/org/apache/poi/xmlbeans/XmlObject.html">XmlObject
     Interface</a>.</p>
   <h1>XMLBeans Hierarchy</h1>
   <p>The generated types you saw used in the preceding example are actually part
@@ -382,9 +382,9 @@ public PurchaseOrderDocument createPO()
     Java types that mirror the 46 built-in types defined by the XML schema specification.
     Where schema defines <span class="langinline">xs:string</span>, <span class="langinline">xs:decimal</span>,
     and <span class="langinline">xs:int</span>, for example, XMLBeans provides
-    <span class="langinline"><a href="../reference/org/apache/xmlbeans/XmlString.html">XmlString</a></span>,
-    <span class="langinline"><a href="../reference/org/apache/xmlbeans/XmlDecimal.html">XmlDecimal</a></span>,
-    and <span class="langinline"><a href="../reference/org/apache/xmlbeans/XmlInt.html">XmlInt</a></span>.
+    <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/XmlString.html">XmlString</a></span>,
+    <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/XmlDecimal.html">XmlDecimal</a></span>,
+    and <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/XmlInt.html">XmlInt</a></span>.
     Each of these also inherits from <span class="langinline">XmlObject</span>,
     which corresponds to the built-in schema type <span class="langinline">xs:anyType</span>.</p>
   <p>XMLBeans provides a way for you to handle XML data as these built-in types.
@@ -448,7 +448,7 @@ System.out.println(itemCursor.xmlText());
   <p>For more information about XQuery, see <a href="http://www.w3.org/TR/xquery/" target="_blank">XQuery
     1.0: An XML Query Language</a> at the W3C web site.</p>
   <h2>Using XML Cursors</h2>
-  <p>In the preceding example you may have noticed the <span class="langinline"><a href="../reference/org/apache/xmlbeans/XmlCursor.html">XmlCursor</a></span>
+  <p>In the preceding example you may have noticed the <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/XmlCursor.html">XmlCursor</a></span>
     interface. In addition to providing a way to execute XQuery expression, an
     XML cursors offers a fine-grained model for manipulating data. The XML cursor
     API, analogous to the DOM's object API, is simply a way to point at a particular

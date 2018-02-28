@@ -15,11 +15,11 @@
 package compile.scomp.common;
 
 import junit.framework.Assert;
-import org.apache.xmlbeans.impl.tool.SchemaCompiler;
-import org.apache.xmlbeans.impl.tool.Diff;
-import org.apache.xmlbeans.impl.tool.SchemaCodeGenerator;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCompiler;
+import org.apache.poi.xmlbeans.impl.tool.Diff;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCodeGenerator;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 
 import javax.xml.namespace.QName;
 import java.io.File;

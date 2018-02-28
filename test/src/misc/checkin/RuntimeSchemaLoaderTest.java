@@ -15,11 +15,11 @@
 
 package misc.checkin;
 
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.SchemaTypeLoader;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.SchemaTypeLoader;
 
 import javax.xml.namespace.QName;
 
@@ -30,7 +30,7 @@ import junit.framework.TestCase;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument.Schema;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument.Schema;
 
 
 import tools.util.*;

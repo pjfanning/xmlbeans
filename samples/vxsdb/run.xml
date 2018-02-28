@@ -55,7 +55,7 @@
 
     <target name="run" depends="init" description="Run the sample code">
         <!-- VelocityXmlBeans Task -->
-        <taskdef name="vxsdb" classname="org.apache.xmlbeans.samples.vxsdb.VelocityXmlBeansDB" description="The task used to run the sample code." classpathref="vxsdb.runtime.classpath" />
+        <taskdef name="vxsdb" classname="org.apache.poi.xmlbeans.samples.vxsdb.VelocityXmlBeansDB" description="The task used to run the sample code." classpathref="vxsdb.runtime.classpath" />
         <!-- Substitute any of your own schemas templates and output files -->
         <vxsdb schema="${schema}" template="${template}" output="${output}" />
     </target>

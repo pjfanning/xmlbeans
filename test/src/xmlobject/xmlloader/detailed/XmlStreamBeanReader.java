@@ -15,10 +15,10 @@
 package xmlobject.xmlloader.detailed;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlCursor;
 import org.openuri.bea.samples.workshop.CreditCardDataDocument;
 
 import javax.xml.stream.XMLInputFactory;

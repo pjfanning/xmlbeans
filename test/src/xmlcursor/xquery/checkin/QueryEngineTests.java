@@ -15,8 +15,8 @@
 package xmlcursor.xquery.checkin;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlInteger;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlInteger;
 
 public class QueryEngineTests extends TestCase
 {

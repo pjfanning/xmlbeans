@@ -15,8 +15,8 @@
 
 package misc.checkin;
 
-import org.apache.xmlbeans.XmlErrorCodes;
-import org.apache.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlBeans;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;

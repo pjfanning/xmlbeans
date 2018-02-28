@@ -14,8 +14,8 @@
  */
 package xmlobject.common;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
@@ -96,7 +96,7 @@ public class SelectChildrenAttribCommon
      * Just a thin wrapper around XmlComparator
      */
     public static boolean XComp(String actual, String expected, boolean verbose)
-        throws org.apache.xmlbeans.XmlException
+        throws org.apache.poi.xmlbeans.XmlException
     {
         boolean same;
         XmlComparator.Diagnostic diag = new XmlComparator.Diagnostic();

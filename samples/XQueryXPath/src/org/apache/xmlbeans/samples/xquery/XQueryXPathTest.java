@@ -12,7 +12,7 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.apache.xmlbeans.samples.xquery;
+package org.apache.poi.xmlbeans.samples.xquery;
 
 /**
  * A class with which to test the XQueryXPath sample.
@@ -23,7 +23,7 @@ public class XQueryXPathTest
      * Tests the XQueryXPath sample.
      */
     public static void main(String[] args)
-            throws org.apache.xmlbeans.XmlException, java.io.IOException
+            throws org.apache.poi.xmlbeans.XmlException, java.io.IOException
     {
         XQueryXPath sample = new XQueryXPath();
         boolean queriesSuccessful = sample.executeQueries(args);

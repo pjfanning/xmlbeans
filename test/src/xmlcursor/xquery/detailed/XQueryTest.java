@@ -16,10 +16,10 @@ package xmlcursor.xquery.detailed;
 
 import junit.framework.TestCase;
 import tools.util.JarUtil;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlLong;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlLong;
 
 import java.io.IOException;
 import java.io.InputStream;

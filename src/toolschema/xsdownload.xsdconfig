@@ -11,7 +11,7 @@
 <xb:config xmlns:xb="http://xml.apache.org/xmlbeans/2004/02/xbean/config">
 
   <xb:namespace uri="http://www.bea.com/2003/01/xmlbean/xsdownload">
-    <xb:package>org.apache.xmlbeans.impl.xb.xsdownload</xb:package>
+    <xb:package>org.apache.poi.xmlbeans.impl.xb.xsdownload</xb:package>
   </xb:namespace>
 
 </xb:config>

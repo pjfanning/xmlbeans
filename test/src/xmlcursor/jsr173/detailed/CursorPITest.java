@@ -19,7 +19,7 @@ import xmlcursor.jsr173.common.PITest;
 
 import javax.xml.stream.XMLStreamReader;
 
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor;
 /**
  *
  *

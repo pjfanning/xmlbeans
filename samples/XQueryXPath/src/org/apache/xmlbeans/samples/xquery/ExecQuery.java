@@ -13,10 +13,10 @@
 *  limitations under the License.
 */
 
-package org.apache.xmlbeans.samples.xquery;
+package org.apache.poi.xmlbeans.samples.xquery;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
 
 /**
  * This class demonstrates how to use the execQuery method to execute XQuery

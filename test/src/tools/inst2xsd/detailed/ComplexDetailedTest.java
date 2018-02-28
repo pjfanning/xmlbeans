@@ -19,8 +19,8 @@ import tools.inst2xsd.common.Inst2XsdTestBase;
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
 
 public class ComplexDetailedTest extends Inst2XsdTestBase {
 

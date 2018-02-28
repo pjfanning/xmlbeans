@@ -16,7 +16,7 @@
 package dom.checkin;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor;
 import org.w3c.dom.Node;
 
 import xbean.dom.complexTypeTest.ElementT;

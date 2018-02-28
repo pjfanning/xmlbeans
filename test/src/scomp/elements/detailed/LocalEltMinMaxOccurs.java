@@ -16,7 +16,7 @@ package scomp.elements.detailed;
 
 import scomp.common.BaseCase;
 import xbean.scomp.element.localEltMinMaxOccurs.MinMaxOccursDocDocument;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

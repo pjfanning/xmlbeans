@@ -19,13 +19,13 @@ package xmlcursor.checkin;
 
 import junit.framework.*;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
 
 import xmlcursor.common.*;
 
 import test.xbean.xmlcursor.purchaseOrder.USAddress;
-import org.apache.xmlbeans.impl.values.XmlValueDisconnectedException;
+import org.apache.poi.xmlbeans.impl.values.XmlValueDisconnectedException;
 import tools.util.JarUtil;
 
 

@@ -17,9 +17,9 @@ package xmlobject.detailed;
 
 import junit.framework.TestCase;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlError;
 
 import javax.xml.namespace.QName;
 
@@ -134,7 +134,7 @@ public class SoapFaultTest extends TestCase {
 
         assertEquals("The First Fault", firstFault.getAString().trim());
         assertEquals(1, firstFault.getAInt());
-        assertEquals(new org.apache.xmlbeans.XmlCalendar("2003-03-28"),
+        assertEquals(new org.apache.poi.xmlbeans.XmlCalendar("2003-03-28"),
                      firstFault.getADate());
     }
       */

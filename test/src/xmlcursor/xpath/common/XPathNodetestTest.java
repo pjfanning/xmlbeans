@@ -19,10 +19,10 @@ package xmlcursor.xpath.common;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
 
 import xmlcursor.common.BasicCursorTestCase;
 import xmlcursor.common.*;

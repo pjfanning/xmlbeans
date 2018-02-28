@@ -21,7 +21,7 @@ import junit.framework.TestSuite;
 import junit.framework.TestCase;
 import com.easypo.XmlPurchaseOrderDocumentBean;
 import com.easypo.XmlCustomerBean;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 public class TypedObjectCursor extends TestCase{
     public TypedObjectCursor(String name){

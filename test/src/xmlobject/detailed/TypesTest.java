@@ -18,9 +18,9 @@ package xmlobject.detailed;
 
 import junit.framework.*;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.SchemaType;
-import org.apache.xmlbeans.SimpleValue;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.SchemaType;
+import org.apache.poi.xmlbeans.SimpleValue;
 
 import javax.xml.namespace.QName;
 

@@ -23,8 +23,8 @@ import junit.framework.Assert;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
 import com.easypo.XmlPurchaseOrderDocumentBean;
 import com.easypo.XmlPurchaseOrderDocumentBean.PurchaseOrder;
 

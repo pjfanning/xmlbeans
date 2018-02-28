@@ -17,8 +17,8 @@ package scomp.attributes.detailed;
 import xbean.scomp.attribute.globalAttrDefault.GlobalAttrDefaultDocDocument;
 import xbean.scomp.attribute.globalAttrDefault.GlobalAttrDefaultT;
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

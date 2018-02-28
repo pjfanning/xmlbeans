@@ -18,7 +18,7 @@ package scomp.elements.detailed;
 import scomp.common.BaseCase;
 import xbean.scomp.element.globalEltFixed.GlobalEltFixedIntDocument;
 import xbean.scomp.element.globalEltFixed.GlobalEltFixedStrDocument;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

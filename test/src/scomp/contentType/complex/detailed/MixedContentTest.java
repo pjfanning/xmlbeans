@@ -21,10 +21,10 @@ import xbean.scomp.contentType.complexTypeTest.MixedFixedEltDocument;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlInteger;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlErrorCodes;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlInteger;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlException;
 import scomp.common.BaseCase;
 
 /**

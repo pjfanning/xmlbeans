@@ -14,7 +14,7 @@
  */
 package xmlcursor.xpath.common;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 /**
  * Verifies XPath with Expressions

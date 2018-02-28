@@ -14,7 +14,7 @@
  */
  package xmlcursor.xpath.complex.detailed;
 
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 import junit.framework.TestCase;
 import xmlcursor.common.Common;
 

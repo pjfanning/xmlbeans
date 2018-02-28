@@ -27,4 +27,4 @@ set cp=%cp%;%XMLBEANS_LIB%\xmlbeans-qname.jar
 set cp=%cp%;%XMLBEANS_LIB%\jsr173_1.0_api.jar
 set cp=%cp%;%XMLBEANS_LIB%\resolver.jar
 
-java -classpath "%cp%" org.apache.xmlbeans.impl.tool.XSTCTester %*
+java -classpath "%cp%" org.apache.poi.xmlbeans.impl.tool.XSTCTester %*

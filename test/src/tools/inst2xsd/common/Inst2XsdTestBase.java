@@ -14,10 +14,10 @@
  */
 package tools.inst2xsd.common;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2Xsd;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2Xsd;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 
 import java.util.Collection;
 import java.util.ArrayList;

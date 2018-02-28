@@ -13,9 +13,9 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.validation;
+package org.apache.poi.xmlbeans.samples.validation;
 
-import org.apache.xmlbeans.samples.validation.Validation;
+import org.apache.poi.xmlbeans.samples.validation.Validation;
 
 /**
  * A class with which to test the Validation sample.

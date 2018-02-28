@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.io.File;
 
-import org.apache.xmlbeans.impl.tool.SchemaCompiler;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCompiler;
 import common.Common;
 
 /**

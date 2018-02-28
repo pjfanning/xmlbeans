@@ -19,11 +19,11 @@ import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.TestCase;
 import junit.framework.Assert;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.QNameSet;
-import org.apache.xmlbeans.QNameSetBuilder;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.QNameSet;
+import org.apache.poi.xmlbeans.QNameSetBuilder;
 import org.apache.xml.test.selectChldAtt.DocDocument;
 import org.apache.xml.test.selectChldAtt.TypeExtendedC;
 

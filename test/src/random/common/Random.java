@@ -15,13 +15,13 @@
 package random.common;
 
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.SchemaType;
-import org.apache.xmlbeans.impl.tool.CommandLine;
-import org.apache.xmlbeans.impl.values.XmlValueDisconnectedException;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.SchemaType;
+import org.apache.poi.xmlbeans.impl.tool.CommandLine;
+import org.apache.poi.xmlbeans.impl.values.XmlValueDisconnectedException;
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
@@ -31,7 +31,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import javax.xml.namespace.QName;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
+import org.apache.poi.xmlbeans.xml.stream.XMLInputStream;
 
 import com.easypo.XmlPurchaseOrderDocumentBean.PurchaseOrder;
 import com.easypo.XmlCustomerBean;

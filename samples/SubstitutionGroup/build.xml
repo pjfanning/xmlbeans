@@ -48,7 +48,7 @@ limitations under the License.
         </path>
 
         <taskdef name="xmlbean"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.path"/>
     </target>
 
@@ -98,7 +98,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running SubstitutionGroup"/>
         <java
-            classname="org.apache.xmlbeans.samples.substitutiongroup.SubstitutionGroup"
+            classname="org.apache.poi.xmlbeans.samples.substitutiongroup.SubstitutionGroup"
             classpathref="SubstitutionGroup.path"
             fork="true">
             <arg line="xml/Purchase-Order.xml xml/newPurchase-Order.xml"/>
@@ -110,7 +110,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing SchemaEnum"/>
         <java
-            classname="org.apache.xmlbeans.samples.substitutiongroup.SubstitutionGroupTest"
+            classname="org.apache.poi.xmlbeans.samples.substitutiongroup.SubstitutionGroupTest"
             classpathref="SubstitutionGroup.path"
             fork="true">
             <arg line="xml/Purchase-Order.xml xml/newPurchase-Order.xml"/>

@@ -21,10 +21,10 @@ import xbean.scomp.attribute.globalAttrFixed.TestattributeStrAttribute;
 import xbean.scomp.attribute.globalAttrFixed.TestattributeIntAttribute;
 import xbean.scomp.attribute.globalAttrFixed.GlobalAttrFixedT;
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

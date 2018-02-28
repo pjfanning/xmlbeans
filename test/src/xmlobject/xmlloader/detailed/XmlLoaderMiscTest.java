@@ -18,8 +18,8 @@ package xmlobject.xmlloader.detailed;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
 import org.tranxml.tranXML.version40.CarLocationMessageDocument;
 import org.tranxml.tranXML.version40.GeographicLocationDocument.GeographicLocation;
 import tools.util.JarUtil;

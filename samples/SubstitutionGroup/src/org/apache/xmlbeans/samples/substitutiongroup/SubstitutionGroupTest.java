@@ -12,9 +12,9 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.apache.xmlbeans.samples.substitutiongroup;
+package org.apache.poi.xmlbeans.samples.substitutiongroup;
 
-import org.apache.xmlbeans.samples.substitutiongroup.easypo.PurchaseOrderDocument;
+import org.apache.poi.xmlbeans.samples.substitutiongroup.easypo.PurchaseOrderDocument;
 
 /**
  * A class to test the SubstitutionGroup sample.

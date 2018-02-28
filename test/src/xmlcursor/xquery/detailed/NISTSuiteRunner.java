@@ -16,7 +16,7 @@ package xmlcursor.xquery.detailed;
 
 import junit.framework.TestSuite;
 import junit.framework.Test;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlException;
 import tools.util.JarUtil;
 
 import java.io.InputStream;

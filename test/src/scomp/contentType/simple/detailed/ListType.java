@@ -22,10 +22,10 @@ import java.util.List;
 import java.util.LinkedList;
 import java.util.ArrayList;
 
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
-import org.apache.xmlbeans.impl.values.XmlValueNotSupportedException;
-import org.apache.xmlbeans.XmlSimpleList;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.impl.values.XmlValueNotSupportedException;
+import org.apache.poi.xmlbeans.XmlSimpleList;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

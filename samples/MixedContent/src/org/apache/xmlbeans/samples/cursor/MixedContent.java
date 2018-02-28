@@ -13,12 +13,12 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.cursor;
+package org.apache.poi.xmlbeans.samples.cursor;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.samples.cursor.mixedcontent.DescriptionType;
-import org.apache.xmlbeans.samples.cursor.mixedcontent.InventoryDocument;
-import org.apache.xmlbeans.samples.cursor.mixedcontent.ItemType;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.samples.cursor.mixedcontent.DescriptionType;
+import org.apache.poi.xmlbeans.samples.cursor.mixedcontent.InventoryDocument;
+import org.apache.poi.xmlbeans.samples.cursor.mixedcontent.ItemType;
 
 import java.io.File;
 import java.io.IOException;

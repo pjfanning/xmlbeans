@@ -15,7 +15,7 @@
 package scomp.attributes.detailed;
 
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 import xbean.scomp.attribute.globalAttrType.GlobalAttrTypeDocDocument;
 import xbean.scomp.attribute.globalAttrType.GlobalAttrTypeT;
 

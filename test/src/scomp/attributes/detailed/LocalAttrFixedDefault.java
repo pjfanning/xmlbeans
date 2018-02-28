@@ -17,7 +17,7 @@ package scomp.attributes.detailed;
 import scomp.common.BaseCase;
 import xbean.scomp.attribute.localAttrFixedDefault.LocalAttrFixedDefaultT;
 import xbean.scomp.attribute.localAttrFixedDefault.LocalAttrFixedDefaultDocument;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

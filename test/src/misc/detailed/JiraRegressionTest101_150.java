@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.io.File;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.impl.tool.SchemaCompiler;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCompiler;
 import misc.common.JiraTestBase;
 
 /**

@@ -18,17 +18,17 @@ package xmlobject.checkin;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlNormalizedString;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlToken;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlNormalizedString;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlToken;
 import org.openuri.sgs.ADocument;
 import org.openuri.sgs.BDocument;
 import org.openuri.sgs.CDocument;
 import org.openuri.sgs.RootDocument;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 
 public class SubstGroupTests extends TestCase
 {

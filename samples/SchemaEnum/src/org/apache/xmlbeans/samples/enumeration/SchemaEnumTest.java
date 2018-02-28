@@ -13,10 +13,10 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.enumeration;
+package org.apache.poi.xmlbeans.samples.enumeration;
 
-import org.apache.xmlbeans.samples.enumeration.schemaenum.easypo.PurchaseOrderDocument;
-import org.apache.xmlbeans.samples.enumeration.schemaenum.pricesummary.PriceSummaryDocument;
+import org.apache.poi.xmlbeans.samples.enumeration.schemaenum.easypo.PurchaseOrderDocument;
+import org.apache.poi.xmlbeans.samples.enumeration.schemaenum.pricesummary.PriceSummaryDocument;
 
 /**
  * A class to test the SchemaEnum sample.

@@ -19,8 +19,8 @@ import junit.framework.TestCase;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlInteger;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlInteger;
+import org.apache.poi.xmlbeans.XmlCursor;
 import xbean.scomp.contentType.named.NamedEltDocument;
 import xbean.scomp.contentType.named.ElementT;
 import xbean.scomp.contentType.named.NamedMixedEltDocument;

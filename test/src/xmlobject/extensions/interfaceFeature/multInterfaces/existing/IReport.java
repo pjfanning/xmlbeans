@@ -14,7 +14,7 @@
  */
 package  xmlobject.extensions.interfaceFeature.multInterfaces.existing;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 
 public interface IReport extends ISum

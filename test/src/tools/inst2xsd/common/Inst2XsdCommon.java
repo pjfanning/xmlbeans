@@ -14,8 +14,8 @@
  */
 package tools.inst2xsd.common;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
 
 public class Inst2XsdCommon {
 

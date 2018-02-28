@@ -18,9 +18,9 @@ package xmlcursor.detailed;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlObject;
 import test.xbean.xmlcursor.purchaseOrder.PurchaseOrderDocument;
 import test.xbean.xmlcursor.purchaseOrder.PurchaseOrderType;
 import test.xbean.xmlcursor.purchaseOrder.USAddress;

@@ -29,8 +29,8 @@ import xbean.scomp.substGroup.userAbstract.GenericFoo;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  */

@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.impl.tool.CodeGenUtil;
+import org.apache.poi.xmlbeans.impl.tool.CodeGenUtil;
 import tools.util.JarUtil;
 import xmlcursor.common.Common;
 

@@ -54,7 +54,7 @@ limitations under the License.
         </path>
 
         <taskdef name="xmlbean"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.path"/>
     </target>
 
@@ -116,13 +116,13 @@ limitations under the License.
      <target name="XsdConfig.classes" depends="init">
         <mkdir dir="build/classes"/>
 		
-        <javac srcdir="src" includes="org/apache/xmlbeans/samples/xsdconfig/CatalogXsdConfig.java org/apache/xmlbeans/samples/xsdconfig/XsdConfigTest.java"
+        <javac srcdir="src" includes="org/apache/poi/xmlbeans/samples/xsdconfig/CatalogXsdConfig.java org/apache/poi/xmlbeans/samples/xsdconfig/XsdConfigTest.java"
             destdir="build/classes"
             classpathref="XsdConfig.path"
             debug="on"
             source="1.4"
             />  
-        <javac srcdir="src" includes="org/apache/xmlbeans/samples/xsdconfig/CatalogXsd.java org/apache/xmlbeans/samples/xsdconfig/XsdTest.java "
+        <javac srcdir="src" includes="org/apache/poi/xmlbeans/samples/xsdconfig/CatalogXsd.java org/apache/poi/xmlbeans/samples/xsdconfig/XsdTest.java "
             destdir="build/classes"
             classpathref="Xsd.path"
             debug="on"
@@ -136,7 +136,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running Xsd Sample (With XSD only - no Config)"/>  
         <java
-            classname="org.apache.xmlbeans.samples.xsdconfig.CatalogXsd"
+            classname="org.apache.poi.xmlbeans.samples.xsdconfig.CatalogXsd"
             classpathref="Xsd.path"
             fork="true">
             <arg line="xml/catalog.xml"/>
@@ -144,7 +144,7 @@ limitations under the License.
         
         <echo message="============================== running Xsd Sample (With XSD and XsdConfig)"/>
         <java
-            classname="org.apache.xmlbeans.samples.xsdconfig.CatalogXsdConfig"
+            classname="org.apache.poi.xmlbeans.samples.xsdconfig.CatalogXsdConfig"
             classpathref="XsdConfig.path"
             fork="true">
             <arg line="xml/catalog.xml"/>
@@ -157,7 +157,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing XsdTest"/>
         <java
-            classname="org.apache.xmlbeans.samples.xsdconfig.XsdTest"
+            classname="org.apache.poi.xmlbeans.samples.xsdconfig.XsdTest"
             classpathref="Xsd.path"
             fork="true">
             <arg line="xml/catalog.xml"/>
@@ -165,7 +165,7 @@ limitations under the License.
         
         <echo message="============================== testing XsdConfigTest"/>
         <java
-            classname="org.apache.xmlbeans.samples.xsdconfig.XsdConfigTest"
+            classname="org.apache.poi.xmlbeans.samples.xsdconfig.XsdConfigTest"
             classpathref="XsdConfig.path"
             fork="true">
             <arg line="xml/catalog.xml"/>

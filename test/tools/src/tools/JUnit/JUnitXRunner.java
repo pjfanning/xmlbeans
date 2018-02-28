@@ -21,7 +21,7 @@ import junit.framework.*;
 import java.io.*;
 import java.util.*;
 
-import org.apache.xmlbeans.impl.tool.CommandLine;
+import org.apache.poi.xmlbeans.impl.tool.CommandLine;
 
 public class JUnitXRunner extends BaseTestRunner
         implements JUnitXResultFormatter {

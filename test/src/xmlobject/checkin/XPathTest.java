@@ -1,9 +1,9 @@
 package xmlobject.checkin;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 /**
  * Created by Cezar Andrei (cezar dot andrei at gmail dot com)

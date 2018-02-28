@@ -15,8 +15,8 @@
 package scomp.redefine.detailed;
 
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.*;
 import junit.framework.Assert;
 
 import javax.xml.namespace.QName;

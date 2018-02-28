@@ -17,10 +17,10 @@ Schema for xsdconfig can be obtained from XMLBeans source.
 
 For this sample: 
 (1) The java class names generated without the XsdConfig are: 
-	* org.apache.xmlbeans.samples.catalog.ArticleDocument
-	* org.apache.xmlbeans.samples.catalog.AVeryLongDescriptionElementDocument
-	* org.apache.xmlbeans.samples.catalog.CatalogDocument
-	* org.apache.xmlbeans.samples.catalog.JournalDocument
+	* org.apache.poi.xmlbeans.samples.catalog.ArticleDocument
+	* org.apache.poi.xmlbeans.samples.catalog.AVeryLongDescriptionElementDocument
+	* org.apache.poi.xmlbeans.samples.catalog.CatalogDocument
+	* org.apache.poi.xmlbeans.samples.catalog.JournalDocument
 (CatalogXsd.java uses above mentioned classes)
 	
 	

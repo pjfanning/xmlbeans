@@ -16,7 +16,7 @@ package xmlobject.extensions.prePostFeature.ValueRestriction.checkin;
 
 import junit.framework.TestCase;
 import prePostFeature.xbean.valueRestriction.company.*;
-import org.apache.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlString;
 
 
 public class ValueRestrictionTest extends TestCase{

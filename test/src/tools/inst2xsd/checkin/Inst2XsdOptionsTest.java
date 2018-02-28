@@ -16,15 +16,15 @@ package tools.inst2xsd.checkin;
 
 import tools.inst2xsd.common.Inst2XsdTestBase;
 import tools.xml.XmlComparator;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2Xsd;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2Xsd;
 
 
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 
 public class Inst2XsdOptionsTest extends Inst2XsdTestBase {
 

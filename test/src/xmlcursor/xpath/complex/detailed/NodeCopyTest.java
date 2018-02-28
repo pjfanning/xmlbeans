@@ -15,7 +15,7 @@
 package xmlcursor.xpath.complex.detailed;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 //import xbean.scomp.element.globalEltDefault.GlobalEltDefaultIntDocument;
 
 /**

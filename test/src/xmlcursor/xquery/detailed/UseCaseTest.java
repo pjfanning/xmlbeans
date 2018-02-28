@@ -21,8 +21,8 @@ import java.io.IOException;
 
 import xbeans.cases.xmlcursor.xquery.useCases.XmlQueryUseCasesDocument;
 import xbeans.cases.xmlcursor.xquery.useCases.QueryT;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
 import xmlcursor.xpath.common.XPathCommon;
 import xmlcursor.xquery.common.XQTestCase;
 

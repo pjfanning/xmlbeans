@@ -12,9 +12,9 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.apache.xmlbeans.samples.abstracttypes;
+package org.apache.poi.xmlbeans.samples.abstracttypes;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 /**
  * Tests the AbstractTypes sample.

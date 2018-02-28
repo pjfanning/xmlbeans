@@ -21,7 +21,7 @@ import junit.framework.Assert;
 import org.openuri.test.selectChildren.*;
 import org.openuri.test.selectAttribute.*;
 
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 import javax.xml.namespace.QName;
 import java.util.*;

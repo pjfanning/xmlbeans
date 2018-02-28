@@ -16,11 +16,11 @@
 
 package xmlobject.schematypes.checkin;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlCalendar;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlCalendar;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.Assert;
@@ -33,7 +33,7 @@ import java.io.InputStream;
 
 import org.openuri.xstypes.test.*;
 import org.openuri.def.DefaultsDocument;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 
 import javax.xml.namespace.QName;
 
@@ -109,7 +109,7 @@ public class SchemaTypesTests extends TestCase
         //Assert.assertEquals("http://dmoz.org/World/Fran\u00e7ais/", person.getAnyuriAtt().toString());
         Assert.assertEquals("http://3space.org/space%20space/", person.getAnyuri().toString());
 
-        //RuntimeException: src/xmlstore/org/apache/xmlbeans/impl/store/Splay.java(1537): ns != null && ns.length() > 0 failed
+        //RuntimeException: src/xmlstore/org/apache/poi/xmlbeans/impl/store/Splay.java(1537): ns != null && ns.length() > 0 failed
         //Assert.assertEquals("JPEG", person.getNotationAtt().toString());
         //Assert.assertEquals("GIF", person.getNotation().toString());
     }
@@ -150,7 +150,7 @@ public class SchemaTypesTests extends TestCase
         person.setQname(new QName("ddd","eee"));
         Assert.assertEquals("{ddd}eee", person.getQname().toString());
 
-        //Exception: src/xmlstore/org/apache/xmlbeans/impl/store/Type.java(189): user == _user failed
+        //Exception: src/xmlstore/org/apache/poi/xmlbeans/impl/store/Type.java(189): user == _user failed
 //        person.setAnyuriAtt(URI.create("b.d:7002"));
 //        Assert.assertEquals("b.d:7002", person.getAnyuriAtt().toString());
 

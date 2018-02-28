@@ -19,7 +19,7 @@ package xmlcursor.detailed;
 
 import junit.framework.*;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import xmlcursor.common.*;
 

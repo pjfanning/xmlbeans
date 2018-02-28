@@ -13,7 +13,7 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.xsdconfig;
+package org.apache.poi.xmlbeans.samples.xsdconfig;
 
 /**
  *This class uses the package names and class names mentioned in XsdConfig. 
@@ -25,10 +25,10 @@ import com.catalog.XmlJournalDocumentBean;
 import com.catalog.XmlArticleDocumentBean;
 import com.catalog.XmlShortItemBean;
 
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import java.util.ArrayList;
 import java.io.IOException;

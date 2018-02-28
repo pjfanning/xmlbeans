@@ -392,7 +392,7 @@ public abstract class NodeTest extends TestCase implements
         return m_node;
     }
     public void setUp() throws Exception {
-        //m_doc=(org.w3c.dom.Document)org.apache.xmlbeans.XmlObject.Factory.parse(xml).newDomNode();
+        //m_doc=(org.w3c.dom.Document)org.apache.poi.xmlbeans.XmlObject.Factory.parse(xml).newDomNode();
         _loader = Loader.getLoader();
 
         if (sXml == null && sXmlNS == null) throw new IllegalArgumentException("Test bug : Initialize xml strings");

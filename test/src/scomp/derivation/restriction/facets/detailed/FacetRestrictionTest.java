@@ -14,7 +14,7 @@
  */
  package scomp.derivation.restriction.facets.detailed;
 
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 import xbean.scomp.derivation.facets.facetRestriction.*;
 import scomp.common.BaseCase;
 

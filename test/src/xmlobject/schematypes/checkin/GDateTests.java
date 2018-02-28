@@ -19,12 +19,12 @@ import junit.framework.TestCase;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.Assert;
-import org.apache.xmlbeans.GDate;
-import org.apache.xmlbeans.SchemaType;
-import org.apache.xmlbeans.GDateBuilder;
-import org.apache.xmlbeans.GDuration;
-import org.apache.xmlbeans.GDurationBuilder;
-import org.apache.xmlbeans.XmlCalendar;
+import org.apache.poi.xmlbeans.GDate;
+import org.apache.poi.xmlbeans.SchemaType;
+import org.apache.poi.xmlbeans.GDateBuilder;
+import org.apache.poi.xmlbeans.GDuration;
+import org.apache.poi.xmlbeans.GDurationBuilder;
+import org.apache.poi.xmlbeans.XmlCalendar;
 
 import java.util.GregorianCalendar;
 import java.util.Date;

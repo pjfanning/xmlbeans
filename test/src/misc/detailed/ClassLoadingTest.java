@@ -18,7 +18,7 @@ package misc.detailed;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.TestCase;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 import java.io.File;
 import java.util.ArrayList;

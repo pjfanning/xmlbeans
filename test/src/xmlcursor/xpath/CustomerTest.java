@@ -4,7 +4,7 @@ package xmlcursor.xpath;
 import java.io.*;
 import java.util.HashMap;
 
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 /**
  *

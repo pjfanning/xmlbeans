@@ -16,7 +16,7 @@
 
 package misc.detailed;
 
-import org.apache.xmlbeans.impl.common.SystemCache;
+import org.apache.poi.xmlbeans.impl.common.SystemCache;
 
 // This class provides an alternative implementation to the SystemCache that essentially does nothing special
 // Used in testing the SystemCache.set() API to test an alternate implementation being picked up. Used in

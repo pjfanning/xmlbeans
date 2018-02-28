@@ -20,8 +20,8 @@ import xbean.scomp.contentType.anonymous.AnonymousMixedEltDocument.*;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlInteger;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlInteger;
+import org.apache.poi.xmlbeans.XmlCursor;
 import scomp.common.BaseCase;
 
 /**

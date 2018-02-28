@@ -19,8 +19,8 @@ import xbean.scomp.substGroup.oneLevel.*;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  */

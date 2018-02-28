@@ -21,8 +21,8 @@ import java.text.DecimalFormat;
 import java.util.Random;
 import java.util.Stack;
 
-import org.apache.xmlbeans.QNameSetBuilder;
-import org.apache.xmlbeans.QNameSetSpecification;
+import org.apache.poi.xmlbeans.QNameSetBuilder;
+import org.apache.poi.xmlbeans.QNameSetSpecification;
 import junit.framework.TestCase;
 import junit.framework.Assert;
 import junit.framework.Test;

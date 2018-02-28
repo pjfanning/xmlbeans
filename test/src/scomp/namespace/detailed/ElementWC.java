@@ -20,7 +20,7 @@ import xbean.scomp.namespace.elementWC.*;
 
 import javax.xml.namespace.QName;
 
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 /**
  */

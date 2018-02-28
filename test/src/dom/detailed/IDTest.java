@@ -16,7 +16,7 @@
 package dom.detailed;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import tools.util.JarUtil;

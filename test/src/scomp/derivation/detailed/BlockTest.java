@@ -18,9 +18,9 @@ import xbean.scomp.derivation.finalBlockDefault.EltNoBlockDocument;
 import xbean.scomp.derivation.finalBlockDefault.EltDefaultBlockDocument;
 import xbean.scomp.derivation.block.*;
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

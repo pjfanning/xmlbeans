@@ -76,9 +76,9 @@
 <P>When you're finished using a cursor, your code should call its <span class="langinline">dispose</span>
   method.</P>
 <h2>Creating and Moving a Cursor</h2>
-<P>With an XML instance document bound to <span class="langinline"><a href="../reference/org/apache/xmlbeans/XmlObject.html">XmlObject</a></span>
+<P>With an XML instance document bound to <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/XmlObject.html">XmlObject</a></span>
   (or a type inheriting from it), you create a new cursor by calling the <span class="langinline">newCursor</span>
-  method. The <span class="langinline"><a href="../reference/org/apache/xmlbeans/XmlCursor.html">XmlCursor</a></span>
+  method. The <span class="langinline"><a href="../reference/org/apache/poi/xmlbeans/XmlCursor.html">XmlCursor</a></span>
   interface represents a cursor. From a cursor standpoint, an XML document is
   a collection of <EM>tokens</EM> that represent the kinds of things that can
   appear in XML. These include&nbsp;attributes, the start and end of elements,
@@ -91,7 +91,7 @@
   The <span class="langinline">toFirstChild</span> takes the cursor to the start
   tag of the <span class="langinline">batchWidgetOrder</span> document element.
   The code then prints the type for the token at the cursor's location, along
-  with the XML the cursor represents—in other words, <span class="filepath">Token
+  with the XML the cursor representsï¿½in other words, <span class="filepath">Token
   type: START /</span> and the <span class="filepath">batchWidgetOrderElement</span>
   and its contents.</P>
 <pre>public static void insertCursor(File orderFile) throws Exception
@@ -105,7 +105,7 @@
 </pre>
 <p class="notepara"><STRONG>Note</STRONG>: The <span class="langinline">XmlCursor</span>
   interface provides many methods you can use to put a cursor where you want it.
-  For a list of those methods, see <a href="../reference/org/apache/xmlbeans/XmlCursor.html">XmlCursor
+  For a list of those methods, see <a href="../reference/org/apache/poi/xmlbeans/XmlCursor.html">XmlCursor
   Interface</a>.</p>
 <h2><a name="adding_elements_attributes" id="adding_elements_attributes"></a>Adding
   Elements and Attributes</h2>

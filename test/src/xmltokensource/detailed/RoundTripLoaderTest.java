@@ -16,15 +16,15 @@
 
 package xmltokensource.detailed;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
 import xmlcursor.common.BasicCursorTestCase;
 import xmlcursor.common.Common;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 import org.w3c.dom.Node;
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
+import org.apache.poi.xmlbeans.xml.stream.XMLInputStream;
 
 import java.io.InputStream;
 import java.io.Reader;

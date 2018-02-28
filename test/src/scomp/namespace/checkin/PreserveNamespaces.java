@@ -16,8 +16,8 @@
 package scomp.namespace.checkin;
 
 import junit.framework.TestCase;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlCursor;
 import org.xmlsoap.schemas.soap.envelope.EnvelopeDocument;
 import tools.xml.XmlComparator;
 import javax.xml.namespace.QName;

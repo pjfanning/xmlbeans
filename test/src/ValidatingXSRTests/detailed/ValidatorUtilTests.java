@@ -23,8 +23,8 @@ import javax.xml.stream.events.XMLEvent;
 import java.util.Collection;
 import java.util.ArrayList;
 
-import org.apache.xmlbeans.SchemaType;
-import org.apache.xmlbeans.impl.validator.ValidatorUtil;
+import org.apache.poi.xmlbeans.SchemaType;
+import org.apache.poi.xmlbeans.impl.validator.ValidatorUtil;
 import tools.xml.Utils;
 import ValidatingXSRTests.common.TestPrefixResolver;
 

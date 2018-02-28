@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.maven;
+package org.apache.poi.xmlbeans.maven;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +33,7 @@ import java.util.StringTokenizer;
 import org.apache.maven.project.Resource;
 import org.apache.xml.resolver.CatalogManager;
 import org.apache.xml.resolver.tools.CatalogResolver;
-import org.apache.xmlbeans.impl.tool.SchemaCompiler;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCompiler;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;

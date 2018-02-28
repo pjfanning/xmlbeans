@@ -48,7 +48,7 @@ limitations under the License.
         </path>
 
         <taskdef name="xmlbean"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.path"/>
     </target>
 
@@ -98,7 +98,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running SchemaEnum"/>
         <java
-            classname="org.apache.xmlbeans.samples.enumeration.SchemaEnum"
+            classname="org.apache.poi.xmlbeans.samples.enumeration.SchemaEnum"
             classpathref="SchemaEnum.path"
             fork="true">
             <arg line="xml/PurchaseOrder.xml"/>
@@ -110,7 +110,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing SchemaEnum"/>
         <java
-            classname="org.apache.xmlbeans.samples.enumeration.SchemaEnumTest"
+            classname="org.apache.poi.xmlbeans.samples.enumeration.SchemaEnumTest"
             classpathref="SchemaEnum.path"
             fork="true">
             <arg line="xml/PurchaseOrder.xml"/>

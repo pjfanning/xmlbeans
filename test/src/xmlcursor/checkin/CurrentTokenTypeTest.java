@@ -16,9 +16,9 @@
 
 package xmlcursor.checkin;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
 import xmlcursor.common.BasicCursorTestCase;
 import xmlcursor.common.Common;
 import junit.framework.Test;

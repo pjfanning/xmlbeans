@@ -978,8 +978,8 @@ public class Util
     static boolean isFiltered(String line, String[] filters)
     {
         final String[] defaultFilters = new String[]{
-            "org.apache.xmlbeansbeans.test.tools.moosehead",
-            "org.apache.xmlbeansbeans.test.tools.harness.Main",
+            "org.apache.poi.xmlbeansbeans.test.tools.moosehead",
+            "org.apache.poi.xmlbeansbeans.test.tools.harness.Main",
             "junit.framework.TestCase",
             "junit.framework.TestResult",
             "junit.framework.TestSuite",

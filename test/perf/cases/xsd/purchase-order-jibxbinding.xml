@@ -14,7 +14,7 @@
     limitations under the License.
 -->
 <binding>
-	<mapping name="purchase-order" class="org.apache.xmlbeans.test.performance.jibx.binding.JibxPurchaseOrder">
+	<mapping name="purchase-order" class="org.apache.poi.xmlbeans.test.performance.jibx.binding.JibxPurchaseOrder">
 		<namespace uri="http://openuri.org/easypo" default="elements"/>
 		<structure name="customer" field="customer">
 			<value name="name" field="name"/>
@@ -22,7 +22,7 @@
 		</structure>
 		<value name="date" field="date"/>
 		<collection field="lineitems">
-			<structure name="line-item" type="org.apache.xmlbeans.test.performance.jibx.binding.Lineitem">
+			<structure name="line-item" type="org.apache.poi.xmlbeans.test.performance.jibx.binding.Lineitem">
 				<value name="description" field="description"/>
 				<value name="per-unit-ounces" field="perunitounces"/>
 				<value name="price" field="price"/>

@@ -16,8 +16,8 @@ package scomp.elements.detailed;
 
 import scomp.common.BaseCase;
 import xbean.scomp.element.nillTest.*;
-import org.apache.xmlbeans.impl.values.XmlValueNotNillableException;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.impl.values.XmlValueNotNillableException;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import java.math.BigInteger;
 

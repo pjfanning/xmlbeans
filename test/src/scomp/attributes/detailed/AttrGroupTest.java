@@ -18,7 +18,7 @@ package scomp.attributes.detailed;
 import scomp.common.BaseCase;
 import xbean.scomp.attribute.attributeGroup.AttGroupEltDocument;
 import xbean.scomp.attribute.attributeGroup.GlobalT;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 import javax.xml.namespace.QName;
 import java.math.BigDecimal;

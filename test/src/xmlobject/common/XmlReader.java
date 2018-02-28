@@ -20,11 +20,11 @@ import java.io.IOException;
 
 import tools.util.ResourceUtil;
 
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
 
 /**
  *  XmlReader: A class that implements Runnable. It creates an XMLBean for a given XML

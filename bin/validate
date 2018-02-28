@@ -29,4 +29,4 @@ case "`uname`" in
         ;;
 esac
 
-exec java -classpath "$cp" org.apache.xmlbeans.impl.tool.InstanceValidator "$@"
+exec java -classpath "$cp" org.apache.poi.xmlbeans.impl.tool.InstanceValidator "$@"

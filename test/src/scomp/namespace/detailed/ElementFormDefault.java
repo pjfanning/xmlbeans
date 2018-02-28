@@ -19,9 +19,9 @@ package scomp.namespace.detailed;
 import scomp.common.BaseCase;
 import xbean.scomp.namespace.elementFormDefault.ElementFormDefaultEltDocument;
 import xbean.scomp.namespace.elementFormDefault.ElementT;
-import org.apache.xmlbeans.XmlAnySimpleType;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlAnySimpleType;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  */

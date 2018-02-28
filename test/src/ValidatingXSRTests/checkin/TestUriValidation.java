@@ -4,8 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.TestCase;
 import junit.framework.Assert;
-import org.apache.xmlbeans.impl.util.XsTypeConverter;
-import org.apache.xmlbeans.impl.common.InvalidLexicalValueException;
+import org.apache.poi.xmlbeans.impl.util.XsTypeConverter;
+import org.apache.poi.xmlbeans.impl.common.InvalidLexicalValueException;
 
 /**
  * Created by Cezar Andrei (cezar dot andrei at gmail dot com)

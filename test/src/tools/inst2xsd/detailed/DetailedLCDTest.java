@@ -15,7 +15,7 @@
 package tools.inst2xsd.detailed;
 
 import tools.inst2xsd.common.Inst2XsdTestBase;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 public class DetailedLCDTest extends Inst2XsdTestBase {
 

@@ -18,7 +18,7 @@ package xmlobject.detailed;
 
 import junit.framework.*;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import xmlcursor.common.*;
 
@@ -28,7 +28,7 @@ import test.xbean.xmlcursor.purchaseOrder.PurchaseOrderDocument;
 import knextest.bug38361.TestDocument;
 
 
-import org.apache.xmlbeans.impl.values.XmlValueNotNillableException;
+import org.apache.poi.xmlbeans.impl.values.XmlValueNotNillableException;
 import tools.util.JarUtil;
 
 

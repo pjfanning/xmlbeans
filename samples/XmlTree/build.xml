@@ -48,7 +48,7 @@ limitations under the License.
         </path>
 
         <taskdef name="xmlbean"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.path"/>
     </target>
 
@@ -98,7 +98,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running XmlTree"/>
         <java
-            classname="org.apache.xmlbeans.samples.xmltree.XmlTree"
+            classname="org.apache.poi.xmlbeans.samples.xmltree.XmlTree"
             classpathref="XmlTree.path"
             fork="true">
             <arg line="xml/PurchaseOrder.xml"/>
@@ -110,7 +110,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing XmlTree"/>
         <java
-            classname="org.apache.xmlbeans.samples.xmltree.XmlTreeTest"
+            classname="org.apache.poi.xmlbeans.samples.xmltree.XmlTreeTest"
             classpathref="XmlTree.path"
             fork="true">
             <arg line="xml/PurchaseOrder.xml"/>

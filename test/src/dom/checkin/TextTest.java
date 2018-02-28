@@ -133,7 +133,7 @@ public class TextTest extends CharacterDataTest {
     }
 
     public void testDelete()throws Exception{
-        org.apache.xmlbeans.XmlObject o= org.apache.xmlbeans.XmlObject.Factory.parse("<foo/>");
+        org.apache.poi.xmlbeans.XmlObject o= org.apache.poi.xmlbeans.XmlObject.Factory.parse("<foo/>");
         Node d = o.newDomNode();
         assertEquals("foo",d.getFirstChild().getLocalName());
     }

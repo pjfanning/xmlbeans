@@ -28,13 +28,13 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.GDate;
-import org.apache.xmlbeans.SimpleValue;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.SchemaType;
-import org.apache.xmlbeans.XmlDate;
-import org.apache.xmlbeans.XmlDateTime;
-import org.apache.xmlbeans.XmlCalendar;
+import org.apache.poi.xmlbeans.GDate;
+import org.apache.poi.xmlbeans.SimpleValue;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.SchemaType;
+import org.apache.poi.xmlbeans.XmlDate;
+import org.apache.poi.xmlbeans.XmlDateTime;
+import org.apache.poi.xmlbeans.XmlCalendar;
 
 public class ListAndUnionTests extends TestCase
 {

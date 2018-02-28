@@ -31,8 +31,8 @@ package compile.scomp.som.common;
 import compile.scomp.common.CompileCommon;
 import compile.scomp.common.CompileTestBase;
 import junit.framework.Assert;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.tool.Diff;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.tool.Diff;
 
 import javax.xml.namespace.QName;
 import java.io.File;

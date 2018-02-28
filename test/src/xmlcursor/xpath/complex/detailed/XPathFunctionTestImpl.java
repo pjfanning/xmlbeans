@@ -17,7 +17,7 @@ package xmlcursor.xpath.complex.detailed;
 
 import xmlcursor.xpath.common.XPathFunctionTest;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 /**
  * Queries here overwrite whatever is loaded in the query map if

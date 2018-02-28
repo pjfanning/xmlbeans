@@ -18,7 +18,7 @@ import scomp.common.BaseCase;
 import xbean.scomp.attribute.globalAttrId.GlobalAttrIdT;
 import xbean.scomp.attribute.globalAttrId.GlobalAttrIdDocument;
 import xbean.scomp.attribute.globalAttrId.IDRefT;
-import org.apache.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlString;
 
 import javax.xml.namespace.QName;
 

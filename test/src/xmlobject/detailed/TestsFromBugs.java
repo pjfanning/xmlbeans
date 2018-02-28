@@ -15,7 +15,7 @@
 
 package xmlobject.detailed;
 
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 import com.mytest.Bar;
 import com.mytest.Foo;
 import com.mytest.Info;

@@ -22,8 +22,8 @@ import prePostFeature.xbean.readOnlyBean.purchaseOrder.Items.Item;
 import javax.xml.namespace.QName;
 import java.math.BigDecimal;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.PrePostExtension;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.PrePostExtension;
 
 public class FooHandler
 {

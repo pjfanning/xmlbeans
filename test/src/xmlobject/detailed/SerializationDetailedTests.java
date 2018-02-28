@@ -19,7 +19,7 @@ package xmlobject.detailed;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.XmlInteger;
+import org.apache.poi.xmlbeans.XmlInteger;
 import org.w3c.dom.DocumentFragment;
 import org.w3c.dom.Node;
 

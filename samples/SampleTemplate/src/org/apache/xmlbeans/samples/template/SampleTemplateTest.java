@@ -13,7 +13,7 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.template;
+package org.apache.poi.xmlbeans.samples.template;
 
 /**
  * A class with which to test the SampleTemplate sample.
@@ -24,7 +24,7 @@ public class SampleTemplateTest
      * Tests the SampleTemplate sample.
      */
     public static void main(String[] args)
-        throws org.apache.xmlbeans.XmlException, java.io.IOException
+        throws org.apache.poi.xmlbeans.XmlException, java.io.IOException
     {
         // all we're checking for is that the sample doesn't throw anything.
         // a real sample test might assert something more interesting.

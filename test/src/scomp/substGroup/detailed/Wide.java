@@ -23,7 +23,7 @@ import xbean.scomp.substGroup.deep.ItemsDocument;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  */

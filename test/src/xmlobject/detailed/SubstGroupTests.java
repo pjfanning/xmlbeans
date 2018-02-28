@@ -17,10 +17,10 @@ package xmlobject.detailed;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.impl.values.XmlValueDisconnectedException;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.impl.values.XmlValueDisconnectedException;
 import tools.xml.XmlComparator;
 import xmlobject.substgroup.*;
 

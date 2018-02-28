@@ -17,8 +17,8 @@ import org.openuri.mytest.Person;
 import org.openuri.mytest.CustomerDocument;
 
 import java.util.Date;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlCursor;
 import drtcases.TestEnv;
 import junit.framework.Assert;
 

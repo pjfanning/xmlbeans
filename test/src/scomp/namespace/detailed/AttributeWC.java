@@ -17,7 +17,7 @@ package scomp.namespace.detailed;
 
 import scomp.common.BaseCase;
 import xbean.scomp.namespace.attributeWC.*;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

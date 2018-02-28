@@ -13,7 +13,7 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.xsdconfig;
+package org.apache.poi.xmlbeans.samples.xsdconfig;
 
 import com.catalog.XmlCatalogDocumentBean;
 

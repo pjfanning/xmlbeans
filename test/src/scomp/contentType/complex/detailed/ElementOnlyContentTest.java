@@ -19,9 +19,9 @@ import junit.framework.TestCase;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlInteger;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlInteger;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 import xbean.scomp.contentType.complexTypeTest.EltTypeDocument;
 import xbean.scomp.contentType.complexTypeTest.ElementT;

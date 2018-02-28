@@ -24,7 +24,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import java.io.StringReader;
 import java.io.IOException;
@@ -65,7 +65,7 @@ public class AttrNamespaceTest extends TestCase {
         assertEquals(namespaceURI, bar.getNamespaceURI());
         assertEquals(qualifiedName, bar.getNodeName());
         /*
-	org.apache.xmlbeans.XmlCursor cur=Public2.getCursor(m_node);
+	org.apache.poi.xmlbeans.XmlCursor cur=Public2.getCursor(m_node);
 	assertFalse(cur.isAttr());
 	assertTrue(cur.isNamespace());
 	assertTrue(cur.isAnyAttr());
@@ -89,7 +89,7 @@ public class AttrNamespaceTest extends TestCase {
         if(!(m_node instanceof DomImpl))
             fail(m_node.getClass().toString());
 
-        org.apache.xmlbeans.XmlCursor  cur=Public2.getCursor(m_node);
+        org.apache.poi.xmlbeans.XmlCursor  cur=Public2.getCursor(m_node);
 
         assertFalse(cur.isNamespace());
         assertTrue(cur.isAnyAttr());

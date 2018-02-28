@@ -16,8 +16,8 @@
 package scomp.attributes.detailed;
 
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 import xbean.scomp.attribute.localAttrUse.LocalAttrUseDocDocument;
 import xbean.scomp.attribute.localAttrUse.LocalAttrUseT;

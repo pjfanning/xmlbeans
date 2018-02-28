@@ -14,7 +14,7 @@
  */
 package tools.xml;
 
-import org.apache.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlError;
 
 import java.util.Collection;
 import java.util.Iterator;

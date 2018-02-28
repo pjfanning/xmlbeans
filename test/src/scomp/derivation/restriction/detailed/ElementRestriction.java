@@ -16,10 +16,10 @@ package scomp.derivation.restriction.detailed;
 
 import xbean.scomp.derivation.elementRestriction.ElementDocument;
 import xbean.scomp.derivation.elementRestriction.RestrictedEltT;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlErrorCodes;
-import org.apache.xmlbeans.XmlDecimal;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlDecimal;
 import scomp.common.BaseCase;
 
 

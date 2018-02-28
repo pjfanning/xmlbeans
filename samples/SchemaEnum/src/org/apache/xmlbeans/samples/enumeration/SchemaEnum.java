@@ -13,17 +13,17 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.enumeration;
+package org.apache.poi.xmlbeans.samples.enumeration;
 
-import org.apache.xmlbeans.XmlError;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.samples.enumeration.schemaenum.easypo.LineItem;
-import org.apache.xmlbeans.samples.enumeration.schemaenum.easypo.PurchaseOrderDocument;
-import org.apache.xmlbeans.samples.enumeration.schemaenum.pricesummary.ItemType;
-import org.apache.xmlbeans.samples.enumeration.schemaenum.pricesummary.PriceSummaryDocument;
-import org.apache.xmlbeans.samples.enumeration.schemaenum.pricesummary.PriceType;
+import org.apache.poi.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.samples.enumeration.schemaenum.easypo.LineItem;
+import org.apache.poi.xmlbeans.samples.enumeration.schemaenum.easypo.PurchaseOrderDocument;
+import org.apache.poi.xmlbeans.samples.enumeration.schemaenum.pricesummary.ItemType;
+import org.apache.poi.xmlbeans.samples.enumeration.schemaenum.pricesummary.PriceSummaryDocument;
+import org.apache.poi.xmlbeans.samples.enumeration.schemaenum.pricesummary.PriceType;
 
 import java.io.File;
 import java.io.IOException;

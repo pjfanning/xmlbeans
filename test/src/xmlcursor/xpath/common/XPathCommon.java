@@ -15,10 +15,10 @@
 
 package xmlcursor.xpath.common;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
 import junit.framework.Assert;
 import tools.xml.XmlComparator;
 

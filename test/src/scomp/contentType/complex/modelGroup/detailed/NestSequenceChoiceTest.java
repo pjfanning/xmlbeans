@@ -17,7 +17,7 @@ package scomp.contentType.complex.modelGroup.detailed;
 import scomp.common.BaseCase;
 import xbean.scomp.contentType.modelGroup.NestedChoiceInSequenceDocument;
 import xbean.scomp.contentType.modelGroup.NestedChoiceInSequenceT;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

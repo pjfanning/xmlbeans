@@ -36,7 +36,7 @@ import noNamespace.*;
 
 import noNamespace.TestResultType.ExecutionOutput;
 
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import tools.io.TeeOutputStream;
 

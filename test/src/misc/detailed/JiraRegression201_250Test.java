@@ -28,8 +28,8 @@ import java.util.Iterator;
 
 import javax.xml.namespace.QName;
 
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlError;
 
 /**
  *

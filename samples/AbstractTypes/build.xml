@@ -33,7 +33,7 @@
         </path>
 
         <taskdef name="scomp"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.classpath"/>
     </target>
 
@@ -49,7 +49,7 @@
     </target>
 
     <target name="build.check">
-        <uptodate property="build.notRequired" targetfile="build/org/apache/xmlbeans/samples/abstracttypes/AbstractTypes.class">
+        <uptodate property="build.notRequired" targetfile="build/org/apache/poi/xmlbeans/samples/abstracttypes/AbstractTypes.class">
             <srcfiles dir="." includes="schemas/*.xsd,src/**/*.java"/>
         </uptodate>
     </target>
@@ -80,7 +80,7 @@
     </target>
 
     <target name="run" depends="build">
-        <java classname="org.apache.xmlbeans.samples.abstracttypes.AbstractTypes" fork="yes">
+        <java classname="org.apache.poi.xmlbeans.samples.abstracttypes.AbstractTypes" fork="yes">
             <classpath>
                 <path refid="xmlbeans.classpath"/>
                 <pathelement location="build/${abstract.jar}"/>
@@ -92,7 +92,7 @@
 
     <target name="test" depends="build">
         <echo message="============================== testing AbstractTypes"/>
-        <java classname="org.apache.xmlbeans.samples.abstracttypes.AbstractTypesTest" fork="yes">
+        <java classname="org.apache.poi.xmlbeans.samples.abstracttypes.AbstractTypesTest" fork="yes">
             <classpath>
                 <path refid="xmlbeans.classpath"/>
                 <pathelement location="build/${abstract.jar}"/>

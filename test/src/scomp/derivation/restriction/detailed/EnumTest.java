@@ -16,8 +16,8 @@
 package scomp.derivation.restriction.detailed;
 
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.*;
 
 import java.util.List;
 import java.util.ArrayList;

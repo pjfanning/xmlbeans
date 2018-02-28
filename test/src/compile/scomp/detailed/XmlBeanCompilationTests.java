@@ -16,8 +16,8 @@
 package compile.scomp.detailed;
 
 import junit.framework.Assert;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.xb.xmlconfig.ConfigDocument;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.xb.xmlconfig.ConfigDocument;
 
 import java.io.*;
 import java.util.*;

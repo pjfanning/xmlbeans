@@ -19,7 +19,7 @@ import scomp.common.BaseCase;
 import xbean.scomp.contentType.builtIn.string.*;
 import xbean.scomp.contentType.builtIn.number.*;
 import xbean.scomp.contentType.builtIn.date.*;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

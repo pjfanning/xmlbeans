@@ -14,8 +14,8 @@
  */
 package compile.scomp.checkin;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.schema.SchemaTypeSystemImpl;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.schema.SchemaTypeSystemImpl;
 import compile.scomp.common.mockobj.TestFiler;
 import compile.scomp.common.CompileCommon;
 import compile.scomp.common.CompileTestBase;

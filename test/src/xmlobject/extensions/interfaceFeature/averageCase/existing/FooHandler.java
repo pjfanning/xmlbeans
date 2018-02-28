@@ -19,7 +19,7 @@ package xmlobject.extensions.interfaceFeature.averageCase.existing;
 import interfaceFeature.xbean.averageCase.purchaseOrder.PurchaseOrderDocument ;
 import interfaceFeature.xbean.averageCase.purchaseOrder.PurchaseOrderType;
 import interfaceFeature.xbean.averageCase.purchaseOrder.Items.Item;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 public class FooHandler
 {

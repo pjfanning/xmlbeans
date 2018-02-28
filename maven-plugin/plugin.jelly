@@ -30,7 +30,7 @@
     <define:taglib uri="xmlbeans2:maven">
         <define:jellybean
             name="SchemaCompilerWrapper"
-            className="org.apache.xmlbeans.maven.SchemaCompilerWrapper"
+            className="org.apache.poi.xmlbeans.maven.SchemaCompilerWrapper"
             method="compileSchemas"/>
 
 

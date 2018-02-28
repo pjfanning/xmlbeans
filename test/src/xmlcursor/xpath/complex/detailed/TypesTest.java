@@ -14,17 +14,17 @@
  */
 package xmlcursor.xpath.complex.detailed;
 
-import org.apache.xmlbeans.GDurationSpecification;
-import org.apache.xmlbeans.GDurationBuilder;
-import org.apache.xmlbeans.XmlDate;
-import org.apache.xmlbeans.XmlDecimal;
-import org.apache.xmlbeans.XmlObject;
-//import org.apache.xmlbeans.XmlInt;
-import org.apache.xmlbeans.XmlLong;
-import org.apache.xmlbeans.XmlTime;
-//import org.apache.xmlbeans.XmlByte;
-import org.apache.xmlbeans.XmlAnyURI;
-//import org.apache.xmlbeans.XmlDateTime;
+import org.apache.poi.xmlbeans.GDurationSpecification;
+import org.apache.poi.xmlbeans.GDurationBuilder;
+import org.apache.poi.xmlbeans.XmlDate;
+import org.apache.poi.xmlbeans.XmlDecimal;
+import org.apache.poi.xmlbeans.XmlObject;
+//import org.apache.poi.xmlbeans.XmlInt;
+import org.apache.poi.xmlbeans.XmlLong;
+import org.apache.poi.xmlbeans.XmlTime;
+//import org.apache.poi.xmlbeans.XmlByte;
+import org.apache.poi.xmlbeans.XmlAnyURI;
+//import org.apache.poi.xmlbeans.XmlDateTime;
 
 import junit.framework.TestCase;
 

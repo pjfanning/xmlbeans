@@ -12,14 +12,14 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.apache.xmlbeans.samples.cursor;
+package org.apache.poi.xmlbeans.samples.cursor;
 
 import statement.StatementDocument;
 import statement.StatementDocument.Statement;
 import statement.Transaction;
 import java.io.File;
 
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 import javax.xml.namespace.QName;
 

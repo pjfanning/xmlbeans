@@ -12,10 +12,10 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.apache.xmlbeans.samples.xmltree;
+package org.apache.poi.xmlbeans.samples.xmltree;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import javax.xml.namespace.QName;
 

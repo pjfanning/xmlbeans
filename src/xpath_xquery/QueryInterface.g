@@ -1,1 +1,1 @@
-org.apache.xmlbeans.impl.xquery.saxon.XBeansXQuery
+org.apache.poi.xmlbeans.impl.xquery.saxon.XBeansXQuery

@@ -27,4 +27,4 @@ case "`uname`" in
         ;;
 esac
 
-java -Xmx256m -classpath "$cp" org.apache.xmlbeans.impl.tool.TypeHierarchyPrinter "$@"
+java -Xmx256m -classpath "$cp" org.apache.poi.xmlbeans.impl.tool.TypeHierarchyPrinter "$@"

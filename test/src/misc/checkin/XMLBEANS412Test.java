@@ -4,8 +4,8 @@ import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.impl.regex.ParseException;
-import org.apache.xmlbeans.impl.regex.RegularExpression;
+import org.apache.poi.xmlbeans.impl.regex.ParseException;
+import org.apache.poi.xmlbeans.impl.regex.RegularExpression;
 
 import java.util.StringTokenizer;
 

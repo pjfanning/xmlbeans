@@ -19,10 +19,10 @@ package xmlcursor.common;
 
 import junit.framework.*;
 import junit.framework.Assert.*;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlError;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlError;
 
 import javax.xml.namespace.QName;
 import java.util.*;

@@ -16,8 +16,8 @@ package scomp.contentType.complex.modelGroup.detailed;
 
 import xbean.scomp.contentType.modelGroup.SequenceEltDocument;
 import xbean.scomp.contentType.modelGroup.SequenceT;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 import scomp.common.BaseCase;
 
 import java.math.BigInteger;

@@ -1,20 +1,20 @@
 /*
  * XML Type:  itemType
  * Namespace: http://xmlbeans.apache.org/samples/validation/todolist
- * Java type: org.apache.xmlbeans.samples.validation.todolist.ItemType
+ * Java type: org.apache.poi.xmlbeans.samples.validation.todolist.ItemType
  *
  * Automatically generated - do not modify.
  */
-package org.apache.xmlbeans.samples.validation.todolist.impl;
+package org.apache.poi.xmlbeans.samples.validation.todolist.impl;
 /**
  * An XML itemType(@http://xmlbeans.apache.org/samples/validation/todolist).
  *
  * This is a complex type.
  */
-public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.xmlbeans.samples.validation.todolist.ItemType
+public class ItemTypeImpl extends org.apache.poi.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.poi.xmlbeans.samples.validation.todolist.ItemType
 {
     
-    public ItemTypeImpl(org.apache.xmlbeans.SchemaType sType)
+    public ItemTypeImpl(org.apache.poi.xmlbeans.SchemaType sType)
     {
         super(sType);
     }
@@ -39,8 +39,8 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(NAME$0, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(NAME$0, 0);
             if (target == null)
             {
                 return null;
@@ -52,13 +52,13 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Gets (as xml) the "name" element
      */
-    public org.apache.xmlbeans.XmlString xgetName()
+    public org.apache.poi.xmlbeans.XmlString xgetName()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(NAME$0, 0);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(NAME$0, 0);
             return target;
         }
     }
@@ -71,11 +71,11 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(NAME$0, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(NAME$0, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(NAME$0);
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_element_user(NAME$0);
             }
             target.setStringValue(name);
         }
@@ -84,16 +84,16 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Sets (as xml) the "name" element
      */
-    public void xsetName(org.apache.xmlbeans.XmlString name)
+    public void xsetName(org.apache.poi.xmlbeans.XmlString name)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(NAME$0, 0);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(NAME$0, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(NAME$0);
+                target = (org.apache.poi.xmlbeans.XmlString)get_store().add_element_user(NAME$0);
             }
             target.set(name);
         }
@@ -107,8 +107,8 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DESCRIPTION$2, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(DESCRIPTION$2, 0);
             if (target == null)
             {
                 return null;
@@ -120,13 +120,13 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Gets (as xml) the "description" element
      */
-    public org.apache.xmlbeans.XmlString xgetDescription()
+    public org.apache.poi.xmlbeans.XmlString xgetDescription()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(DESCRIPTION$2, 0);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(DESCRIPTION$2, 0);
             return target;
         }
     }
@@ -151,11 +151,11 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DESCRIPTION$2, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(DESCRIPTION$2, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(DESCRIPTION$2);
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_element_user(DESCRIPTION$2);
             }
             target.setStringValue(description);
         }
@@ -164,16 +164,16 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Sets (as xml) the "description" element
      */
-    public void xsetDescription(org.apache.xmlbeans.XmlString description)
+    public void xsetDescription(org.apache.poi.xmlbeans.XmlString description)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(DESCRIPTION$2, 0);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(DESCRIPTION$2, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(DESCRIPTION$2);
+                target = (org.apache.poi.xmlbeans.XmlString)get_store().add_element_user(DESCRIPTION$2);
             }
             target.set(description);
         }
@@ -199,8 +199,8 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DUEBY$4, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(DUEBY$4, 0);
             if (target == null)
             {
                 return null;
@@ -212,13 +212,13 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Gets (as xml) the "due_by" element
      */
-    public org.apache.xmlbeans.XmlDateTime xgetDueBy()
+    public org.apache.poi.xmlbeans.XmlDateTime xgetDueBy()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlDateTime target = null;
-            target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(DUEBY$4, 0);
+            org.apache.poi.xmlbeans.XmlDateTime target = null;
+            target = (org.apache.poi.xmlbeans.XmlDateTime)get_store().find_element_user(DUEBY$4, 0);
             return target;
         }
     }
@@ -243,11 +243,11 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(DUEBY$4, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(DUEBY$4, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(DUEBY$4);
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_element_user(DUEBY$4);
             }
             target.setCalendarValue(dueBy);
         }
@@ -256,16 +256,16 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Sets (as xml) the "due_by" element
      */
-    public void xsetDueBy(org.apache.xmlbeans.XmlDateTime dueBy)
+    public void xsetDueBy(org.apache.poi.xmlbeans.XmlDateTime dueBy)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlDateTime target = null;
-            target = (org.apache.xmlbeans.XmlDateTime)get_store().find_element_user(DUEBY$4, 0);
+            org.apache.poi.xmlbeans.XmlDateTime target = null;
+            target = (org.apache.poi.xmlbeans.XmlDateTime)get_store().find_element_user(DUEBY$4, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlDateTime)get_store().add_element_user(DUEBY$4);
+                target = (org.apache.poi.xmlbeans.XmlDateTime)get_store().add_element_user(DUEBY$4);
             }
             target.set(dueBy);
         }
@@ -286,31 +286,31 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Gets the "action" element
      */
-    public org.apache.xmlbeans.samples.validation.todolist.ActionType.Enum getAction()
+    public org.apache.poi.xmlbeans.samples.validation.todolist.ActionType.Enum getAction()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ACTION$6, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(ACTION$6, 0);
             if (target == null)
             {
                 return null;
             }
-            return (org.apache.xmlbeans.samples.validation.todolist.ActionType.Enum)target.getEnumValue();
+            return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType.Enum)target.getEnumValue();
         }
     }
     
     /**
      * Gets (as xml) the "action" element
      */
-    public org.apache.xmlbeans.samples.validation.todolist.ActionType xgetAction()
+    public org.apache.poi.xmlbeans.samples.validation.todolist.ActionType xgetAction()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.samples.validation.todolist.ActionType target = null;
-            target = (org.apache.xmlbeans.samples.validation.todolist.ActionType)get_store().find_element_user(ACTION$6, 0);
+            org.apache.poi.xmlbeans.samples.validation.todolist.ActionType target = null;
+            target = (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType)get_store().find_element_user(ACTION$6, 0);
             return target;
         }
     }
@@ -318,16 +318,16 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Sets the "action" element
      */
-    public void setAction(org.apache.xmlbeans.samples.validation.todolist.ActionType.Enum action)
+    public void setAction(org.apache.poi.xmlbeans.samples.validation.todolist.ActionType.Enum action)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(ACTION$6, 0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(ACTION$6, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(ACTION$6);
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_element_user(ACTION$6);
             }
             target.setEnumValue(action);
         }
@@ -336,16 +336,16 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Sets (as xml) the "action" element
      */
-    public void xsetAction(org.apache.xmlbeans.samples.validation.todolist.ActionType action)
+    public void xsetAction(org.apache.poi.xmlbeans.samples.validation.todolist.ActionType action)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.samples.validation.todolist.ActionType target = null;
-            target = (org.apache.xmlbeans.samples.validation.todolist.ActionType)get_store().find_element_user(ACTION$6, 0);
+            org.apache.poi.xmlbeans.samples.validation.todolist.ActionType target = null;
+            target = (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType)get_store().find_element_user(ACTION$6, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.samples.validation.todolist.ActionType)get_store().add_element_user(ACTION$6);
+                target = (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType)get_store().add_element_user(ACTION$6);
             }
             target.set(action);
         }
@@ -359,8 +359,8 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$8);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$8);
             if (target == null)
             {
                 return 0;
@@ -372,13 +372,13 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Gets (as xml) the "id" attribute
      */
-    public org.apache.xmlbeans.samples.validation.todolist.IdType xgetId()
+    public org.apache.poi.xmlbeans.samples.validation.todolist.IdType xgetId()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.samples.validation.todolist.IdType target = null;
-            target = (org.apache.xmlbeans.samples.validation.todolist.IdType)get_store().find_attribute_user(ID$8);
+            org.apache.poi.xmlbeans.samples.validation.todolist.IdType target = null;
+            target = (org.apache.poi.xmlbeans.samples.validation.todolist.IdType)get_store().find_attribute_user(ID$8);
             return target;
         }
     }
@@ -403,11 +403,11 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$8);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$8);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_attribute_user(ID$8);
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_attribute_user(ID$8);
             }
             target.setIntValue(id);
         }
@@ -416,16 +416,16 @@ public class ItemTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCont
     /**
      * Sets (as xml) the "id" attribute
      */
-    public void xsetId(org.apache.xmlbeans.samples.validation.todolist.IdType id)
+    public void xsetId(org.apache.poi.xmlbeans.samples.validation.todolist.IdType id)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.samples.validation.todolist.IdType target = null;
-            target = (org.apache.xmlbeans.samples.validation.todolist.IdType)get_store().find_attribute_user(ID$8);
+            org.apache.poi.xmlbeans.samples.validation.todolist.IdType target = null;
+            target = (org.apache.poi.xmlbeans.samples.validation.todolist.IdType)get_store().find_attribute_user(ID$8);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.samples.validation.todolist.IdType)get_store().add_attribute_user(ID$8);
+                target = (org.apache.poi.xmlbeans.samples.validation.todolist.IdType)get_store().add_attribute_user(ID$8);
             }
             target.set(id);
         }

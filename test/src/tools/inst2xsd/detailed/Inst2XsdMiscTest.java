@@ -15,10 +15,10 @@
 package tools.inst2xsd.detailed;
 
 import tools.inst2xsd.common.Inst2XsdTestBase;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
-import org.apache.xmlbeans.impl.inst2xsd.Inst2Xsd;
-import org.apache.xmlbeans.impl.common.IOUtil;
-import org.apache.xmlbeans.impl.tool.CommandLine;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2XsdOptions;
+import org.apache.poi.xmlbeans.impl.inst2xsd.Inst2Xsd;
+import org.apache.poi.xmlbeans.impl.common.IOUtil;
+import org.apache.poi.xmlbeans.impl.tool.CommandLine;
 
 
 import java.io.File;
@@ -26,8 +26,8 @@ import java.io.IOException;
 import java.io.FileReader;
 import java.io.PrintStream;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 
 public class Inst2XsdMiscTest extends Inst2XsdTestBase {
 

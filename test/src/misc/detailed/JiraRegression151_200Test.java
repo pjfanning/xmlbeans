@@ -16,9 +16,9 @@
 package misc.detailed;
 
 import misc.common.JiraTestBase;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.impl.tool.SchemaCompiler;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.impl.tool.SchemaCompiler;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

@@ -18,8 +18,8 @@ package xmlcursor.xpath.complex.detailed;
 import xmlcursor.common.Common;
 import xmlcursor.xpath.common.XPathExpressionTest;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 /**
  * Verifies XPath with Expressions

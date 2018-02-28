@@ -16,10 +16,10 @@ package xmlcursor.detailed;
 
 import java.io.*;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlLineNumber;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlLineNumber;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

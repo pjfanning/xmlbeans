@@ -21,9 +21,9 @@ import xbean.scomp.contentType.union.*;
 import java.util.List;
 import java.util.ArrayList;
 
-import org.apache.xmlbeans.XmlErrorCodes;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 /**
  *

@@ -21,14 +21,14 @@ import junit.framework.Assert.*;
 
 import java.io.*;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.SchemaTypeSystem;
-import org.apache.xmlbeans.SchemaType;
-import org.apache.xmlbeans.SchemaTypeLoader;
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.SchemaTypeSystem;
+import org.apache.poi.xmlbeans.SchemaType;
+import org.apache.poi.xmlbeans.SchemaTypeLoader;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import java.util.*;
 import javax.xml.namespace.QName;
@@ -40,7 +40,7 @@ import xmlcursor.common.*;
 
 import java.net.URL;
 
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
+import org.apache.poi.xmlbeans.xml.stream.XMLInputStream;
 import org.tranxml.tranXML.version40.CarLocationMessageDocument;
 import org.tranxml.tranXML.version40.FleetIDDocument;
 import tools.util.Util;

@@ -13,9 +13,9 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.anytype;
+package org.apache.poi.xmlbeans.samples.anytype;
 
-import org.apache.xmlbeans.samples.any.RootDocument;
+import org.apache.poi.xmlbeans.samples.any.RootDocument;
 
 /**
  * A class with which to test the Any sample.

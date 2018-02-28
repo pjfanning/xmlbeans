@@ -19,9 +19,9 @@ import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.xml.stream.XMLInputStream;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 import javax.xml.namespace.QName;
 import java.io.File;

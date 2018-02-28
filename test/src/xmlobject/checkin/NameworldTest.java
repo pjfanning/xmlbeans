@@ -18,9 +18,9 @@ package xmlobject.checkin;
 import org.openuri.nameworld.NameworldDocument;
 import org.openuri.nameworld.NameworldDocument.Nameworld;
 import org.openuri.nameworld.Loc;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import java.io.File;
 

@@ -15,15 +15,15 @@
 
 package xmlcursor.checkin;
 
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlCursor.XmlBookmark;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlSaxHandler;
-import org.apache.xmlbeans.XmlLineNumber;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.impl.common.XmlNameImpl;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlCursor.XmlBookmark;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlSaxHandler;
+import org.apache.poi.xmlbeans.XmlLineNumber;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.impl.common.XmlNameImpl;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -49,20 +49,20 @@ import org.xml.sax.InputSource;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
-import org.apache.xmlbeans.xml.stream.Attribute;
-import org.apache.xmlbeans.xml.stream.AttributeIterator;
-import org.apache.xmlbeans.xml.stream.ChangePrefixMapping;
-import org.apache.xmlbeans.xml.stream.CharacterData;
-import org.apache.xmlbeans.xml.stream.Comment;
-import org.apache.xmlbeans.xml.stream.EndDocument;
-import org.apache.xmlbeans.xml.stream.EndElement;
-import org.apache.xmlbeans.xml.stream.EndPrefixMapping;
-import org.apache.xmlbeans.xml.stream.StartDocument;
-import org.apache.xmlbeans.xml.stream.StartElement;
-import org.apache.xmlbeans.xml.stream.StartPrefixMapping;
-import org.apache.xmlbeans.xml.stream.XMLEvent;
-import org.apache.xmlbeans.xml.stream.XMLInputStream;
-import org.apache.xmlbeans.xml.stream.XMLName;
+import org.apache.poi.xmlbeans.xml.stream.Attribute;
+import org.apache.poi.xmlbeans.xml.stream.AttributeIterator;
+import org.apache.poi.xmlbeans.xml.stream.ChangePrefixMapping;
+import org.apache.poi.xmlbeans.xml.stream.CharacterData;
+import org.apache.poi.xmlbeans.xml.stream.Comment;
+import org.apache.poi.xmlbeans.xml.stream.EndDocument;
+import org.apache.poi.xmlbeans.xml.stream.EndElement;
+import org.apache.poi.xmlbeans.xml.stream.EndPrefixMapping;
+import org.apache.poi.xmlbeans.xml.stream.StartDocument;
+import org.apache.poi.xmlbeans.xml.stream.StartElement;
+import org.apache.poi.xmlbeans.xml.stream.StartPrefixMapping;
+import org.apache.poi.xmlbeans.xml.stream.XMLEvent;
+import org.apache.poi.xmlbeans.xml.stream.XMLInputStream;
+import org.apache.poi.xmlbeans.xml.stream.XMLName;
 
 
 import xmlcursor.common.Common;
@@ -151,7 +151,7 @@ public class StoreTests extends TestCase
         x = XmlObject.Factory.parse(
             "<schema xmlns='http://www.w3.org/2001/XMLSchema'/>" );
         Assert.assertTrue(
-            x.schemaType() == org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument.type );
+            x.schemaType() == org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument.type );
 
         x = XmlObject.Factory.parse(
             "<schema xmlns='http://www.w3.org/2001/XMLSchema/moo'/>" );
@@ -160,16 +160,16 @@ public class StoreTests extends TestCase
         x = XmlObject.Factory.parse(
             "<schema xmlns='http://www.w3.org/2001/XMLSchema'/>" );
         Assert.assertTrue(
-            x.schemaType() == org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument.type );
+            x.schemaType() == org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument.type );
 
-        x = org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument.Factory.parse(
+        x = org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument.Factory.parse(
                 "<schema xmlns='http://www.w3.org/2001/XMLSchema'/>" );
         Assert.assertTrue(
-            x.schemaType() == org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument.type );
+            x.schemaType() == org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument.type );
 
         try {
             x = 
-                org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument.Factory.parse(
+                org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument.Factory.parse(
                     "<schema xmlns='http://www.w3.org/2001/XMLSchema/moo'/>" );
             Assert.assertTrue( false );
         }

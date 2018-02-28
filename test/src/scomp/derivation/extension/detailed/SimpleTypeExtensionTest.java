@@ -18,7 +18,7 @@ package scomp.derivation.extension.detailed;
 import xbean.scomp.derivation.simpleExtension.SimpleExtensionEltDocument;
 import xbean.scomp.derivation.simpleExtension.SimpleExtensionT;
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 /**
  *

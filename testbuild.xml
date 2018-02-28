@@ -281,7 +281,7 @@
         value="${schema.standalone}/CarLocationMessage_40_LX.xsd"/>
 
 
-    <property name="schema.compiler" value="org.apache.xmlbeans.impl.tool.SchemaCompiler"/>
+    <property name="schema.compiler" value="org.apache.poi.xmlbeans.impl.tool.SchemaCompiler"/>
 
     <target name="build.xmlcases" description="Builds xmlcases.jar">
         <jar destfile="${build.dir.test.lib}/xmlcases.jar"
@@ -749,7 +749,7 @@
 
     <!--test xmlbeans task-->
     <target name="xmlbean-test" depends="init">
-        <taskdef name="xmlbean" classname="org.apache.xmlbeans.impl.tool.XMLBean" classpath="${build.lib}/xbean.jar"/>
+        <taskdef name="xmlbean" classname="org.apache.poi.xmlbeans.impl.tool.XMLBean" classpath="${build.lib}/xbean.jar"/>
          <xmlbean
                    classpathref="test.run.classpath"
                    srcgendir="${build.dir.test.schemas}/generated"

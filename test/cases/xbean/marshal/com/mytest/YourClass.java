@@ -15,8 +15,8 @@
 
 package com.mytest;
 
-import org.apache.xmlbeans.impl.marshal.util.ArrayUtils;
-import org.apache.xmlbeans.ObjectFactory;
+import org.apache.poi.xmlbeans.impl.marshal.util.ArrayUtils;
+import org.apache.poi.xmlbeans.ObjectFactory;
 
 import javax.xml.namespace.QName;
 import java.util.ArrayList;

@@ -45,11 +45,11 @@ public class ParsersBase extends TestCase {
     //
     // org.xml.sax.driver                           Xerces              org.apache.xerces.parsers.SAXParser
     //                                              Crimson             org.apache.crimson.parser.XmlReaderImpl
-    //                                              Piccolo (Xbeans)    org.apache.xmlbeans.impl.piccolo.xml.Piccolo
+    //                                              Piccolo (Xbeans)    org.apache.poi.xmlbeans.impl.piccolo.xml.Piccolo
     //
     // javax.xml.parsers.SAXParserFactory           Xerces              org.apache.xerces.jaxp.SAXParserFactoryImpl
     //                                              Crimson             org.apache.crimson.jaxp.SAXParserFactoryImpl
-    //                                              Piccolo (XBeans)    org.apache.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory
+    //                                              Piccolo (XBeans)    org.apache.poi.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory
     // ----------------------------------------------------------------------------------------------------------
 
 

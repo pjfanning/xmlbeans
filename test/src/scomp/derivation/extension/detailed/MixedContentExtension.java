@@ -21,8 +21,8 @@ import xbean.scomp.derivation.complexExtension.ExtendedMixedT;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

@@ -16,7 +16,7 @@ package scomp.contentType.simple.detailed;
 
 import scomp.common.BaseCase;
 import xbean.scomp.contentType.simpleType.PantSizeEltDocument;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

@@ -20,7 +20,7 @@ import xmlcursor.jsr173.common.CharactersTest;
 
 import javax.xml.stream.XMLStreamReader;
 
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 /**
  *

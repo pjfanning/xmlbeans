@@ -13,10 +13,10 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.template;
+package org.apache.poi.xmlbeans.samples.template;
 
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.samples.template.sampletemplate.HelloDocument;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.samples.template.sampletemplate.HelloDocument;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -31,14 +31,14 @@ public class SampleTemplate
      * Prints out the names in the xml instance conforming to hello.xsd.
      */
     public static void main(String[] args)
-        throws org.apache.xmlbeans.XmlException, java.io.IOException
+        throws org.apache.poi.xmlbeans.XmlException, java.io.IOException
     {
         SampleTemplate sample = new SampleTemplate();
         sample.start(args);
     }
 
     public void start(String[] args)
-        throws org.apache.xmlbeans.XmlException, java.io.IOException
+        throws org.apache.poi.xmlbeans.XmlException, java.io.IOException
     {
         for (int i = 0; i < args.length; i++)
         {
@@ -47,7 +47,7 @@ public class SampleTemplate
     }
 
     public void validate(String filename)
-        throws org.apache.xmlbeans.XmlException, java.io.IOException
+        throws org.apache.poi.xmlbeans.XmlException, java.io.IOException
     {
         System.out.println("parsing document: " + filename);
         HelloDocument doc = HelloDocument.Factory.parse(new File(filename));

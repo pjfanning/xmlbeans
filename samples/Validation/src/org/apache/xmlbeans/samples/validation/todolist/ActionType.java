@@ -1,24 +1,24 @@
 /*
  * XML Type:  actionType
  * Namespace: http://xmlbeans.apache.org/samples/validation/todolist
- * Java type: org.apache.xmlbeans.samples.validation.todolist.ActionType
+ * Java type: org.apache.poi.xmlbeans.samples.validation.todolist.ActionType
  *
  * Automatically generated - do not modify.
  */
-package org.apache.xmlbeans.samples.validation.todolist;
+package org.apache.poi.xmlbeans.samples.validation.todolist;
 
 
 /**
  * An XML actionType(@http://xmlbeans.apache.org/samples/validation/todolist).
  *
- * This is an atomic type that is a restriction of org.apache.xmlbeans.XmlString.
+ * This is an atomic type that is a restriction of org.apache.poi.xmlbeans.XmlString.
  */
-public interface ActionType extends org.apache.xmlbeans.XmlString
+public interface ActionType extends org.apache.poi.xmlbeans.XmlString
 {
-    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)schema.system.s59A663BF38731BA9F8026B121E40FDD3.TypeSystemHolder.typeSystem.resolveHandle("actiontype5fa0type");
+    public static final org.apache.poi.xmlbeans.SchemaType type = (org.apache.poi.xmlbeans.SchemaType)schema.system.s59A663BF38731BA9F8026B121E40FDD3.TypeSystemHolder.typeSystem.resolveHandle("actiontype5fa0type");
     
-    org.apache.xmlbeans.StringEnumAbstractBase enumValue();
-    void set(org.apache.xmlbeans.StringEnumAbstractBase e);
+    org.apache.poi.xmlbeans.StringEnumAbstractBase enumValue();
+    void set(org.apache.poi.xmlbeans.StringEnumAbstractBase e);
     
     static final Enum DO = Enum.forString("do");
     static final Enum DELEGATE = Enum.forString("delegate");
@@ -35,7 +35,7 @@ public interface ActionType extends org.apache.xmlbeans.XmlString
     static final int INT_FILE = Enum.INT_FILE;
     
     /**
-     * Enumeration value class for org.apache.xmlbeans.samples.validation.todolist.ActionType.
+     * Enumeration value class for org.apache.poi.xmlbeans.samples.validation.todolist.ActionType.
      * These enum values can be used as follows:
      * <pre>
      * enum.toString(); // returns the string value of the enum
@@ -49,7 +49,7 @@ public interface ActionType extends org.apache.xmlbeans.XmlString
      * public constructor. See the constants defined within this
      * class for all the valid values.
      */
-    static final class Enum extends org.apache.xmlbeans.StringEnumAbstractBase
+    static final class Enum extends org.apache.poi.xmlbeans.StringEnumAbstractBase
     {
         /**
          * Returns the enum value for a string, or null if none.
@@ -72,8 +72,8 @@ public interface ActionType extends org.apache.xmlbeans.XmlString
         static final int INT_INCUBATE = 5;
         static final int INT_FILE = 6;
         
-        public static final org.apache.xmlbeans.StringEnumAbstractBase.Table table =
-            new org.apache.xmlbeans.StringEnumAbstractBase.Table
+        public static final org.apache.poi.xmlbeans.StringEnumAbstractBase.Table table =
+            new org.apache.poi.xmlbeans.StringEnumAbstractBase.Table
         (
             new Enum[]
             {
@@ -96,74 +96,74 @@ public interface ActionType extends org.apache.xmlbeans.XmlString
     
     public static final class Factory
     {
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType newValue(java.lang.Object obj) {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) type.newValue( obj ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType newValue(java.lang.Object obj) {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) type.newValue( obj ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType newInstance() {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType newInstance() {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType newInstance(org.apache.xmlbeans.XmlOptions options) {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType newInstance(org.apache.poi.xmlbeans.XmlOptions options) {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, options ); }
         
         /** @param xmlAsString the string value to parse */
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.lang.String xmlAsString) throws org.apache.xmlbeans.XmlException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.lang.String xmlAsString) throws org.apache.poi.xmlbeans.XmlException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.lang.String xmlAsString, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.lang.String xmlAsString, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, options ); }
         
         /** @param file the file from which to load an xml document */
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.io.File file) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.io.File file) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.io.File file, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.io.File file, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, options ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.net.URL u) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.net.URL u) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.net.URL u, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.net.URL u, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, options ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.io.InputStream is) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.io.InputStream is) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.io.InputStream is, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.io.InputStream is, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, options ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.io.Reader r) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.io.Reader r) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(java.io.Reader r, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(java.io.Reader r, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException, java.io.IOException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, options ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(javax.xml.stream.XMLStreamReader sr) throws org.apache.xmlbeans.XmlException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(javax.xml.stream.XMLStreamReader sr) throws org.apache.poi.xmlbeans.XmlException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(javax.xml.stream.XMLStreamReader sr, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(javax.xml.stream.XMLStreamReader sr, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, options ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(org.w3c.dom.Node node) throws org.apache.xmlbeans.XmlException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(org.w3c.dom.Node node) throws org.apache.poi.xmlbeans.XmlException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, null ); }
         
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(org.w3c.dom.Node node, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, options ); }
-        
-        /** @deprecated {@link XMLInputStream} */
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(org.w3c.dom.Node node, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, options ); }
         
         /** @deprecated {@link XMLInputStream} */
-        public static org.apache.xmlbeans.samples.validation.todolist.ActionType parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return (org.apache.xmlbeans.samples.validation.todolist.ActionType) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, options ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(org.apache.poi.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.poi.xmlbeans.XmlException, org.apache.poi.xmlbeans.xml.stream.XMLStreamException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, null ); }
         
         /** @deprecated {@link XMLInputStream} */
-        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, null ); }
+        public static org.apache.poi.xmlbeans.samples.validation.todolist.ActionType parse(org.apache.poi.xmlbeans.xml.stream.XMLInputStream xis, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException, org.apache.poi.xmlbeans.xml.stream.XMLStreamException {
+          return (org.apache.poi.xmlbeans.samples.validation.todolist.ActionType) org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, options ); }
         
         /** @deprecated {@link XMLInputStream} */
-        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
-          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, options ); }
+        public static org.apache.poi.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.poi.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.poi.xmlbeans.XmlException, org.apache.poi.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, null ); }
+        
+        /** @deprecated {@link XMLInputStream} */
+        public static org.apache.poi.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.poi.xmlbeans.xml.stream.XMLInputStream xis, org.apache.poi.xmlbeans.XmlOptions options) throws org.apache.poi.xmlbeans.XmlException, org.apache.poi.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.poi.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, options ); }
         
         private Factory() { } // No instance of this class allowed
     }

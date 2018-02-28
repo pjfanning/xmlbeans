@@ -16,15 +16,15 @@
 package xmlcursor.jsr173.common;
 
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.namespace.QName;
 
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 import junit.framework.*;
 import junit.framework.Assert.*;

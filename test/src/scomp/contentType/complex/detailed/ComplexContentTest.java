@@ -16,7 +16,7 @@
 package scomp.contentType.complex.detailed;
 
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 
 import java.util.ArrayList;
 import java.util.List;

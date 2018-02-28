@@ -17,7 +17,7 @@ package scomp.derivation.restriction.detailed;
 
 import scomp.common.BaseCase;
 import xbean.scomp.derivation.attributeWCRestriction.*;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

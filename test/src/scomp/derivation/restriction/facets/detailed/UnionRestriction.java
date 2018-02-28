@@ -20,7 +20,7 @@ import xbean.scomp.derivation.facets.union.UnionPatternEltDocument;
 import xbean.scomp.derivation.facets.union.SmallPatternUnion;
 import xbean.scomp.derivation.facets.union.UnionEnumEltDocument;
 import xbean.scomp.derivation.facets.union.SmallEnumUnion;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  * Only pattern and enumeration restrictions possible

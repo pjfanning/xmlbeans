@@ -15,8 +15,8 @@
 
 package xmlcursor.xpath.common;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
 import tools.util.JarUtil;
 
 /**

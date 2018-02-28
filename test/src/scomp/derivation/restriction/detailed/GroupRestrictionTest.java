@@ -19,7 +19,7 @@ import xbean.scomp.derivation.groupRestriction.*;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

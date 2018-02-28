@@ -18,8 +18,8 @@ package scomp.namespace.detailed;
 import scomp.common.BaseCase;
 import xbean.scomp.namespace.attributeFormDefault.AttributeFormDefaultEltDocument;
 import xbean.scomp.namespace.attributeFormDefault.ElementT;
-import org.apache.xmlbeans.XmlAnySimpleType;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlAnySimpleType;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  * 

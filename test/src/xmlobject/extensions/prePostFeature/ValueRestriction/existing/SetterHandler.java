@@ -18,8 +18,8 @@ import prePostFeature.xbean.valueRestriction.company.ConsultantType;
 
 import javax.xml.namespace.QName;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.PrePostExtension;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.PrePostExtension;
 
 
 public class SetterHandler {

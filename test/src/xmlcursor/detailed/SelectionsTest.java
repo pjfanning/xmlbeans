@@ -21,9 +21,9 @@ import junit.framework.Assert.*;
 
 import java.io.*;
 
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.XmlCursor.XmlBookmark;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.XmlCursor.XmlBookmark;
 
 import javax.xml.namespace.QName;
 

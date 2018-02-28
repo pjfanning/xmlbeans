@@ -19,8 +19,8 @@ import junit.framework.TestCase;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.Assert;
-import org.apache.xmlbeans.*;
-import org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;
+import org.apache.poi.xmlbeans.*;
+import org.apache.poi.xmlbeans.impl.xb.xsdschema.SchemaDocument;
 
 import java.io.File;
 import java.util.*;

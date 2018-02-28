@@ -48,7 +48,7 @@ limitations under the License.
         </path>
 
         <taskdef name="xmlbean"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.path"/>
     </target>
 
@@ -98,7 +98,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running SampleTemplate"/>
         <java
-            classname="org.apache.xmlbeans.samples.template.SampleTemplate"
+            classname="org.apache.poi.xmlbeans.samples.template.SampleTemplate"
             classpathref="SampleTemplate.path"
             fork="true">
             <arg line="xml/hello.xml"/>
@@ -111,7 +111,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing SampleTemplate"/>
         <java
-            classname="org.apache.xmlbeans.samples.template.SampleTemplateTest"
+            classname="org.apache.poi.xmlbeans.samples.template.SampleTemplateTest"
             classpathref="SampleTemplate.path"
             fork="true">
             <arg line="xml/hello.xml"/>

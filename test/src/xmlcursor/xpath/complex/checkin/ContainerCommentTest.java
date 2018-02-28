@@ -14,8 +14,8 @@
  */
 package xmlcursor.xpath.complex.checkin;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
 import junit.framework.TestCase;
 
 /**

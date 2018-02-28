@@ -28,6 +28,6 @@ set cp=%cp%;%XMLBEANS_LIB%\xbean.jar;%XMLBEANS_LIB%\xmlbeans-qname.jar
 set cp=%cp%;%XMLBEANS_LIB%\jsr173_1.0_api.jar
 set cp=%cp%;%XMLBEANS_LIB%\resolver.jar
 
-java -classpath "%cp%" org.apache.xmlbeans.impl.inst2xsd.Inst2Xsd %*
+java -classpath "%cp%" org.apache.poi.xmlbeans.impl.inst2xsd.Inst2Xsd %*
 
 :done

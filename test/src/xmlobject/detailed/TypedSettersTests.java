@@ -15,15 +15,15 @@
 
 package xmlobject.detailed;
 
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlCursor.XmlBookmark;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlSaxHandler;
-import org.apache.xmlbeans.XmlLineNumber;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlInt;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlCursor.XmlBookmark;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlSaxHandler;
+import org.apache.poi.xmlbeans.XmlLineNumber;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlInt;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;

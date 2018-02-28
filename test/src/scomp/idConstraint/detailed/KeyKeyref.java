@@ -17,8 +17,8 @@ package scomp.idConstraint.detailed;
 
 import scomp.common.BaseCase;
 import xbean.scomp.idConstraint.constraint.*;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

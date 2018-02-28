@@ -20,7 +20,7 @@ import xbean.scomp.substGroup.userReported.RootDocument;
 import xbean.scomp.substGroup.userReported.T;
 import xbean.scomp.substGroup.userReported.ADocument;
 import xbean.scomp.substGroup.userReported.BDocument;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import javax.xml.namespace.QName;
 

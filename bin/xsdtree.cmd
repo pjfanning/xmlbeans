@@ -24,4 +24,4 @@ if "%XMLBEANS_LIB%" EQU "" call "%~dp0_setlib"
 set cp=
 set cp=%cp%;%XMLBEANS_LIB%\xbean.jar;%XMLBEANS_LIB%\xmlbeans-qname.jar;%XMLBEANS_LIB%\jsr173_1.0_api.jar;
 
-java -classpath "%cp%" org.apache.xmlbeans.impl.tool.TypeHierarchyPrinter %*
+java -classpath "%cp%" org.apache.poi.xmlbeans.impl.tool.TypeHierarchyPrinter %*

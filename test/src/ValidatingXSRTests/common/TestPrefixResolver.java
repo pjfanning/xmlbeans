@@ -16,7 +16,7 @@
 package ValidatingXSRTests.common;
 
 public class TestPrefixResolver
-            implements org.apache.xmlbeans.impl.common.PrefixResolver
+            implements org.apache.poi.xmlbeans.impl.common.PrefixResolver
 {
     public TestPrefixResolver(String prefix, String namespaceUri)
     {

@@ -13,9 +13,9 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.datetime;
+package org.apache.poi.xmlbeans.samples.datetime;
 
-import org.apache.xmlbeans.samples.datetime.DatetimeDocument ;
+import org.apache.poi.xmlbeans.samples.datetime.DatetimeDocument ;
 
 /**
  * A class with which to test the DateTime sample.

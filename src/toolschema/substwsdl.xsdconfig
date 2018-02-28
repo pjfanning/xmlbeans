@@ -11,7 +11,7 @@
 <xb:config xmlns:xb="http://xml.apache.org/xmlbeans/2004/02/xbean/config">
 
   <xb:namespace uri="http://www.apache.org/internal/xmlbeans/wsdlsubst">
-    <xb:package>org.apache.xmlbeans.impl.xb.substwsdl</xb:package>
+    <xb:package>org.apache.poi.xmlbeans.impl.xb.substwsdl</xb:package>
   </xb:namespace>
 
 </xb:config>

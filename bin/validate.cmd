@@ -28,6 +28,6 @@ set cp=%cp%;%XMLBEANS_LIB%\xbean.jar
 set cp=%cp%;%XMLBEANS_LIB%\xmlbeans-qname.jar
 set cp=%cp%;%XMLBEANS_LIB%\jsr173_1.0_api.jar
 
-java -classpath "%cp%" org.apache.xmlbeans.impl.tool.InstanceValidator %*
+java -classpath "%cp%" org.apache.poi.xmlbeans.impl.tool.InstanceValidator %*
 
 :done

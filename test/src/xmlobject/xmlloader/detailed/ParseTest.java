@@ -17,8 +17,8 @@ package xmlobject.xmlloader.detailed;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
 import xmlcursor.common.BasicCursorTestCase;
 
 import javax.xml.namespace.QName;
@@ -62,7 +62,7 @@ public class ParseTest extends BasicCursorTestCase {
         try {
             XmlObject.Factory.parse(sXml);
             fail("Expected XmlException");
-        } catch (org.apache.xmlbeans.XmlException e) {
+        } catch (org.apache.poi.xmlbeans.XmlException e) {
         }
     }
 
@@ -72,7 +72,7 @@ public class ParseTest extends BasicCursorTestCase {
         try {
             m_xo = XmlObject.Factory.parse("<foo>text<foo>", m_map);  // improper end tag
             fail("Expected parsing exception!");
-        } catch (org.apache.xmlbeans.XmlException xe) {
+        } catch (org.apache.poi.xmlbeans.XmlException xe) {
 
         }
     }

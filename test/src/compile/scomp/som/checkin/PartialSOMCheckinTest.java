@@ -17,10 +17,10 @@ package compile.scomp.som.checkin;
 
 import compile.scomp.som.common.SomTestBase;
 import junit.framework.Assert;
-import org.apache.xmlbeans.SchemaTypeSystem;
-import org.apache.xmlbeans.XmlBeans;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.impl.tool.Diff;
+import org.apache.poi.xmlbeans.SchemaTypeSystem;
+import org.apache.poi.xmlbeans.XmlBeans;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.impl.tool.Diff;
 
 import java.io.File;
 import java.util.ArrayList;

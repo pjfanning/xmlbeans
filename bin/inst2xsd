@@ -28,4 +28,4 @@ case "`uname`" in
         ;;
 esac
 
-java -classpath "$cp" org.apache.xmlbeans.impl.inst2xsd.Inst2Xsd "$@"
+java -classpath "$cp" org.apache.poi.xmlbeans.impl.inst2xsd.Inst2Xsd "$@"

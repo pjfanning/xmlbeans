@@ -12,10 +12,10 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.apache.xmlbeans.samples.xquery;
+package org.apache.poi.xmlbeans.samples.xquery;
 
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import java.io.File;
 import java.io.IOException;
@@ -48,7 +48,7 @@ public class XQueryXPath
      * path to the XML instance file.
      */
     public static void main(String[] args)
-            throws org.apache.xmlbeans.XmlException, java.io.IOException
+            throws org.apache.poi.xmlbeans.XmlException, java.io.IOException
     {
         XQueryXPath sample = new XQueryXPath();
         sample.executeQueries(args);

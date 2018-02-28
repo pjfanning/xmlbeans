@@ -17,8 +17,8 @@ package scomp.derivation.restriction.detailed;
 import xbean.scomp.derivation.emtpy.RestrictedEmptyEltDocument;
 import xbean.scomp.derivation.emtpy.RestrictedEmptyT;
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

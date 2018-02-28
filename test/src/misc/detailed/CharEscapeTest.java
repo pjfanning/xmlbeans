@@ -21,7 +21,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import org.apache.xmlbeans.*;
+import org.apache.poi.xmlbeans.*;
 import jira.xmlbeans177.*;
 import jira.xmlbeans177A.*;
 import common.Common;

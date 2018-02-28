@@ -29,7 +29,7 @@
         <logo></logo>
     </organization>
     <inceptionYear>2004</inceptionYear>
-    <package>org.apache.xmlbeans.maven</package>
+    <package>org.apache.poi.xmlbeans.maven</package>
     <logo></logo>
 
     <dependencies>

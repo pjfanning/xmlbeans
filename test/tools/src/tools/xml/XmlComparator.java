@@ -14,11 +14,11 @@
  */
 package tools.xml;
 
-import org.apache.xmlbeans.impl.common.QNameHelper;
-import org.apache.xmlbeans.impl.common.XmlWhitespace;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.impl.common.QNameHelper;
+import org.apache.poi.xmlbeans.impl.common.XmlWhitespace;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlException;
 
 public class XmlComparator
 {

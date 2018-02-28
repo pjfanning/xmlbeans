@@ -27,4 +27,4 @@ case "`uname`" in
         ;;
 esac
 
-java -classpath "$cp" org.apache.xmlbeans.impl.tool.XSTCTester "$@"
+java -classpath "$cp" org.apache.poi.xmlbeans.impl.tool.XSTCTester "$@"

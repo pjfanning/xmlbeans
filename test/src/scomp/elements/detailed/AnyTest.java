@@ -18,8 +18,8 @@ import scomp.common.BaseCase;
 import xbean.scomp.element.any.AnyEltDocument;
 import xbean.scomp.element.any.AnySimpleDocument;
 import xbean.scomp.substGroup.wide.BusinessShirtType;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlDate;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlDate;
 
 import java.math.BigInteger;
 import java.util.GregorianCalendar;

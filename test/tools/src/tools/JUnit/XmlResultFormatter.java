@@ -30,7 +30,7 @@ import noNamespace.TestResultContainerDocument;
 import noNamespace.TestResultContainerDocument.TestResultContainer;
 import noNamespace.TestResultType;
 import noNamespace.TestResultType.ExecutionOutput;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlOptions;
 
 
 /**

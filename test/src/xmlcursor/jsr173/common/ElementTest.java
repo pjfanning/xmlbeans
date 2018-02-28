@@ -17,8 +17,8 @@
 package xmlcursor.jsr173.common;
 
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.XMLStreamConstants;

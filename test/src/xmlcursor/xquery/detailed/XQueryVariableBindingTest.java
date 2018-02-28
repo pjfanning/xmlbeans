@@ -18,9 +18,9 @@ import java.io.File;
 import java.util.Map;
 import java.util.HashMap;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 import common.Common;
 

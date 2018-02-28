@@ -20,7 +20,7 @@ import java.io.IOException;
 
 import junit.framework.TestCase;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 
 import dumbNS.RootDocument.Root;
 import dumbNS.RootDocument;

@@ -347,7 +347,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="tools.classpath"
-			includes="org/apache/xmlbeans/test/tools/**"
+			includes="org/apache/poi/xmlbeans/test/tools/**"
 			source="1.4">
 		</javac>
 	</target>
@@ -362,7 +362,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="svn.classpath"
-			includes="org/apache/xmlbeans/test/performance/svn/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/svn/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.4">
 		</javac>
 	</target>
@@ -377,7 +377,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="v1.classpath"
-			includes="org/apache/xmlbeans/test/performance/v1/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/v1/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.4">
 		</javac>
 	</target>
@@ -392,7 +392,7 @@
             compiler="modern"
             executable="${env.JAVA_HOME}/bin/javac"
             classpathref="v2.classpath"
-            includes="org/apache/xmlbeans/test/performance/v2/**,org/apache/xmlbeans/test/performance/utils/**"
+            includes="org/apache/poi/xmlbeans/test/performance/v2/**,org/apache/poi/xmlbeans/test/performance/utils/**"
             source="1.4">
         </javac>
     </target>
@@ -407,7 +407,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="castor.classpath"
-			includes="org/apache/xmlbeans/test/performance/castor/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/castor/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.4">
 		</javac>
 	</target>
@@ -422,8 +422,8 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="jibx.classpath"
-			includes="org/apache/xmlbeans/test/performance/jibx/**,org/apache/xmlbeans/test/performance/utils/**"
-			excludes="org/apache/xmlbeans/test/performance/jibx/binding/**"
+			includes="org/apache/poi/xmlbeans/test/performance/jibx/**,org/apache/poi/xmlbeans/test/performance/utils/**"
+			excludes="org/apache/poi/xmlbeans/test/performance/jibx/binding/**"
 			source="1.4">
 		</javac>
 	</target>
@@ -438,7 +438,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="jaxb.classpath"
-			includes="org/apache/xmlbeans/test/performance/jaxb/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/jaxb/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.4">
 		</javac>
 	</target>
@@ -453,7 +453,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="jaxb2.classpath"
-			includes="org/apache/xmlbeans/test/performance/jaxb2/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/jaxb2/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.5">
 		</javac>
 	</target>
@@ -469,7 +469,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="xerces.classpath"
-			includes="org/apache/xmlbeans/test/performance/xerces/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/xerces/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.4">
 		</javac>
 	</target>
@@ -484,7 +484,7 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="parsers.classpath"
-			includes="org/apache/xmlbeans/test/performance/parsers/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/parsers/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.5">
 		</javac>
 	</target>
@@ -540,7 +540,7 @@
 			<arg line="${test.case.dir}/xsd/${xsd.name}"/>
 		</exec>
         -->
-	        <java classname="org.apache.xmlbeans.impl.tool.SchemaCompiler"
+	        <java classname="org.apache.poi.xmlbeans.impl.tool.SchemaCompiler"
                 	fork="true"
              	       	dir="${xmlbeans.perf.root}"
                 	classpathref="svn.classpath">
@@ -579,7 +579,7 @@
 		<delete dir="${v1.temp.dir}" />
 		<mkdir dir="${v1.temp.dir}"/>
 		<mkdir dir="${schema.jar.build.dir}"/>
-		<java classname="org.apache.xmlbeans.impl.tool.SchemaCompiler"
+		<java classname="org.apache.poi.xmlbeans.impl.tool.SchemaCompiler"
 					fork="true"
 					dir="${xmlbeans.perf.root}"
 					classpathref="v1.classpath">
@@ -614,7 +614,7 @@
 	<delete dir="${v2.temp.dir}" />
         <mkdir dir="${v2.temp.dir}"/>
         <mkdir dir="${schema.jar.build.dir}"/>
-        <java classname="org.apache.xmlbeans.impl.tool.SchemaCompiler"
+        <java classname="org.apache.poi.xmlbeans.impl.tool.SchemaCompiler"
                     fork="true"
                     dir="${xmlbeans.perf.root}"
                     classpathref="v2.classpath">
@@ -687,8 +687,8 @@
 			compiler="modern"
 			executable="${env.JAVA_HOME}/bin/javac"
 			classpathref="jibx.binding.classpath"
-			includes="org/apache/xmlbeans/test/performance/jibx/binding/**"
-			excludes="org/apache/xmlbeans/test/performance/castor/**,org/apache/xmlbeans/test/performance/svn/**,org/apache/xmlbeans/test/performance/utils/**"
+			includes="org/apache/poi/xmlbeans/test/performance/jibx/binding/**"
+			excludes="org/apache/poi/xmlbeans/test/performance/castor/**,org/apache/poi/xmlbeans/test/performance/svn/**,org/apache/poi/xmlbeans/test/performance/utils/**"
 			source="1.4">
 		</javac>
 		<java classname="org.jibx.binding.Compile"
@@ -900,7 +900,7 @@
 		<mkdir dir="${parsers.temp.dir}"/>
 		<mkdir dir="${schema.jar.build.dir}"/>
 
-		<java classname="org.apache.xmlbeans.impl.tool.SchemaCompiler"
+		<java classname="org.apache.poi.xmlbeans.impl.tool.SchemaCompiler"
                 	fork="true"
              	       	dir="${xmlbeans.perf.root}"
                 	classpathref="svn.classpath">

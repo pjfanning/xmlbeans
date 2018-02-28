@@ -1,7 +1,7 @@
 package xmlobject.usertype.averageCase.existing;
 
-import org.apache.xmlbeans.SimpleValue;
-import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
+import org.apache.poi.xmlbeans.SimpleValue;
+import org.apache.poi.xmlbeans.impl.values.XmlValueOutOfRangeException;
 
 public class SKUHandler
 {

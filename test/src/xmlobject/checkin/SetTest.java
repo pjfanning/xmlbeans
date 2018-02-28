@@ -21,11 +21,11 @@ import junit.framework.*;
 import xmlcursor.common.*;
 
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor.TokenType;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlDate;
-import org.apache.xmlbeans.XmlCalendar;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor.TokenType;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlDate;
+import org.apache.poi.xmlbeans.XmlCalendar;
 
 import test.xbean.xmlcursor.purchaseOrder.PurchaseOrderDocument;
 import test.xbean.xmlcursor.purchaseOrder.USAddress;

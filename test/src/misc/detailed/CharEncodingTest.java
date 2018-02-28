@@ -17,9 +17,9 @@
 package misc.detailed;
 
 import misc.common.ParsersBase;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlException;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -46,8 +46,8 @@ public class CharEncodingTest extends ParsersBase {
 
         parseXmlWithSAXAPI(I18N_test_string1,
                 "Piccolo",
-                "org.apache.xmlbeans.impl.piccolo.xml.Piccolo",
-                "org.apache.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory");
+                "org.apache.poi.xmlbeans.impl.piccolo.xml.Piccolo",
+                "org.apache.poi.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory");
 
         // Now test all 3 parsers with string 2, this is a valid string and should pass but piccolo fails
         parseXmlWithSAXAPI(I18N_test_string2,
@@ -62,8 +62,8 @@ public class CharEncodingTest extends ParsersBase {
 
         parseXmlWithSAXAPI(I18N_test_string2,
                 "Piccolo",
-                "org.apache.xmlbeans.impl.piccolo.xml.Piccolo",
-                "org.apache.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory");
+                "org.apache.poi.xmlbeans.impl.piccolo.xml.Piccolo",
+                "org.apache.poi.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory");
 
     }
 
@@ -85,8 +85,8 @@ public class CharEncodingTest extends ParsersBase {
 
         parseXmlWithSAXAPI(netPubEntity,
                 "Piccolo",
-                "org.apache.xmlbeans.impl.piccolo.xml.Piccolo",
-                "org.apache.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory");
+                "org.apache.poi.xmlbeans.impl.piccolo.xml.Piccolo",
+                "org.apache.poi.xmlbeans.impl.piccolo.xml.JAXPSAXParserFactory");
 
         parseXmlWithSAXAPI(netPubEntity,
                 "Crimson",

@@ -15,7 +15,7 @@
 
 package xmlobject.extensions.interfaceFeature.methodNameCollision.existing;
 
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlObject;
 import xmlobject.extensions.interfaceFeature.methodNameCollision.existing.IFoo;
 
 public class FooHandler {

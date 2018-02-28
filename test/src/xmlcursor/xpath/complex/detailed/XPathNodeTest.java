@@ -15,8 +15,8 @@
 package xmlcursor.xpath.complex.detailed;
 
 import javax.xml.namespace.QName;
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
 import junit.framework.TestCase;
 import xmlcursor.common.Common;
 

@@ -21,7 +21,7 @@ import xbean.scomp.contentType.modelGroup.AllT;
 
 import java.math.BigInteger;
 
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

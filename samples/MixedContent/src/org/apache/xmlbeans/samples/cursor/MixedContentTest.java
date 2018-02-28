@@ -13,9 +13,9 @@
  *  limitations under the License.
  */
 
-package org.apache.xmlbeans.samples.cursor;
+package org.apache.poi.xmlbeans.samples.cursor;
 
-import org.apache.xmlbeans.samples.cursor.mixedcontent.InventoryDocument;
+import org.apache.poi.xmlbeans.samples.cursor.mixedcontent.InventoryDocument;
 
 /**
  * A class with which to test the MixedContent sample.

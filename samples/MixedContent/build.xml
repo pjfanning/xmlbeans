@@ -48,7 +48,7 @@ limitations under the License.
         </path>
 
         <taskdef name="xmlbean"
-            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classname="org.apache.poi.xmlbeans.impl.tool.XMLBean"
             classpathref="xmlbeans.path"/>
     </target>
 
@@ -98,7 +98,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running MixedContent"/>
         <java
-            classname="org.apache.xmlbeans.samples.cursor.MixedContent"
+            classname="org.apache.poi.xmlbeans.samples.cursor.MixedContent"
             classpathref="MixedContent.path"
             fork="true">
             <arg line="xml/inventoryitems.xml"/>
@@ -110,7 +110,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing MixedContent"/>
         <java
-            classname="org.apache.xmlbeans.samples.cursor.MixedContentTest"
+            classname="org.apache.poi.xmlbeans.samples.cursor.MixedContentTest"
             classpathref="MixedContent.path"
             fork="true">
             <arg line="xml/inventoryitems.xml"/>

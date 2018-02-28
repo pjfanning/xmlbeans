@@ -20,8 +20,8 @@ import junit.framework.*;
 
 import java.math.BigDecimal;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlCursor;
 
 //import xmlcursor.common.BasicCursorTestCase;
 import xmlcursor.common.Common;

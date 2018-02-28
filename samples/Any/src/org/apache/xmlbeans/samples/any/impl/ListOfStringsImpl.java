@@ -1,20 +1,20 @@
 /*
  * XML Type:  ListOfStrings
  * Namespace: http://xmlbeans.apache.org/samples/any
- * Java type: org.apache.xmlbeans.samples.any.ListOfStrings
+ * Java type: org.apache.poi.xmlbeans.samples.any.ListOfStrings
  *
  * Automatically generated - do not modify.
  */
-package org.apache.xmlbeans.samples.any.impl;
+package org.apache.poi.xmlbeans.samples.any.impl;
 /**
  * An XML ListOfStrings(@http://xmlbeans.apache.org/samples/any).
  *
  * This is a complex type.
  */
-public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.xmlbeans.samples.any.ListOfStrings
+public class ListOfStringsImpl extends org.apache.poi.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.poi.xmlbeans.samples.any.ListOfStrings
 {
     
-    public ListOfStringsImpl(org.apache.xmlbeans.SchemaType sType)
+    public ListOfStringsImpl(org.apache.poi.xmlbeans.SchemaType sType)
     {
         super(sType);
     }
@@ -37,7 +37,7 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
             get_store().find_all_element_users(STRINGELEMENT$0, targetList);
             java.lang.String[] result = new java.lang.String[targetList.size()];
             for (int i = 0, len = targetList.size() ; i < len ; i++)
-                result[i] = ((org.apache.xmlbeans.SimpleValue)targetList.get(i)).getStringValue();
+                result[i] = ((org.apache.poi.xmlbeans.SimpleValue)targetList.get(i)).getStringValue();
             return result;
         }
     }
@@ -50,8 +50,8 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, i);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, i);
             if (target == null)
             {
                 throw new IndexOutOfBoundsException();
@@ -63,14 +63,14 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Gets (as xml) array of all "stringelement" elements
      */
-    public org.apache.xmlbeans.XmlString[] xgetStringelementArray()
+    public org.apache.poi.xmlbeans.XmlString[] xgetStringelementArray()
     {
         synchronized (monitor())
         {
             check_orphaned();
             java.util.List targetList = new java.util.ArrayList();
             get_store().find_all_element_users(STRINGELEMENT$0, targetList);
-            org.apache.xmlbeans.XmlString[] result = new org.apache.xmlbeans.XmlString[targetList.size()];
+            org.apache.poi.xmlbeans.XmlString[] result = new org.apache.poi.xmlbeans.XmlString[targetList.size()];
             targetList.toArray(result);
             return result;
         }
@@ -79,18 +79,18 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Gets (as xml) ith "stringelement" element
      */
-    public org.apache.xmlbeans.XmlString xgetStringelementArray(int i)
+    public org.apache.poi.xmlbeans.XmlString xgetStringelementArray(int i)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, i);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, i);
             if (target == null)
             {
                 throw new IndexOutOfBoundsException();
             }
-            return (org.apache.xmlbeans.XmlString)target;
+            return (org.apache.poi.xmlbeans.XmlString)target;
         }
     }
     
@@ -126,8 +126,8 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, i);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, i);
             if (target == null)
             {
                 throw new IndexOutOfBoundsException();
@@ -139,7 +139,7 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Sets (as xml) array of all "stringelement" element
      */
-    public void xsetStringelementArray(org.apache.xmlbeans.XmlString[]stringelementArray)
+    public void xsetStringelementArray(org.apache.poi.xmlbeans.XmlString[]stringelementArray)
     {
         synchronized (monitor())
         {
@@ -151,13 +151,13 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Sets (as xml) ith "stringelement" element
      */
-    public void xsetStringelementArray(int i, org.apache.xmlbeans.XmlString stringelement)
+    public void xsetStringelementArray(int i, org.apache.poi.xmlbeans.XmlString stringelement)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, i);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, i);
             if (target == null)
             {
                 throw new IndexOutOfBoundsException();
@@ -174,8 +174,8 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = 
-                (org.apache.xmlbeans.SimpleValue)get_store().insert_element_user(STRINGELEMENT$0, i);
+            org.apache.poi.xmlbeans.SimpleValue target =
+                (org.apache.poi.xmlbeans.SimpleValue)get_store().insert_element_user(STRINGELEMENT$0, i);
             target.setStringValue(stringelement);
         }
     }
@@ -188,8 +188,8 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STRINGELEMENT$0);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_element_user(STRINGELEMENT$0);
             target.setStringValue(stringelement);
         }
     }
@@ -197,13 +197,13 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Inserts and returns a new empty value (as xml) as the ith "stringelement" element
      */
-    public org.apache.xmlbeans.XmlString insertNewStringelement(int i)
+    public org.apache.poi.xmlbeans.XmlString insertNewStringelement(int i)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().insert_element_user(STRINGELEMENT$0, i);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().insert_element_user(STRINGELEMENT$0, i);
             return target;
         }
     }
@@ -211,13 +211,13 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Appends and returns a new empty value (as xml) as the last "stringelement" element
      */
-    public org.apache.xmlbeans.XmlString addNewStringelement()
+    public org.apache.poi.xmlbeans.XmlString addNewStringelement()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(STRINGELEMENT$0);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().add_element_user(STRINGELEMENT$0);
             return target;
         }
     }
@@ -242,8 +242,8 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$2);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$2);
             if (target == null)
             {
                 return null;
@@ -255,13 +255,13 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Gets (as xml) the "id" attribute
      */
-    public org.apache.xmlbeans.XmlString xgetId()
+    public org.apache.poi.xmlbeans.XmlString xgetId()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_attribute_user(ID$2);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_attribute_user(ID$2);
             return target;
         }
     }
@@ -286,11 +286,11 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$2);
+            org.apache.poi.xmlbeans.SimpleValue target = null;
+            target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_attribute_user(ID$2);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_attribute_user(ID$2);
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_attribute_user(ID$2);
             }
             target.setStringValue(id);
         }
@@ -299,16 +299,16 @@ public class ListOfStringsImpl extends org.apache.xmlbeans.impl.values.XmlComple
     /**
      * Sets (as xml) the "id" attribute
      */
-    public void xsetId(org.apache.xmlbeans.XmlString id)
+    public void xsetId(org.apache.poi.xmlbeans.XmlString id)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_attribute_user(ID$2);
+            org.apache.poi.xmlbeans.XmlString target = null;
+            target = (org.apache.poi.xmlbeans.XmlString)get_store().find_attribute_user(ID$2);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlString)get_store().add_attribute_user(ID$2);
+                target = (org.apache.poi.xmlbeans.XmlString)get_store().add_attribute_user(ID$2);
             }
             target.set(id);
         }

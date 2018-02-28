@@ -16,9 +16,9 @@
 
 package xmltokensource.detailed;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.XmlCursor;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
 import xmlcursor.common.BasicCursorTestCase;
 import junit.framework.Test;
 import junit.framework.TestSuite;

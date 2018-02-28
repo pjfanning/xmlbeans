@@ -21,8 +21,8 @@ import xbean.scomp.derivation.attributeRestriction.RestrictedAttrT;
 import java.math.BigInteger;
 
 import scomp.common.BaseCase;
-import org.apache.xmlbeans.XmlString;
-import org.apache.xmlbeans.XmlErrorCodes;
+import org.apache.poi.xmlbeans.XmlString;
+import org.apache.poi.xmlbeans.XmlErrorCodes;
 
 /**
  *

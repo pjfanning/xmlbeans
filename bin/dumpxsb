@@ -30,4 +30,4 @@ case "`uname`" in
         ;;
 esac
 
-java -classpath "$cp" org.apache.xmlbeans.impl.tool.XsbDumper "$@"
+java -classpath "$cp" org.apache.poi.xmlbeans.impl.tool.XsbDumper "$@"

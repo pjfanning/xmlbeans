@@ -2,20 +2,20 @@
  * An XML document type.
  * Localname: root
  * Namespace: http://xmlbeans.apache.org/samples/any
- * Java type: org.apache.xmlbeans.samples.any.RootDocument
+ * Java type: org.apache.poi.xmlbeans.samples.any.RootDocument
  *
  * Automatically generated - do not modify.
  */
-package org.apache.xmlbeans.samples.any.impl;
+package org.apache.poi.xmlbeans.samples.any.impl;
 /**
  * A document containing one root(@http://xmlbeans.apache.org/samples/any) element.
  *
  * This is a complex type.
  */
-public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.xmlbeans.samples.any.RootDocument
+public class RootDocumentImpl extends org.apache.poi.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.poi.xmlbeans.samples.any.RootDocument
 {
     
-    public RootDocumentImpl(org.apache.xmlbeans.SchemaType sType)
+    public RootDocumentImpl(org.apache.poi.xmlbeans.SchemaType sType)
     {
         super(sType);
     }
@@ -27,13 +27,13 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
     /**
      * Gets the "root" element
      */
-    public org.apache.xmlbeans.samples.any.RootDocument.Root getRoot()
+    public org.apache.poi.xmlbeans.samples.any.RootDocument.Root getRoot()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.samples.any.RootDocument.Root target = null;
-            target = (org.apache.xmlbeans.samples.any.RootDocument.Root)get_store().find_element_user(ROOT$0, 0);
+            org.apache.poi.xmlbeans.samples.any.RootDocument.Root target = null;
+            target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root)get_store().find_element_user(ROOT$0, 0);
             if (target == null)
             {
                 return null;
@@ -45,16 +45,16 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
     /**
      * Sets the "root" element
      */
-    public void setRoot(org.apache.xmlbeans.samples.any.RootDocument.Root root)
+    public void setRoot(org.apache.poi.xmlbeans.samples.any.RootDocument.Root root)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.samples.any.RootDocument.Root target = null;
-            target = (org.apache.xmlbeans.samples.any.RootDocument.Root)get_store().find_element_user(ROOT$0, 0);
+            org.apache.poi.xmlbeans.samples.any.RootDocument.Root target = null;
+            target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root)get_store().find_element_user(ROOT$0, 0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.samples.any.RootDocument.Root)get_store().add_element_user(ROOT$0);
+                target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root)get_store().add_element_user(ROOT$0);
             }
             target.set(root);
         }
@@ -63,13 +63,13 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
     /**
      * Appends and returns a new empty "root" element
      */
-    public org.apache.xmlbeans.samples.any.RootDocument.Root addNewRoot()
+    public org.apache.poi.xmlbeans.samples.any.RootDocument.Root addNewRoot()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.samples.any.RootDocument.Root target = null;
-            target = (org.apache.xmlbeans.samples.any.RootDocument.Root)get_store().add_element_user(ROOT$0);
+            org.apache.poi.xmlbeans.samples.any.RootDocument.Root target = null;
+            target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root)get_store().add_element_user(ROOT$0);
             return target;
         }
     }
@@ -78,10 +78,10 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
      *
      * This is a complex type.
      */
-    public static class RootImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.xmlbeans.samples.any.RootDocument.Root
+    public static class RootImpl extends org.apache.poi.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.poi.xmlbeans.samples.any.RootDocument.Root
     {
         
-        public RootImpl(org.apache.xmlbeans.SchemaType sType)
+        public RootImpl(org.apache.poi.xmlbeans.SchemaType sType)
         {
             super(sType);
         }
@@ -100,8 +100,8 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
+                org.apache.poi.xmlbeans.SimpleValue target = null;
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
                 if (target == null)
                 {
                     return null;
@@ -113,13 +113,13 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
         /**
          * Gets (as xml) the "stringelement" element
          */
-        public org.apache.xmlbeans.XmlString xgetStringelement()
+        public org.apache.poi.xmlbeans.XmlString xgetStringelement()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlString target = null;
-                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
+                org.apache.poi.xmlbeans.XmlString target = null;
+                target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
                 return target;
             }
         }
@@ -132,11 +132,11 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.SimpleValue target = null;
-                target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
+                org.apache.poi.xmlbeans.SimpleValue target = null;
+                target = (org.apache.poi.xmlbeans.SimpleValue)get_store().find_element_user(STRINGELEMENT$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(STRINGELEMENT$0);
+                    target = (org.apache.poi.xmlbeans.SimpleValue)get_store().add_element_user(STRINGELEMENT$0);
                 }
                 target.setStringValue(stringelement);
             }
@@ -145,16 +145,16 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
         /**
          * Sets (as xml) the "stringelement" element
          */
-        public void xsetStringelement(org.apache.xmlbeans.XmlString stringelement)
+        public void xsetStringelement(org.apache.poi.xmlbeans.XmlString stringelement)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlString target = null;
-                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
+                org.apache.poi.xmlbeans.XmlString target = null;
+                target = (org.apache.poi.xmlbeans.XmlString)get_store().find_element_user(STRINGELEMENT$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(STRINGELEMENT$0);
+                    target = (org.apache.poi.xmlbeans.XmlString)get_store().add_element_user(STRINGELEMENT$0);
                 }
                 target.set(stringelement);
             }
@@ -163,13 +163,13 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
         /**
          * Gets the "arrayofany" element
          */
-        public org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany getArrayofany()
+        public org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany getArrayofany()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany target = null;
-                target = (org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().find_element_user(ARRAYOFANY$2, 0);
+                org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany target = null;
+                target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().find_element_user(ARRAYOFANY$2, 0);
                 if (target == null)
                 {
                     return null;
@@ -181,16 +181,16 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
         /**
          * Sets the "arrayofany" element
          */
-        public void setArrayofany(org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany arrayofany)
+        public void setArrayofany(org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany arrayofany)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany target = null;
-                target = (org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().find_element_user(ARRAYOFANY$2, 0);
+                org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany target = null;
+                target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().find_element_user(ARRAYOFANY$2, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().add_element_user(ARRAYOFANY$2);
+                    target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().add_element_user(ARRAYOFANY$2);
                 }
                 target.set(arrayofany);
             }
@@ -199,13 +199,13 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
         /**
          * Appends and returns a new empty "arrayofany" element
          */
-        public org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany addNewArrayofany()
+        public org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany addNewArrayofany()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany target = null;
-                target = (org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().add_element_user(ARRAYOFANY$2);
+                org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany target = null;
+                target = (org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany)get_store().add_element_user(ARRAYOFANY$2);
                 return target;
             }
         }
@@ -214,10 +214,10 @@ public class RootDocumentImpl extends org.apache.xmlbeans.impl.values.XmlComplex
          *
          * This is a complex type.
          */
-        public static class ArrayofanyImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.xmlbeans.samples.any.RootDocument.Root.Arrayofany
+        public static class ArrayofanyImpl extends org.apache.poi.xmlbeans.impl.values.XmlComplexContentImpl implements org.apache.poi.xmlbeans.samples.any.RootDocument.Root.Arrayofany
         {
             
-            public ArrayofanyImpl(org.apache.xmlbeans.SchemaType sType)
+            public ArrayofanyImpl(org.apache.poi.xmlbeans.SchemaType sType)
             {
                 super(sType);
             }

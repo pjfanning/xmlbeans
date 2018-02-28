@@ -20,10 +20,10 @@ import java.io.IOException;
 
 import junit.framework.TestCase;
 
-import org.apache.xmlbeans.XmlObject;
-import org.apache.xmlbeans.XmlOptions;
-import org.apache.xmlbeans.SystemProperties;
-import org.apache.xmlbeans.XmlException;
+import org.apache.poi.xmlbeans.XmlObject;
+import org.apache.poi.xmlbeans.XmlOptions;
+import org.apache.poi.xmlbeans.SystemProperties;
+import org.apache.poi.xmlbeans.XmlException;
 
 import dumbNS.RootDocument.Root;
 import dumbNS.RootDocument;

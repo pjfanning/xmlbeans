@@ -74,7 +74,7 @@ limitations under the License.
     <target name="run" depends="init,build">
         <echo message="============================== running XmlSort"/>
         <java
-            classname="org.apache.xmlbeans.samples.cursor.XmlSort"
+            classname="org.apache.poi.xmlbeans.samples.cursor.XmlSort"
             classpathref="XmlSort.path"
             fork="true">
             <arg line="xml/unsorted.xml"/>
@@ -86,7 +86,7 @@ limitations under the License.
     <target name="test" depends="init,build">
         <echo message="============================== testing XmlSort"/>
         <java
-            classname="org.apache.xmlbeans.samples.cursor.XmlSort"
+            classname="org.apache.poi.xmlbeans.samples.cursor.XmlSort"
             classpathref="XmlSort.path"
             fork="true">
             <arg line="xml/unsorted.xml"/>
