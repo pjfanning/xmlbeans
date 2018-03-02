@@ -767,6 +767,13 @@
             <arg line="${repackage_arg} -name sXMLSCHEMA  -srconly -d build/classes/xsdschema -noann -src build/src/xsdschema src/xsdschema/schema"/>
         </java>
         <move file="build/classes/xsdschema/schemaorg_apache_xmlbeans" tofile="build/classes/xsdschema/schemaorg_apache_poi_xmlbeans"/>
+        <delete>
+            <fileset dir="build/classes/xsdschema" includes="**/TypeSystemHolder.class"/>
+        </delete>
+        <replace dir="build/src/xsdschema" value="schemaorg_apache_poi_xmlbeans">
+            <include name="**/*.java"/>
+            <replacetoken>schemaorg_apache_xmlbeans</replacetoken>
+        </replace>
     </target>
 
     <!-- xmlschema target ============================================= -->
@@ -792,6 +799,13 @@
             <arg line="${repackage_arg} -name sXMLLANG -noann -d build/classes/xmlschema -src build/src/xmlschema -srconly src/xmlschema/schema"/>
         </java>
         <move file="build/classes/xmlschema/schemaorg_apache_xmlbeans" tofile="build/classes/xmlschema/schemaorg_apache_poi_xmlbeans"/>
+        <delete>
+            <fileset dir="build/classes/xmlschema" includes="**/TypeSystemHolder.class"/>
+        </delete>
+        <replace dir="build/src/xmlschema" value="schemaorg_apache_poi_xmlbeans">
+            <include name="**/*.java"/>
+            <replacetoken>schemaorg_apache_xmlbeans</replacetoken>
+        </replace>
     </target>
 
     <!-- xmlconfig target =============================================== -->
@@ -805,6 +819,13 @@
             </classpath>
         </javac>
         <move file="build/classes/xmlconfig/schemaorg_apache_xmlbeans" tofile="build/classes/xmlconfig/schemaorg_apache_poi_xmlbeans"/>
+        <delete>
+            <fileset dir="build/classes/xmlconfig" includes="**/TypeSystemHolder.class"/>
+        </delete>
+        <replace dir="build/src/xmlconfig" value="schemaorg_apache_poi_xmlbeans">
+            <include name="**/*.java"/>
+            <replacetoken>schemaorg_apache_xmlbeans</replacetoken>
+        </replace>
     </target>
 
     <!-- configschema target ============================================= -->
@@ -827,6 +848,13 @@
             <arg line="${repackage_arg} -name sXMLCONFIG -srconly -noann -src build/src/configschema -d build/classes/configschema src/configschema/schema"/>
         </java>
         <move file="build/classes/configschema/schemaorg_apache_xmlbeans" tofile="build/classes/configschema/schemaorg_apache_poi_xmlbeans"/>
+        <delete>
+            <fileset dir="build/classes/configschema" includes="**/TypeSystemHolder.class"/>
+        </delete>
+        <replace dir="build/src/configschema" value="schemaorg_apache_poi_xmlbeans">
+            <include name="**/*.java"/>
+            <replacetoken>schemaorg_apache_xmlbeans</replacetoken>
+        </replace>
     </target>
 
     <!-- toolschema target ============================================= -->
@@ -850,6 +878,13 @@
             <arg line="${repackage_arg} -name sXMLTOOLS -srconly -noann -src build/src/toolschema -d build/classes/toolschema src/toolschema"/>
         </java>
         <move file="build/classes/toolschema/schemaorg_apache_xmlbeans" tofile="build/classes/toolschema/schemaorg_apache_poi_xmlbeans"/>
+        <delete>
+            <fileset dir="build/classes/toolschema" includes="**/TypeSystemHolder.class"/>
+        </delete>
+        <replace dir="build/src/toolschema" value="schemaorg_apache_poi_xmlbeans">
+            <include name="**/*.java"/>
+            <replacetoken>schemaorg_apache_xmlbeans</replacetoken>
+        </replace>
     </target>
 
 
@@ -898,8 +933,8 @@
     <target name="repackage" depends="repackage.classes">
 
         <echo message="Re-packaging XmlBeans"/>
-	<echo message="   from: ${rp_source_dir}"/>
-	<echo message="   to:   ${rp_target_dir}"/>
+        <echo message="   from: ${rp_source_dir}"/>
+        <echo message="   to:   ${rp_target_dir}"/>
 
         <property
             name="new_repackage_arg"

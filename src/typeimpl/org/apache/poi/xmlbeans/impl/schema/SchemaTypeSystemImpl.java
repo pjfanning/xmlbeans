@@ -1487,7 +1487,7 @@ public class SchemaTypeSystemImpl extends SchemaTypeLoaderBase implements Schema
             StringPool stringPool = new StringPool("pointer", "unk");
             stringPool.readFrom(input);
 
-            return stringPool.stringForCode(input.readShort());
+            return replaceOldXmlBeansPath(stringPool.stringForCode(input.readShort()));
         }
         catch (IOException e)
         {
@@ -1498,6 +1498,10 @@ public class SchemaTypeSystemImpl extends SchemaTypeLoaderBase implements Schema
             if (input != null)
                 try { input.close(); } catch (IOException e) {}
         }
+    }
+
+    private static String replaceOldXmlBeansPath(String pointer) {
+        return pointer.replace("schemaorg_apache_xmlbeans", "schemaorg_apache_poi_xmlbeans");
     }
 
     private class XsbReader
