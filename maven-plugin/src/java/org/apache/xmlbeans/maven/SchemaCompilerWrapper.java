@@ -57,7 +57,7 @@ public class SchemaCompilerWrapper {
     private List resources;
     private boolean buildSchemas;
     //this copy should not end in /
-    private String baseSchemaLocation = "schemaorg_apache_xmlbeans/src";
+    private String baseSchemaLocation = "schemaorg_apache_poi_xmlbeans/src";
 
     public String getSourceDir() {
         return sourceDir;

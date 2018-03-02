@@ -411,7 +411,6 @@
             <fileset dir="src/xmlinputstream" includes="**/*.java"/>
             <fileset dir="src/xmlpublic" includes="**/*.java"/>
             <fileset dir="src/xmlschema" includes="**/*.java"/>
-            <fileset dir="src/xpath" includes="**/*.java"/>
             <fileset dir="src/xpath_xquery" includes="**/*.java"/>
             <fileset dir="src/xsdschema" includes="**/*.java"/>
             <fileset dir="src/zipcompare" includes="**/*.java"/>
@@ -767,6 +766,7 @@
             <jvmarg value="-ea"/>
             <arg line="${repackage_arg} -name sXMLSCHEMA  -srconly -d build/classes/xsdschema -noann -src build/src/xsdschema src/xsdschema/schema"/>
         </java>
+        <move file="build/classes/xsdschema/schemaorg_apache_xmlbeans" tofile="build/classes/xsdschema/schemaorg_apache_poi_xmlbeans"/>
     </target>
 
     <!-- xmlschema target ============================================= -->
@@ -791,6 +791,7 @@
             <jvmarg value="-ea"/>
             <arg line="${repackage_arg} -name sXMLLANG -noann -d build/classes/xmlschema -src build/src/xmlschema -srconly src/xmlschema/schema"/>
         </java>
+        <move file="build/classes/xmlschema/schemaorg_apache_xmlbeans" tofile="build/classes/xmlschema/schemaorg_apache_poi_xmlbeans"/>
     </target>
 
     <!-- xmlconfig target =============================================== -->
@@ -803,6 +804,7 @@
                 <pathelement location="build/classes/configschema"/>
             </classpath>
         </javac>
+        <move file="build/classes/xmlconfig/schemaorg_apache_xmlbeans" tofile="build/classes/xmlconfig/schemaorg_apache_poi_xmlbeans"/>
     </target>
 
     <!-- configschema target ============================================= -->
@@ -824,6 +826,7 @@
             <jvmarg value="-ea"/>
             <arg line="${repackage_arg} -name sXMLCONFIG -srconly -noann -src build/src/configschema -d build/classes/configschema src/configschema/schema"/>
         </java>
+        <move file="build/classes/configschema/schemaorg_apache_xmlbeans" tofile="build/classes/configschema/schemaorg_apache_poi_xmlbeans"/>
     </target>
 
     <!-- toolschema target ============================================= -->
@@ -846,6 +849,7 @@
             <jvmarg value="-ea"/>
             <arg line="${repackage_arg} -name sXMLTOOLS -srconly -noann -src build/src/toolschema -d build/classes/toolschema src/toolschema"/>
         </java>
+        <move file="build/classes/toolschema/schemaorg_apache_xmlbeans" tofile="build/classes/toolschema/schemaorg_apache_poi_xmlbeans"/>
     </target>
 
 

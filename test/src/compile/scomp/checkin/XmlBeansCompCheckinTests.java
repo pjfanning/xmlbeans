@@ -43,16 +43,16 @@ public class XmlBeansCompCheckinTests extends CompileTestBase
     {
         super(name);
         expBinType = new Vector();
-        expBinType.add("schemaorg_apache_xmlbeans/system/apiCompile/atypedb57type.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/system/apiCompile/elname429edoctype.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/system/apiCompile/elnameelement.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/system/apiCompile/index.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/element/http_3A_2F_2Fbaz/elName.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/type/http_3A_2F_2Fbaz/aType.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/namespace/http_3A_2F_2Fbaz/xmlns.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/javaname/baz/ElNameDocument.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/javaname/baz/AType.xsb");
-        expBinType.add("schemaorg_apache_xmlbeans/system/apiCompile/TypeSystemHolder.class");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/system/apiCompile/atypedb57type.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/system/apiCompile/elname429edoctype.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/system/apiCompile/elnameelement.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/system/apiCompile/index.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/element/http_3A_2F_2Fbaz/elName.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/type/http_3A_2F_2Fbaz/aType.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/namespace/http_3A_2F_2Fbaz/xmlns.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/javaname/baz/ElNameDocument.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/javaname/baz/AType.xsb");
+        expBinType.add("schemaorg_apache_poi_xmlbeans/system/apiCompile/TypeSystemHolder.class");
 
         expSrcType = new Vector();
         expSrcType.add("baz.AType");
