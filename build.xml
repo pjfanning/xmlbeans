@@ -451,7 +451,7 @@
                  marshal.classes, xpath.classes, oldxbean.jar, xsdschema.classes,
                  xmlinputstream.classes, resolver.jar, xbean_xpath.jar,
                  tools.classes, jamsupport.classes">
-        <jar jarfile="build/lib/xbean.jar" index="true">
+        <jar jarfile="build/lib/xbean.jar" index="true" duplicate="preserve">
             <fileset dir="build/classes/xmlpublic"
                 excludes="javax/**"/>
             <fileset dir="build/classes/typeholder"/>
