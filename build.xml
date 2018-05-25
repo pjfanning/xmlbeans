@@ -114,7 +114,7 @@
             http://easynews.dl.sourceforge.net/sourceforge/saxon/saxonb8-8j.zip
         -->
         <get dest="external/lib/saxonb9-0-0-4j.zip"
-            src="http://prdownloads.sourceforge.net/saxon/saxonb9-0-0-4j.zip"
+            src="https://master.dl.sourceforge.net/project/saxon/OldFiles/9.0/9.0.0.4/saxonb9-0-0-4j.zip"
             verbose="true" usetimestamp="true" ignoreerrors="true"/>
         <unzip src="external/lib/saxonb9-0-0-4j.zip" dest="external/lib/">
             <patternset>
@@ -1080,7 +1080,7 @@
         <mkdir dir="build/classes/jam"/>
         <javac
             destdir="build/classes/jam"
-            source="1.4" target="1.4"
+            source="${javac.source}" target="${javac.target}" 
             debug="on">
             <src path="build/private/jam/src_repackage"/>
             <classpath/>
