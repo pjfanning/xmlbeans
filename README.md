@@ -3,6 +3,15 @@
 [![Build Status](https://travis-ci.org/pjfanning/xmlbeans.svg?branch=trunk)](https://travis-ci.org/pjfanning/xmlbeans)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.pjfanning/xmlbeans/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.pjfanning/xmlbeans)
 
+## XMLBeans 3.0.0
+
+An official Apache XMLBeans 3.0.0 has been released, so work on this fork has been halted. All the fixes in this fork are in XMLBeans 3.0.0.
+
+* https://repository.apache.org/content/repositories/releases/org/apache/xmlbeans/xmlbeans/3.0.0/
+* https://issues.apache.org/jira/issues/?jql=project+%3D+XMLBEANS+AND+fixVersion+%3D+%22Version+3.0.0%22
+
+## Fork
+
 Latest source from ```https://svn.apache.org/repos/asf/xmlbeans/trunk/```. Some changes have been made to get the build working.
 
 The core use case is to help users of Apache POI, which depends on the no longer maintained Apache XMLBeans library.
